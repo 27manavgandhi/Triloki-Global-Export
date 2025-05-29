@@ -1,0 +1,1565 @@
+import React, { useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import { ArrowLeft, ArrowRight, CheckCircle, Globe, Award, Truck, Download } from 'lucide-react';
+import ProductInquiryForm from '../components/features/ProductInquiryForm';
+import WhatsAppButton from '../components/features/WhatsAppButton';
+
+// Rest of the file content remains exactly the same
+const productData = {
+  'spices': {
+    'turmeric': {
+      name: 'Turmeric',
+      description: 'Our premium turmeric is sourced from the finest growing regions in India, ensuring high curcumin content and authentic color and flavor.',
+      category: 'Spices',
+      longDescription: `
+        Turmeric (Curcuma longa) is a rhizomatous herbaceous perennial plant of the ginger family. Native to the Indian subcontinent and Southeast Asia, it has been used for thousands of years as a spice, medicinal herb, and natural dye.
+        
+        Our premium turmeric is sourced directly from specialized growing regions in India, particularly from Nizamabad, Salem, and Erode, which are known for producing the highest quality turmeric with optimal curcumin content.
+        
+        Available in various forms including raw finger, polished finger, and powder, our turmeric undergoes stringent quality control to ensure it meets international standards for food safety and quality.
+      `,
+      images: [
+        'https://5.imimg.com/data5/SELLER/Default/2024/7/431745160/VH/IT/HH/40841925/nizamabad-double-polish-turmeric-finger.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://rb.gy/kc3l3q?auto=compress&cs=tinysrgb&w=800',
+        'https://shorturl.at/rDvOW?auto=compress&cs=tinysrgb&w=800',
+        'https://shorturl.at/KXsJ5?auto=compress&cs=tinysrgb&w=800'
+      ],
+      varieties: [
+        {
+          name: 'Nizamabad Double Polished',
+          description: 'Premium finger turmeric with bright orange-yellow color, high curcumin content (3.5-5%), and intense aroma.',
+          origin: 'Nizamabad, Telangana, India'
+        },
+        {
+          name: 'Salem Finger',
+          description: 'Known for its rich color and medium curcumin content (2.5-3.5%), ideal for culinary uses.',
+          origin: 'Salem, Tamil Nadu, India'
+        },
+        {
+          name: 'Erode Powder',
+          description: 'Finely ground powder with excellent color retention and medium-high curcumin content (3-4%).',
+          origin: 'Erode, Tamil Nadu, India'
+        },
+        {
+          name: 'Organic Certified',
+          description: 'Cultivated without synthetic pesticides or fertilizers, certified organic by international standards.',
+          origin: 'Various regions in India'
+        }
+      ],
+      specifications: [
+        { name: 'Curcumin Content', value: '2.5-5.0% (variety dependent)' },
+        { name: 'Moisture Content', value: '≤ 10%' },
+        { name: 'Total Ash', value: '≤ 7%' },
+        { name: 'Acid-Insoluble Ash', value: '≤ 1.5%' },
+        { name: 'Lead', value: '≤ 10 ppm' },
+        { name: 'Arsenic', value: '≤ 5 ppm' },
+        { name: 'Foreign Matter', value: '≤ 2%' }
+      ],
+      packaging: [
+        { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+        { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+        { type: 'Vacuum Packed', sizes: ['1kg', '5kg', '10kg'] },
+        { type: 'Custom Packaging', sizes: ['As per requirement'] }
+      ],
+      certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+      applications: [
+        'Culinary applications in various cuisines',
+        'Food coloring and flavoring agent',
+        'Functional food ingredients',
+        'Dietary supplements',
+        'Natural food preservative'
+      ]
+    },
+    'black-pepper': {
+      name: 'Black Pepper',
+      description: 'Known as the "King of Spices", our black pepper is harvested at optimal ripeness to ensure maximum flavor and pungency.',
+      category: 'Spices',
+      longDescription: `
+        Black pepper (Piper nigrum) is the world's most traded spice, known for its distinctive pungency and flavor profile. It's harvested from the pepper plant, a flowering vine cultivated for its fruit, known as a peppercorn.
+        
+        Our premium black pepper is sourced from the finest growing regions in Kerala and Karnataka, India. The berries are carefully harvested at optimal ripeness to ensure maximum flavor development and essential oil content.
+        
+        Available as whole peppercorns, crushed pepper, and fine ground powder, our black pepper undergoes meticulous processing and quality control to preserve its natural oils and flavor compounds.
+      `,
+      images: [
+        'https://shorturl.at/T4roQ?auto=compress&cs=tinysrgb&w=800',
+        'https://shorturl.at/uEVq6?auto=compress&cs=tinysrgb&w=800',
+        'https://shorturl.at/akWnQ?auto=compress&cs=tinysrgb&w=800',
+        'https://shorturl.at/bNwLO?auto=compress&cs=tinysrgb&w=800'
+      ],
+      varieties: [
+        {
+          name: 'Malabar Garbled',
+          description: 'Premium grade with uniform size, dark color, and high piperine content (5-6%).',
+          origin: 'Malabar Coast, Kerala, India'
+        },
+        {
+          name: 'Tellicherry Extra Bold',
+          description: 'Large, specially selected berries with complex flavor profile, considered the finest black pepper available.',
+          origin: 'Tellicherry, Kerala, India'
+        },
+        {
+          name: 'MG1 Grade',
+          description: 'Standard export quality with good density and moderate piperine content (4-5%).',
+          origin: 'Various regions in Kerala and Karnataka'
+        },
+        {
+          name: 'Organic Black Pepper',
+          description: 'Cultivated without synthetic pesticides or fertilizers, certified organic by international standards.',
+          origin: 'Organic farms in Western Ghats, India'
+        }
+      ],
+      specifications: [
+        { name: 'Piperine Content', value: '4-6% (variety dependent)' },
+        { name: 'Moisture Content', value: '≤ 12%' },
+        { name: 'Total Ash', value: '≤ 7%' },
+        { name: 'Acid-Insoluble Ash', value: '≤ 1.5%' },
+        { name: 'Volatile Oil', value: '≥ 2%' },
+        { name: 'Foreign Matter', value: '≤ 1%' },
+        { name: 'Light Berries', value: '≤ 2%' }
+      ],
+      packaging: [
+        { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+        { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+        { type: 'Vacuum Packed', sizes: ['1kg', '5kg', '10kg'] },
+        { type: 'Custom Packaging', sizes: ['As per requirement'] }
+      ],
+      certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+      applications: [
+        'Universal seasoning in cuisines worldwide',
+        'Food processing and flavor enhancement',
+        'Meat curing and preservation',
+        'Essential oil extraction',
+        'Functional food ingredients'
+      ]
+    },
+    'red-chilli': {
+  name: 'Red Chilli',
+  description: 'Our premium red chilli is sun-dried, handpicked, and sourced from India most renowned chilli-growing regions to ensure bold heat, vibrant color, and consistent quality.',
+  category: 'Spices',
+  longDescription: `
+    Red chilli (Capsicum annuum) is one of the most widely used spices globally, prized for its sharp heat, rich color, and flavor-enhancing properties. It belongs to the nightshade family and is a staple in Indian, Mexican, Thai, and numerous other cuisines.
+
+    Our red chillies are sourced from top-tier farming zones in India, including Guntur, Byadgi, and Khammam, where optimal soil and climate conditions yield premium chillies with varying heat levels and rich pigmentation.
+
+    We offer a range of varieties such as whole dry chillies, crushed chilli flakes, and fine chilli powder. Each batch is carefully processed using sun-drying and hygienic grinding techniques to maintain maximum pungency and color value.
+  `,
+  images: [
+    'https://shorturl.at/krfhA?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/d8lf4?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/Hi8ze?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/V808K?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+   {
+     name: 'Guntur Sannam',
+     description: 'Famous for its intense heat and deep red color. Scoville Heat Units (SHU): 35,000–40,000.',
+     origin: 'Guntur, Andhra Pradesh, India'
+   },
+   {
+     name: 'Byadgi',
+     description: 'Known for its rich red color and mild pungency. Ideal for natural food coloring. SHU: 8,000–15,000.',
+     origin: 'Byadgi, Karnataka, India'
+   },
+   {
+     name: 'Teja Chilli',
+     description: 'Highly pungent variety with sharp heat and moderate color. SHU: 90,000–120,000.',
+     origin: 'Khammam, Telangana, India'
+   },
+   {
+    name: 'Organic Red Chilli',
+    description: 'Grown without synthetic pesticides or chemicals. Certified organic and sun-dried for natural preservation.',
+    origin: 'Multiple organic-certified farms across India'
+   }
+  ],
+  specifications: [
+   { name: 'Color Value (ASTA)', value: '90-160 ASTA (variety dependent)' },
+   { name: 'Moisture Content', value: '≤ 12%' },
+   { name: 'Pungency (SHU)', value: '8,000 - 120,000 SHU' },
+   { name: 'Ash Content', value: '≤ 7%' },
+   { name: 'Acid-Insoluble Ash', value: '≤ 1.5%' },
+   { name: 'Foreign Matter', value: '≤ 1%' },
+   { name: 'Damaged Pods', value: '≤ 2%' }
+  ],
+  packaging: [
+   { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+   { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+   { type: 'Vacuum Packed', sizes: ['1kg', '5kg', '10kg'] },
+   { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for certified organic variants)'],
+  applications: [
+   'Spicing agent in diverse global cuisines',
+   'Coloring agent in processed foods and sauces',
+   'Ingredient in spice blends and seasonings',
+   'Traditional Ayurvedic and herbal formulations',
+   'Natural preservative due to antimicrobial properties'
+  ]
+    },
+    'cardamom': {
+  name: 'Cardamom',
+  description: 'Fragrant, sweet-spicy cardamom pods known as the "Queen of Spices", prized for their aroma and flavor.',
+  category: 'Spices',
+  longDescription: `
+    Cardamom (Elettaria cardamomum) is a highly aromatic spice belonging to the ginger family, known for its sweet, floral flavor and warm aroma. Often called the "Queen of Spices", cardamom has been treasured in Indian, Middle Eastern, and Scandinavian cuisines for centuries.
+    
+    Our cardamom is sourced from the lush plantations of Idukki and Wayanad in Kerala, as well as Coorg in Karnataka, which are recognized for producing some of the world's finest green cardamom with rich volatile oil content.
+    
+    Available in various grades and forms including whole pods, seeds, and ground powder, our cardamom is meticulously sorted, sun-dried, and packed to preserve freshness and essential oils.
+  `,
+  images: [
+    'https://shorturl.at/LiLQu?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/hMcN3?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/WZZsn?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/CWXst?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: '8mm+ Bold Green Cardamom',
+      description: 'Large, bright green pods with high oil content and intense aroma. Premium export grade.',
+      origin: 'Idukki, Kerala, India'
+    },
+    {
+      name: '7-8mm Grade',
+      description: 'Well-sized pods with balanced aroma and sweetness. Popular for culinary and commercial use.',
+      origin: 'Wayanad, Kerala, India'
+    },
+    {
+      name: 'Coorg Green',
+      description: 'Known for its earthy aroma and medium size, perfect for both flavoring and beverages.',
+      origin: 'Coorg, Karnataka, India'
+    },
+    {
+      name: 'Organic Cardamom',
+      description: 'Cultivated without synthetic inputs, certified organic, and sustainably harvested.',
+      origin: 'Certified organic farms in South India'
+    }
+  ],
+  specifications: [
+    { name: 'Size', value: '6mm to 8mm+ (variety dependent)' },
+    { name: 'Moisture Content', value: '≤ 12%' },
+    { name: 'Volatile Oil Content', value: '≥ 3%' },
+    { name: 'Foreign Matter', value: '≤ 1%' },
+    { name: 'Empty/Light Pods', value: '≤ 2%' },
+    { name: 'Ash Content', value: '≤ 8%' },
+    { name: 'Color', value: 'Bright green to deep green' }
+  ],
+  packaging: [
+    { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Flavoring in sweet and savory dishes',
+    'Ingredient in chai, coffees, and liqueurs',
+    'Natural breath freshener and digestive aid',
+    'Used in confectionery and baking',
+    'Functional ingredient in health supplements'
+  ]
+    },
+    'cinnamon': {
+  name: 'Cinnamon',
+  description: 'Warm, sweet aromatic cinnamon bark used in culinary and medicinal applications, available in quills and powder.',
+  category: 'Spices',
+  longDescription: `
+    Cinnamon (Cinnamomum verum and Cinnamomum cassia) is a highly fragrant spice obtained from the inner bark of trees from the Lauraceae family. It has been cherished for centuries for its sweet, woody aroma and health-supporting properties.
+    
+    Our cinnamon is ethically sourced from certified farms in Kerala, Tamil Nadu, and North East India, with both Ceylon (True) and Cassia varieties available to meet diverse culinary and industrial requirements.
+    
+    Available in multiple forms including whole quills, broken pieces, and fine ground powder, our cinnamon is sun-dried and carefully processed to retain its essential oils and natural sweetness.
+  `,
+  images: [
+    'https://shorturl.at/Eyzo7?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/LGtef?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/JaEAe?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/skL1z?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Ceylon Cinnamon (True Cinnamon)',
+      description: 'Light, delicate flavor with low coumarin content and high essential oil concentration. Considered the premium variety.',
+      origin: 'Kerala and Sri Lanka'
+    },
+    {
+      name: 'Cassia Cinnamon',
+      description: 'Stronger flavor, darker color, and thicker bark. Popular in commercial baking and spice blends.',
+      origin: 'Tamil Nadu and North East India'
+    },
+    {
+      name: 'Organic Cinnamon',
+      description: 'Naturally cultivated without chemicals or synthetic inputs, certified organic.',
+      origin: 'Certified organic farms in South India'
+    }
+  ],
+  specifications: [
+    { name: 'Volatile Oil Content', value: '≥ 1.5% (variety dependent)' },
+    { name: 'Coumarin Content', value: '≤ 0.0004% (Ceylon), ≤ 5% (Cassia)' },
+    { name: 'Moisture Content', value: '≤ 12%' },
+    { name: 'Ash Content', value: '≤ 8%' },
+    { name: 'Acid-Insoluble Ash', value: '≤ 1.5%' },
+    { name: 'Foreign Matter', value: '≤ 1%' },
+    { name: 'Appearance', value: 'Whole quills, broken quills, or powder' }
+  ],
+  packaging: [
+    { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Used in baking, desserts, and beverages',
+    'Flavoring for curries and sauces',
+    'Health and wellness supplements',
+    'Aromatic component in teas and masalas',
+    'Natural preservative and antimicrobial agent'
+  ]
+    },
+    'cloves': {
+  name: 'Cloves',
+  description: 'Strongly aromatic dried flower buds used in cuisines, teas, and health products, known for their intense flavor and medicinal value.',
+  category: 'Spices',
+  longDescription: `
+    Cloves (Syzygium aromaticum) are the aromatic flower buds of a tree in the myrtle family, native to the Maluku Islands in Indonesia but widely cultivated in India. Known for their bold, pungent aroma and sweet-spicy flavor, cloves have been valued for both culinary and medicinal uses for centuries.
+    
+    Our cloves are sourced from high-quality plantations in Kerala, Tamil Nadu, and the Andaman & Nicobar Islands, where ideal growing conditions produce buds with high oil content and superior quality.
+    
+    Offered in whole, broken, and ground forms, our cloves are dried carefully to retain maximum eugenol concentration, ensuring lasting aroma and flavor.
+  `,
+  images: [
+    'https://shorturl.at/gFnTi?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12HND?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12HNR?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/ZGsR?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Handpicked Superior Grade',
+      description: 'Large, bold buds with rich color and high eugenol oil content. Premium culinary and export grade.',
+      origin: 'Kollam and Idukki, Kerala, India'
+    },
+    {
+      name: 'Fair Average Quality (FAQ)',
+      description: 'Smaller sized cloves with moderate oil content, commonly used in masala mixes.',
+      origin: 'Tamil Nadu, India'
+    },
+    {
+      name: 'Organic Cloves',
+      description: 'Sustainably farmed and free from synthetic chemicals. Certified organic with strong aroma.',
+      origin: 'Andaman & Nicobar Islands'
+    }
+  ],
+  specifications: [
+    { name: 'Eugenol Oil Content', value: '≥ 14%' },
+    { name: 'Moisture Content', value: '≤ 11%' },
+    { name: 'Volatile Oil', value: '≥ 1.5%' },
+    { name: 'Foreign Matter', value: '≤ 1%' },
+    { name: 'Headless Cloves', value: '≤ 5%' },
+    { name: 'Color', value: 'Dark brown to reddish-brown' }
+  ],
+  packaging: [
+    { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Flavoring agent in spice blends, curries, and rice dishes',
+    'Essential ingredient in herbal teas and beverages',
+    'Used in oral care and natural remedies',
+    'Component in Ayurvedic and Unani formulations',
+    'Preservative and antioxidant in food processing'
+  ]
+    },
+    'cumin-seeds': {
+  name: 'Cumin Seeds',
+  description: 'Earthy, warm-flavored cumin seeds used extensively in global cuisines and traditional remedies.',
+  category: 'Spices',
+  longDescription: `
+    Cumin (Cuminum cyminum) is a flowering plant in the parsley family, prized for its small, crescent-shaped seeds that deliver a distinct earthy, nutty flavor with warm undertones. Widely used in Indian, Middle Eastern, Latin American, and Mediterranean cuisines, cumin is both a culinary and medicinal powerhouse.
+    
+    Our cumin seed is primarily sourced from Gujarat and Rajasthan — India’s leading cumin-growing regions known for their climate-optimized production and rich volatile oil content. The seeds are cleaned, sun-dried, and processed in hygienic facilities to preserve purity and aroma.
+    
+    Available in various forms including whole seeds, ground cumin, and organic certified batches, our cumin meets global food safety and flavor standards.
+  `,
+  images: [
+    'https://short-link.me/ZGtD?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12HP9?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/ZGua?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12HQC?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'European Grade Cumin',
+      description: 'Uniform seeds with bold aroma and low moisture content. Ideal for spice mixes and exports.',
+      origin: 'Unjha, Gujarat, India'
+    },
+    {
+      name: 'Singapore Quality Cumin',
+      description: 'Premium light brown seeds, rich in oil and flavor, commonly used for high-end culinary blends.',
+      origin: 'Rajasthan, India'
+    },
+    {
+      name: 'Organic Cumin Seeds',
+      description: 'Certified organic cumin cultivated without chemicals or pesticides. Cleaned and sun-dried naturally.',
+      origin: 'Certified organic farms in Gujarat'
+    }
+  ],
+  specifications: [
+    { name: 'Volatile Oil Content', value: '≥ 2%' },
+    { name: 'Moisture Content', value: '≤ 10%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 1%' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' },
+    { name: 'Color', value: 'Light to dark brown' }
+  ],
+  packaging: [
+    { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Base spice for curries, dals, and savory dishes',
+    'Used in spice blends like garam masala and taco seasoning',
+    'Flavor enhancer in breads, cheeses, and sauces',
+    'Digestive aid and traditional herbal remedy',
+    'Key ingredient in pickles and spice pastes'
+  ]
+    },
+    'fennel-seeds': {
+  name: 'Fennel Seeds',
+  description: 'Sweet, aromatic fennel seeds used in cooking, teas, and digestion-boosting remedies.',
+  category: 'Spices',
+  longDescription: `
+    Fennel seeds (Foeniculum vulgare) are the dried fruits of the fennel plant, known for their sweet, licorice-like flavor and highly aromatic profile. Used extensively in Indian, Middle Eastern, and Mediterranean cuisines, fennel seeds also play a major role in herbal medicine and Ayurveda.
+    
+    Our fennel seeds are harvested from top-quality farms in Gujarat and Rajasthan, where the climate promotes optimal seed size, oil content, and sweetness. The seeds are sun-dried and double-sorted to ensure purity and color consistency.
+    
+    Available in varieties such as bold (large seeds), green cleaned, and organic-certified fennel, our products meet international food safety and export quality standards.
+  `,
+  images: [
+    'https://short-link.me/12HTX?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12HUh?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12HU7?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/ZGye?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Bold Fennel Seeds',
+      description: 'Large, greenish seeds with intense sweetness and strong aroma. Ideal for mouth fresheners and culinary use.',
+      origin: 'Gujarat, India'
+    },
+    {
+      name: 'Green Cleaned Fennel',
+      description: 'Bright green, machine-cleaned seeds with consistent color and size. Popular in exports and blends.',
+      origin: 'Rajasthan, India'
+    },
+    {
+      name: 'Organic Fennel Seeds',
+      description: 'Cultivated without synthetic inputs and certified organic. Naturally sun-dried and hygienically processed.',
+      origin: 'Certified organic farms in India'
+    }
+  ],
+  specifications: [
+    { name: 'Volatile Oil Content', value: '≥ 1.5%' },
+    { name: 'Moisture Content', value: '≤ 10%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 1%' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' },
+    { name: 'Color', value: 'Green to light brown (variety dependent)' }
+  ],
+  packaging: [
+    { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Used in Indian cooking and spice blends',
+    'Natural mouth freshener and digestive aid',
+    'Infused in teas and herbal infusions',
+    'Flavoring for breads, pickles, and candies',
+    'Ayurvedic and homeopathic formulations'
+  ]
+    },
+    'nigella-seeds': {
+  name: 'Nigella Seeds',
+  description: 'Tiny black seeds with a bitter, peppery flavor, used in breads, pickles, and traditional remedies.',
+  category: 'Spices',
+  longDescription: `
+    Nigella seeds (Nigella sativa), also known as black cumin or kalonji, are small, jet-black seeds with a slightly bitter, pungent flavor and a peppery aroma. Widely used in Indian, Middle Eastern, and Mediterranean cooking, they are also valued in Unani and Ayurvedic medicine for their health-promoting properties.
+    
+    Our nigella seeds are primarily sourced from high-quality farms in Rajasthan and Madhya Pradesh, where the crop is grown under optimal soil and climate conditions. The seeds are machine-cleaned and sorted to ensure purity, uniformity, and freshness.
+    
+    Available in bulk or custom packaging, our nigella seeds are suitable for culinary, nutraceutical, and cosmetic applications.
+  `,
+  images: [
+    'https://short-link.me/12HV5?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12HVJ?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/ZGAE?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12HW4?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Standard Export Grade',
+      description: 'Cleaned, uniform seeds with sharp aroma and flavor. Suitable for food-grade and herbal applications.',
+      origin: 'Rajasthan, India'
+    },
+    {
+      name: 'Premium Black Nigella',
+      description: 'Bold seeds with deep black color and intense aroma. Used in baking, pickling, and spice mixes.',
+      origin: 'Madhya Pradesh, India'
+    },
+    {
+      name: 'Organic Nigella Seeds',
+      description: 'Cultivated without chemical inputs, certified organic. High in thymoquinone and essential oils.',
+      origin: 'Certified organic farms in India'
+    }
+  ],
+  specifications: [
+    { name: 'Volatile Oil Content', value: '≥ 1%' },
+    { name: 'Moisture Content', value: '≤ 8%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' },
+    { name: 'Color', value: 'Deep black' },
+    { name: 'Admixture', value: '≤ 1%' }
+  ],
+  packaging: [
+    { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Topping for breads, naan, and flatbreads',
+    'Flavoring for pickles, chutneys, and spice blends',
+    'Ingredient in herbal supplements and oils',
+    'Traditional medicine and Ayurvedic use',
+    'Cosmetic formulations and skin treatments'
+  ]
+    },
+    'coriander-seeds': {
+  name: 'Coriander Seeds',
+  description: 'Citrusy, mildly sweet coriander seeds widely used in cooking, pickling, and spice blends.',
+  category: 'Spices',
+  longDescription: `
+    Coriander seeds (Coriandrum sativum) are the dried fruits of the coriander plant and are a staple spice in Indian, Middle Eastern, African, and Latin cuisines. They offer a warm, nutty, and slightly citrusy flavor that enhances both savory and sweet dishes.
+    
+    Our coriander seeds are carefully sourced from Gujarat, Rajasthan, and Madhya Pradesh—India’s prime coriander-growing belts. The seeds are cleaned, sorted, and sun-dried to retain their essential oils and golden-brown color.
+    
+    Available in whole, split, and ground form, our coriander seeds meet international food quality standards and are ideal for culinary, commercial, and medicinal uses.
+  `,
+  images: [
+    'https://short-link.me/12HWH?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12HXr?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12HXy?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/ZGCt?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Eagle Coriander Seeds',
+      description: 'Large, light-yellow seeds with high aroma and oil content. Preferred for exports and powder production.',
+      origin: 'Rajasthan, India'
+    },
+    {
+      name: 'Single Parrot Variety',
+      description: 'Medium-sized seeds with balanced citrusy flavor and aroma. Ideal for domestic spice use.',
+      origin: 'Gujarat, India'
+    },
+    {
+      name: 'Organic Coriander',
+      description: 'Naturally grown without pesticides. Certified organic and hand-cleaned for premium quality.',
+      origin: 'Organic farms in Madhya Pradesh'
+    }
+  ],
+  specifications: [
+    { name: 'Essential Oil Content', value: '≥ 0.5%' },
+    { name: 'Moisture Content', value: '≤ 10%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 1%' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' },
+    { name: 'Color', value: 'Golden yellow to light brown' }
+  ],
+  packaging: [
+    { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Used whole or ground in spice blends, curries, and sauces',
+    'Key ingredient in pickles and chutneys',
+    'Flavoring agent in beverages and liqueurs',
+    'Traditional remedy for digestion and bloating',
+    'Used in herbal teas and health supplements'
+  ]
+    },
+    'fenugreek-seeds': {
+  name: 'Fenugreek Seeds',
+  description: 'Bitter-sweet fenugreek seeds with a distinct aroma, used in cooking, pickling, and traditional medicine.',
+  category: 'Spices',
+  longDescription: `
+    Fenugreek seeds (Trigonella foenum-graecum) are small, golden-yellow seeds known for their strong, bitter-sweet aroma and slightly nutty, maple-like flavor. Widely used in Indian, Middle Eastern, and African cuisines, fenugreek is also a powerful traditional remedy in Ayurveda and Unani medicine.
+    
+    Our fenugreek seeds are sourced from top-producing regions like Rajasthan and Madhya Pradesh, where ideal growing conditions yield plump, aromatic seeds rich in fiber, protein, and key phytochemicals like diosgenin.
+    
+    We offer fenugreek in whole, ground, and organic-certified forms, ideal for culinary, nutraceutical, and cosmetic industries.
+  `,
+  images: [
+    'https://short-link.me/12HZP?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12I0A?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12I0G?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/ZGFq?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Bold Fenugreek Seeds',
+      description: 'Large, clean seeds with strong aroma and high oil content. Ideal for spice and pharma use.',
+      origin: 'Rajasthan, India'
+    },
+    {
+      name: 'Standard Grade',
+      description: 'Medium-sized seeds with moderate aroma and uniform color. Suitable for culinary and commercial applications.',
+      origin: 'Madhya Pradesh, India'
+    },
+    {
+      name: 'Organic Fenugreek',
+      description: 'Cultivated without chemical inputs, certified organic. Naturally dried and cleaned.',
+      origin: 'Certified organic farms in India'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 10%' },
+    { name: 'Volatile Oil', value: '≥ 0.5%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 1%' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' },
+    { name: 'Color', value: 'Golden yellow to light brown' }
+  ],
+  packaging: [
+    { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Used in spice blends and curry powders',
+    'Flavoring for pickles and chutneys',
+    'Herbal supplements and teas',
+    'Ayurvedic formulations and home remedies',
+    'Ingredient in hair and skincare products'
+  ]
+    },
+    'asaliya-seeds': {
+  name: 'Asaliya Seeds',
+  description: 'Nutrient-rich, slightly peppery Asaliya seeds used in traditional health tonics, ayurveda, and spiced recipes.',
+  category: 'Spices',
+  longDescription: `
+    Asaliya Seeds (Lepidium sativum), also known as Halim or Garden Cress Seeds, are tiny reddish-brown seeds packed with health-boosting nutrients. Known for their peppery flavor and therapeutic benefits, they are traditionally used in Indian home remedies, ayurvedic medicine, and special health mixes.
+    
+    Our Asaliya seeds are primarily grown in Rajasthan and Gujarat, where dry climates yield seeds with superior taste, color, and nutrient density. Rich in iron, protein, fiber, and antioxidants, they are a popular choice in wellness and immunity-boosting recipes.
+    
+    These seeds are available in raw, organic, and bulk forms. Cleaned and sorted with care, our Asaliya seeds meet high quality standards for both food-grade and nutraceutical applications.
+  `,
+  images: [
+    'https://short-link.me/12I1d?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12I1X?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/ZGGN?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12I2c?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Standard Grade Asaliya',
+      description: 'Uniform reddish-brown seeds with strong aroma and bitter-peppery flavor. Ideal for traditional and culinary use.',
+      origin: 'Rajasthan, India'
+    },
+    {
+      name: 'Bold Cleaned Seeds',
+      description: 'Larger size, low impurity seeds suitable for mixing in laddoos, chutneys, and health formulations.',
+      origin: 'Gujarat, India'
+    },
+    {
+      name: 'Organic Asaliya Seeds',
+      description: 'Free from synthetic pesticides and chemical treatments. Certified organic and sun-dried.',
+      origin: 'Organic-certified farms in India'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 8%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Protein Content', value: '≥ 20%' },
+    { name: 'Iron Content', value: 'Rich Source' },
+    { name: 'Color', value: 'Reddish-brown' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' }
+  ],
+  packaging: [
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Used in Ayurvedic and home remedies for boosting immunity and energy',
+    'Key ingredient in halim drink, laddoos, and herbal mixtures',
+    'Added to soups, porridges, and health snacks',
+    'Used in post-natal nutrition for women',
+    'Rich source of iron, ideal for anemia support'
+  ]
+    },
+    'dill-seeds': {
+  name: 'Dill Seeds',
+  description: 'Aromatic dill seeds with a warm, slightly bitter flavor, used in pickling, cooking, and herbal remedies.',
+  category: 'Spices',
+  longDescription: `
+    Dill seeds (Anethum graveolens) are the dried fruits of the dill plant, known for their warm, slightly bitter taste and strong aroma reminiscent of caraway. Used both as a spice and herbal remedy, dill seeds are common in pickles, soups, and digestive teas.
+    
+    Our dill seeds are harvested from premium-quality farms in Rajasthan and Gujarat, regions known for producing seeds rich in essential oils and with uniform size and color. The seeds are cleaned and naturally sun-dried to preserve their aroma and healthful compounds.
+    
+    Available in bulk or custom packaging, our dill seeds are ideal for food processing, herbal teas, and traditional medicinal use.
+  `,
+  images: [
+    'https://short-link.me/12I2t?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12I30?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12I37?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12I3e?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Bold Dill Seeds',
+      description: 'Larger, high-oil-content seeds with robust aroma. Preferred for pickling and flavoring oils.',
+      origin: 'Rajasthan, India'
+    },
+    {
+      name: 'Standard Grade',
+      description: 'Well-sorted, medium-sized seeds with traditional flavor. Commonly used in spice blends and home remedies.',
+      origin: 'Gujarat, India'
+    },
+    {
+      name: 'Organic Dill Seeds',
+      description: 'Cultivated organically without chemicals, certified and sun-dried to preserve medicinal properties.',
+      origin: 'Certified organic farms in India'
+    }
+  ],
+  specifications: [
+    { name: 'Volatile Oil Content', value: '≥ 2%' },
+    { name: 'Moisture Content', value: '≤ 10%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 1%' },
+    { name: 'Color', value: 'Light to dark brown' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' }
+  ],
+  packaging: [
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Pickling and preserving vegetables',
+    'Flavoring soups, curries, and spice blends',
+    'Used in herbal teas and digestive tonics',
+    'Traditional remedies for colic and indigestion',
+    'Aromatic oils and wellness formulations'
+  ]
+    },
+    'yellow-mustard': {
+  name: 'Yellow Mustard Seeds',
+  description: 'Mild, nutty-flavored yellow mustard seeds used in pickles, sauces, and spice blends.',
+  category: 'Spices',
+  longDescription: `
+    Yellow Mustard Seeds (Sinapis alba), also known as white mustard, are small round seeds with a mild, slightly nutty flavor and bright yellow color. Popular in Western cuisines and condiments, they are also used in Indian spice blends, pickles, and health remedies.
+    
+    Our yellow mustard seeds are cultivated in Rajasthan and Madhya Pradesh—India's key mustard-producing regions. The seeds are naturally dried and machine-cleaned to ensure high purity, strong aroma, and consistent size.
+    
+    Available in food-grade and organic-certified varieties, our yellow mustard seeds meet international standards for flavor, oil content, and safety.
+  `,
+  images: [
+    'https://short-link.me/12I3H?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/ZGJ4?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12I4y?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12I4P?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Standard Yellow Mustard',
+      description: 'Mild and flavorful seeds, ideal for pickling, sauces, and spice applications.',
+      origin: 'Rajasthan, India'
+    },
+    {
+      name: 'Bold Grade',
+      description: 'Larger, uniform seeds with high oil content. Preferred in food processing and commercial spice mixes.',
+      origin: 'Madhya Pradesh, India'
+    },
+    {
+      name: 'Organic Yellow Mustard',
+      description: 'Certified organic mustard seeds grown without synthetic pesticides. Cleaned and dried naturally.',
+      origin: 'Certified organic farms in India'
+    }
+  ],
+  specifications: [
+    { name: 'Volatile Oil Content', value: '≥ 1.5%' },
+    { name: 'Moisture Content', value: '≤ 8%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 1%' },
+    { name: 'Color', value: 'Bright yellow to pale golden' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' }
+  ],
+  packaging: [
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Used in pickles, sauces, and condiments',
+    'Key ingredient in mustard pastes and spreads',
+    'Used in salad dressings and spice blends',
+    'Base spice for marinades and rubs',
+    'Health supplements and digestive tonics'
+  ]
+    },
+    'dry-ginger': {
+  name: 'Dry Ginger',
+  description: 'Pungent, aromatic dry ginger root used in spice blends, teas, and traditional medicine.',
+  category: 'Spices',
+  longDescription: `
+    Dry Ginger (Zingiber officinale) is the dehydrated form of fresh ginger root, known for its pungent, spicy-sweet flavor and warming aroma. A staple in Indian, Asian, and Middle Eastern cooking, it’s also widely used in Ayurveda and traditional remedies for digestive and anti-inflammatory benefits.
+    
+    Our dry ginger is sourced from top-quality farms in Kerala, Sikkim, and North Eastern India, where the rhizomes are harvested at peak maturity and sun-dried under hygienic conditions to preserve flavor, essential oils, and color.
+    
+    Available in whole, sliced, and ground powder forms, our dry ginger is ideal for culinary use, health formulations, and food processing.
+  `,
+  images: [
+    'https://short-link.me/12I5k?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/12I5x?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/ZGKd?auto=compress&cs=tinysrgb&w=800',
+    'https://short-link.me/ZGJM?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Whole Dry Ginger',
+      description: 'Sun-dried mature rhizomes with sharp pungency and aromatic oils. Used in bulk spice and herbal markets.',
+      origin: 'Wayanad, Kerala, India'
+    },
+    {
+      name: 'Sliced Dry Ginger',
+      description: 'Thinly sliced and uniformly dried pieces. Used in teas, extracts, and decoctions.',
+      origin: 'Sikkim and North East India'
+    },
+    {
+      name: 'Dry Ginger Powder',
+      description: 'Finely ground powder with intense aroma and flavor. Commonly used in spice mixes and bakery products.',
+      origin: 'Various regions in India'
+    },
+    {
+      name: 'Organic Dry Ginger',
+      description: 'Cultivated without synthetic chemicals and certified organic. Ideal for wellness formulations.',
+      origin: 'Certified organic farms in India'
+    }
+  ],
+  specifications: [
+    { name: 'Volatile Oil Content', value: '≥ 1.5%' },
+    { name: 'Moisture Content', value: '≤ 10%' },
+    { name: 'Fiber Content', value: '≤ 6%' },
+    { name: 'Pungency (Gingerol)', value: 'High' },
+    { name: 'Color', value: 'Off-white to pale yellow' },
+    { name: 'Foreign Matter', value: '≤ 1%' }
+  ],
+  packaging: [
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Used in spice blends, curry powders, and masalas',
+    'Flavoring for bakery products, soups, and teas',
+    'Key ingredient in Ayurvedic and herbal medicine',
+    'Anti-inflammatory and digestive support formulations',
+    'Used in traditional cold and flu remedies'
+  ]
+    }
+  },
+  'grains': {
+    
+  'rice': {
+    name: 'Rice',
+    description: 'A diverse collection of rice varieties cultivated across India, each offering unique flavors, textures, and culinary applications.',
+    category: 'Grains',
+    longDescription: `
+      India is renowned for its rich diversity in rice cultivation, producing a wide array of rice varieties that cater to different tastes and culinary traditions. From the aromatic Basmati rice of the northern plains to the robust non-Basmati varieties of the south, each type of rice holds a special place in Indian cuisine and culture.
+    `,
+    images: [
+      'https://shorturl.at/eTYvl?auto=compress&cs=tinysrgb&w=800',
+      'https://shorturl.at/eTYvl?auto=compress&cs=tinysrgb&w=800',
+      'https://shorturl.at/eTYvl?auto=compress&cs=tinysrgb&w=800',
+      'https://shorturl.at/eTYvl?auto=compress&cs=tinysrgb&w=800'
+      
+    ],
+    varieties: [
+      {
+        name: 'Basmati Rice',
+        description: 'Long-grain aromatic rice known for its distinctive fragrance and delicate flavor.',
+        origin: 'Northern India'
+      },
+      {
+        name: 'Non-Basmati Rice',
+        description: 'A broad category encompassing various rice types differing in grain size, texture, and taste.',
+        origin: 'Pan India'
+      },
+      {
+        name: 'Parboiled Rice',
+        description: 'Rice that has been partially boiled in the husk, enhancing its nutritional profile and shelf life.',
+        origin: 'Various regions in India'
+      },
+      {
+        name: 'IR64 Rice',
+        description: 'A high-yielding variety known for its affordability and suitability for daily consumption.',
+        origin: 'Andhra Pradesh, India'
+      },
+      {
+        name: 'Sona Masoori Rice',
+        description: 'Lightweight, aromatic rice ideal for daily meals and special dishes.',
+        origin: 'Andhra Pradesh and Karnataka, India'
+      },
+      {
+        name: 'Ponni Rice',
+        description: 'Short-grain rice favored in South India for its soft texture, commonly used in idli and dosa preparations.',
+        origin: 'Tamil Nadu, India'
+      },
+      {
+        name: 'Sharbati Rice',
+        description: 'A variety with elongated grains and a sweet taste, widely used in making pulaos.',
+        origin: 'Punjab and Haryana, India'
+      },
+      {
+        name: 'PR11 Rice',
+        description: 'Non-Basmati variety appreciated for its taste and rich color.',
+        origin: 'India'
+      },
+      {
+        name: 'PR14 Rice',
+        description: 'Popular variety with fully grown grains and minimal breakage.',
+        origin: 'India'
+      },
+      {
+        name: 'PR47 Rice',
+        description: 'Known for its tempting taste and rich color, processed under hygienic conditions.',
+        origin: 'India'
+      },
+      {
+        name: 'PR106 Rice',
+        description: 'Widely appreciated for its quality and suitability for various cuisines.',
+        origin: 'India'
+      },
+      {
+        name: 'IR36 Rice',
+        description: 'A variety known for its resistance to pests and diseases, ensuring higher yields.',
+        origin: 'India'
+      },
+      {
+        name: 'Swarna Rice',
+        description: 'A high-yielding variety with medium grains, commonly used in daily cooking.',
+        origin: 'Eastern India'
+      },
+      {
+        name: 'Pusa 1121 Basmati Rice',
+        description: 'Modern high-yield variety with extra-long grains that nearly double in length when cooked.',
+        origin: 'Uttar Pradesh and Punjab, India'
+      },
+      {
+        name: 'Pusa 1509 Basmati Rice',
+        description: 'Aromatic variety with longer grain length, developed as a successor to Pusa 1121.',
+        origin: 'India'
+      },
+      {
+        name: 'Sugandha Basmati Rice',
+        description: 'Hybrid variety with subtle aroma, suitable for various culinary applications.',
+        origin: 'India'
+      },
+      {
+        name: 'Golden Sella Basmati Rice',
+        description: 'Parboiled Basmati rice with a golden hue, known for its rich taste and aroma.',
+        origin: 'India'
+      },
+      {
+        name: 'White Sella Basmati Rice',
+        description: 'Parboiled Basmati rice with white grains, offering a fluffy texture upon cooking.',
+        origin: 'India'
+      },
+      {
+        name: 'Broken Basmati Rice',
+        description: 'Fragments of Basmati rice grains, often used in dishes like khichdi and rice porridge.',
+        origin: 'India'
+      },
+      {
+        name: 'Brown Rice',
+        description: 'Whole grain rice with the bran layer intact, offering higher nutritional value.',
+        origin: 'India'
+      },
+      {
+        name: 'Red Rice',
+        description: 'Rice with a red husk, rich in antioxidants and dietary fiber.',
+        origin: 'Himachal Pradesh, India'
+      },
+      {
+        name: 'Black Rice',
+        description: 'Also known as forbidden rice, it has a deep black color and is rich in nutrients.',
+        origin: 'Northeast India'
+      },
+      {
+        name: 'Matta Rice',
+        description: 'A reddish-brown rice variety known for its robust flavor, commonly used in Kerala cuisine.',
+        origin: 'Kerala, India'
+      },
+      {
+        name: 'Idli Rice',
+        description: 'Short-grain rice specifically used for making idlis and dosas due to its soft texture.',
+        origin: 'Tamil Nadu, India'
+      },
+      {
+        name: 'Jeerakasala Rice',
+        description: 'A short-grain aromatic rice variety used in traditional Kerala dishes like biryani.',
+        origin: 'Kerala, India'
+      },
+      {
+        name: 'Gobindobhog Rice',
+        description: 'A short-grain, aromatic rice variety from West Bengal, used in special dishes and offerings.',
+        origin: 'West Bengal, India'
+      },
+      {
+        name: 'Ambemohar Rice',
+        description: 'An aromatic rice variety from Maharashtra, known for its mango blossom aroma.',
+        origin: 'Maharashtra, India'
+      },
+      {
+        name: 'Joha Rice',
+        description: 'Aromatic rice variety from Assam, known for its delicate flavor and fragrance.',
+        origin: 'Assam, India'
+      },
+      {
+        name: 'Navara Rice',
+        description: 'A medicinal rice variety from Kerala, used in Ayurvedic treatments.',
+        origin: 'Kerala, India'
+      },
+      {
+        name: 'Bamboo Rice',
+        description: 'Rice harvested from the seeds of flowering bamboo, known for its unique taste and texture.',
+        origin: 'Kerala, India'
+      },
+      {
+        name: 'Samba Rice',
+        description: 'A short-grain rice variety known for its distinctive taste, commonly used in South Indian cuisine.',
+        origin: 'Tamil Nadu, India'
+      },
+      {
+        name: 'Kolam Rice',
+        description: 'A medium-grain rice variety popular in Western India, known for its soft texture.',
+        origin: 'Maharashtra, India'
+      },
+      {
+        name: 'Miniket Rice',
+        description: 'A fine, long-grain rice variety from West Bengal, known for its polished appearance.',
+        origin: 'West Bengal, India'
+      },
+      {
+        name: 'HMT Rice',
+        description: 'A high-yielding rice variety known for its soft texture and pleasant aroma.',
+        origin: 'India'
+      }
+    ],
+    specifications: [
+      { name: 'Average Grain Length', value: 'Varies by variety' },
+      { name: 'Moisture Content', value: '≤ 14%' },
+      { name: 'Broken Grains', value: '≤ 5%' },
+      { name: 'Foreign Matter', value: '≤ 0.5%' },
+      { name: 'Damaged Grains', value: '≤ 3%' },
+      { name: 'Chalky Grains', value: '≤ 3%' }
+    ],
+    packaging: [
+      { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+      { type: 'HDPE/PP Bags', sizes: ['5kg', '10kg', '25kg'] },
+      { type: 'Vacuum Packed', sizes: ['1kg', '5kg'] },
+      { type: 'Custom Packaging', sizes: ['As per requirement'] }
+    ],
+    certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+    applications: [
+      'Daily cooking',
+      'Traditional Indian dishes like biryani, pulao, and khichdi',
+      'South Indian delicacies like idli and dosa',
+      'Specialty cuisines and gourmet preparations',
+      'Health-focused diets and Ayurvedic treatments'
+    ]
+  }
+
+
+  },
+  'seeds': {
+    'sesame': {
+      name: 'Sesame Seeds',
+      description: 'Our premium sesame seeds are carefully selected for size, color uniformity, and oil content, available in natural, hulled, and toasted varieties.',
+      category: 'Seeds',
+      longDescription: `
+        Sesame (Sesamum indicum) is one of the oldest oilseed crops known to humanity, cultivated for over 5,000 years. These tiny seeds pack an impressive nutritional profile, including essential oils, proteins, vitamins, and minerals.
+        
+        Our premium sesame seeds are sourced from specialized growing regions in Gujarat, Rajasthan, and Madhya Pradesh in India, known for producing seeds with optimal oil content and flavor characteristics.
+        
+        Available in natural (with hull), hulled (white), and toasted varieties, our sesame seeds undergo careful cleaning, sorting, and processing to ensure they meet the highest quality standards for global markets.
+      `,
+      images: [
+        'https://images.pexels.com/photos/144248/healthy-breakfast-organic-seeds-144248.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://images.pexels.com/photos/9986228/pexels-photo-9986228.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://images.pexels.com/photos/4199094/pexels-photo-4199094.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://images.pexels.com/photos/7438202/pexels-photo-7438202.jpeg?auto=compress&cs=tinysrgb&w=800'
+      ],
+      varieties: [
+        {
+          name: 'Natural (White) Sesame',
+          description: 'Unhulled seeds with natural creamy white to pale yellow color, highest oil content.',
+          origin: 'Gujarat and Rajasthan, India'
+        },
+        {
+          name: 'Hulled Sesame',
+          description: 'Seeds with outer hull removed, revealing pure white color, preferred for visual appeal in baking.',
+          origin: 'Various regions in India'
+        },
+        {
+          name: 'Black Sesame',
+          description: 'Distinct black color with rich, nutty flavor profile, popular in Asian cuisines.',
+          origin: 'Madhya Pradesh and Maharashtra, India'
+        },
+        {
+          name: 'Organic Certified Sesame',
+          description: 'Cultivated without synthetic pesticides or fertilizers, certified organic by international standards.',
+          origin: 'Organic farms across India'
+        }
+      ],
+      specifications: [
+        { name: 'Oil Content', value: '48-52% (variety dependent)' },
+        { name: 'Moisture Content', value: '≤ 8%' },
+        { name: 'Foreign Matter', value: '≤ 0.5%' },
+        { name: 'Damaged Seeds', value: '≤ 1%' },
+        { name: 'Free Fatty Acid', value: '≤ 2%' },
+        { name: 'Protein Content', value: '19-25%' },
+        { name: 'Purity', value: '≥ 99.5%' }
+      ],
+      packaging: [
+        { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+        { type: 'HDPE/PP Bags', sizes: ['5kg', '10kg', '25kg'] },
+        { type: 'Vacuum Packed', sizes: ['1kg', '5kg'] },
+        { type: 'Custom Packaging', sizes: ['As per requirement'] }
+      ],
+      certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)', 'Kosher', 'Halal'],
+      applications: [
+        'Bakery and confectionery products',
+        'Culinary applications across global cuisines',
+        'Oil extraction for premium sesame oil',
+        'Tahini and sesame paste production',
+        'Snack foods and toppings',
+        'Nutritional supplements'
+      ]
+    }
+  }
+};
+
+const ProductDetailPage: React.FC = () => {
+  const { category, subcategory } = useParams<{ category: string; subcategory: string }>();
+  const [activeImage, setActiveImage] = useState(0);
+  
+  if (!category || !subcategory || !productData[category] || !productData[category][subcategory]) {
+    return (
+      <div className="min-h-screen pt-24 pb-16">
+        <div className="container-custom">
+          <div className="text-center py-16">
+            <h2 className="text-2xl font-bold mb-4">Product Not Found</h2>
+            <p className="mb-8">Sorry, the product you're looking for doesn't exist.</p>
+            <Link to="/products" className="btn-primary">
+              View All Products
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  
+  const product = productData[category][subcategory];
+  
+  return (
+    <>
+      <div className="min-h-screen pt-24 pb-16">
+        <div className="container-custom">
+          {/* Breadcrumb Navigation */}
+          <div className="flex items-center py-4 text-sm">
+            <Link to="/products" className="text-neutral-500 hover:text-primary-600">
+              Products
+            </Link>
+            <span className="mx-2 text-neutral-400">/</span>
+            <Link to={`/products/${category}`} className="text-neutral-500 hover:text-primary-600">
+              {product.category}
+            </Link>
+            <span className="mx-2 text-neutral-400">/</span>
+            <span className="text-primary-600 font-medium">{product.name}</span>
+          </div>
+          
+          {/* Product Overview */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+            {/* Product Images */}
+            <div>
+              <div className="relative h-96 mb-4 rounded-lg overflow-hidden">
+                <img 
+                  src={product.images[activeImage]} 
+                  alt={product.name} 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="grid grid-cols-4 gap-4">
+                {product.images.map((image, index) => (
+                  <div 
+                    key={index}
+                    className={`h-24 rounded-lg overflow-hidden cursor-pointer border-2 ${
+                      activeImage === index ? 'border-primary-500' : 'border-transparent'
+                    }`}
+                    onClick={() => setActiveImage(index)}
+                  >
+                    <img 
+                      src={image} 
+                      alt={`${product.name} ${index + 1}`} 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+            
+            {/* Product Info */}
+            <div>
+              <div className="mb-8">
+                <div className="flex items-center mb-4">
+                  <span className="bg-secondary-100 text-secondary-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
+                    {product.category}
+                  </span>
+                </div>
+                <h1 className="text-3xl md:text-4xl font-bold mb-4">{product.name}</h1>
+                <p className="text-lg text-neutral-600 mb-6">{product.description}</p>
+                
+                <div className="flex flex-col space-y-4 mb-8">
+                  <div className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-primary-600 mr-2 mt-0.5" />
+                    <span>Premium quality sourced from specialized growing regions</span>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-primary-600 mr-2 mt-0.5" />
+                    <span>Multiple varieties available to meet different requirements</span>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-primary-600 mr-2 mt-0.5" />
+                    <span>Comprehensive quality testing and certifications</span>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-primary-600 mr-2 mt-0.5" />
+                    <span>Flexible packaging options for different market needs</span>
+                  </div>
+                </div>
+                
+                <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
+                  <a 
+                    href="#inquiry-form" 
+                    className="btn-primary inline-flex items-center justify-center"
+                  >
+                    Request a Quote
+                  </a>
+                  <a 
+                    href="#product-details" 
+                    className="btn-outline inline-flex items-center justify-center"
+                  >
+                    Product Specifications
+                  </a>
+                </div>
+                
+                <div className="flex items-center space-x-6">
+                  <button className="inline-flex items-center text-primary-600 hover:text-primary-700">
+                    <Download className="h-5 w-5 mr-2" />
+                    Download Brochure
+                  </button>
+                  
+                  <a 
+                    href="https://wa.me/919876543210?text=Hello%20Triloki%20Global!%20I'm%20interested%20in%20your%20{product.name}.%20Can%20you%20provide%20more%20information?"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-[#25D366] hover:text-[#128C7E]"
+                  >
+                    <svg className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Inquire via WhatsApp
+                  </a>
+                </div>
+              </div>
+              
+              <div className="p-4 border border-neutral-200 rounded-lg bg-neutral-50">
+                <h3 className="font-semibold mb-2">Export Information</h3>
+                <div className="space-y-2">
+                  <div className="flex items-center">
+                    <div className="w-1/2 text-neutral-600">Minimum Order Quantity:</div>
+                    <div className="w-1/2 font-medium">500 kg</div>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-1/2 text-neutral-600">Shipment Terms:</div>
+                    <div className="w-1/2 font-medium">FOB, CIF, CFR</div>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-1/2 text-neutral-600">Lead Time:</div>
+                    <div className="w-1/2 font-medium">10-15 days after order confirmation</div>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-1/2 text-neutral-600">Payment Terms:</div>
+                    <div className="w-1/2 font-medium">L/C, T/T, Western Union, PayPal</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Product Details */}
+          <div id="product-details" className="mb-16">
+            <div className="border-b border-neutral-200 mb-8">
+              <h2 className="text-2xl font-bold pb-4">Product Details</h2>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="md:col-span-2">
+                <div className="prose max-w-none">
+                  <p className="whitespace-pre-line">{product.longDescription}</p>
+                </div>
+                
+                <div className="mt-8">
+                  <h3 className="text-xl font-semibold mb-4">Available Varieties</h3>
+                  <div className="space-y-4">
+                    {product.varieties.map((variety, index) => (
+                      <div key={index} className="bg-white p-4 border border-neutral-200 rounded-lg">
+                        <h4 className="font-semibold mb-1">{variety.name}</h4>
+                        <p className="text-neutral-600 mb-2">{variety.description}</p>
+                        <div className="flex items-center text-sm">
+                          <Globe className="h-4 w-4 mr-1 text-primary-600" />
+                          <span>Origin: {variety.origin}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                
+                <div className="mt-8">
+                  <h3 className="text-xl font-semibold mb-4">Applications</h3>
+                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    {product.applications.map((application, index) => (
+                      <li key={index} className="flex items-center">
+                        <CheckCircle className="h-5 w-5 text-primary-600 mr-2 flex-shrink-0" />
+                        <span>{application}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              
+              <div>
+                <div className="bg-white p-6 border border-neutral-200 rounded-lg mb-6">
+                  <h3 className="text-xl font-semibold mb-4">Specifications</h3>
+                  <div className="space-y-3">
+                    {product.specifications.map((spec, index) => (
+                      <div key={index} className="flex items-center justify-between border-b border-neutral-100 pb-2 last:border-b-0 last:pb-0">
+                        <span className="text-neutral-600">{spec.name}</span>
+                        <span className="font-medium">{spec.value}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                
+                <div className="bg-white p-6 border border-neutral-200 rounded-lg mb-6">
+                  <h3 className="text-xl font-semibold mb-4">Packaging Options</h3>
+                  <div className="space-y-3">
+                    {product.packaging.map((pack, index) => (
+                      <div key={index} className="flex items-center justify-between border-b border-neutral-100 pb-2 last:border-b-0 last:pb-0">
+                        <span className="text-neutral-600">{pack.type}</span>
+                        <span className="font-medium">{pack.sizes.join(', ')}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                
+                <div className="bg-white p-6 border border-neutral-200 rounded-lg">
+                  <h3 className="text-xl font-semibold mb-4">Certifications</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {product.certifications.map((cert, index) => (
+                      <div key={index} className="flex items-center bg-neutral-100 px-3 py-1.5 rounded-full">
+                        <Award className="h-4 w-4 text-primary-600 mr-1.5" />
+                        <span className="text-sm font-medium">{cert}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Related Benefits */}
+          <div className="mb-16">
+            <div className="border-b border-neutral-200 mb-8">
+              <h2 className="text-2xl font-bold pb-4">Benefits of Choosing Triloki Global</h2>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-white p-6 border border-neutral-200 rounded-lg shadow-sm">
+                <div className="bg-primary-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                  <Award className="h-6 w-6 text-primary-600" />
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Premium Quality</h3>
+                <p className="text-neutral-600">
+                  Our {product.name.toLowerCase()} undergoes rigorous quality testing and sorting to ensure only the finest 
+                  products reach our customers. Each batch is tested for purity and adherence to international standards.
+                </p>
+              </div>
+              
+              <div className="bg-white p-6 border border-neutral-200 rounded-lg shadow-sm">
+                <div className="bg-primary-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                  <Truck className="h-6 w-6 text-primary-600" />
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Reliable Shipping</h3>
+                <p className="text-neutral-600">
+                  We handle all export documentation and logistics, ensuring smooth customs clearance and on-time delivery. 
+                  Our experienced team manages the entire process, providing real-time updates on your shipment.
+                </p>
+              </div>
+              
+              <div className="bg-white p-6 border border-neutral-200 rounded-lg shadow-sm">
+                <div className="bg-primary-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                  <Globe className="h-6 w-6 text-primary-600" />
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Global Expertise</h3>
+                <p className="text-neutral-600">
+                  With exports to over 40 countries, we understand international market requirements and regulations. 
+                  Our team provides personalized support to ensure your specific needs are met with every order.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Inquiry Form */}
+          <div id="inquiry-form" className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+            <div className="lg:col-span-1">
+              <h2 className="text-2xl font-bold mb-4">Request a Quote</h2>
+              <p className="text-neutral-600 mb-6">
+                Fill out the form to receive detailed information about our {product.name}, including pricing, 
+                available varieties, packaging options, and shipping details.
+              </p>
+              
+              <div className="bg-neutral-100 p-6 rounded-lg">
+                <h3 className="font-semibold mb-4">Why Choose Our {product.name}?</h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-primary-600 mr-2 mt-0.5" />
+                    <span>Sourced directly from specialized growing regions</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-primary-600 mr-2 mt-0.5" />
+                    <span>Stringent quality control and testing</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-primary-600 mr-2 mt-0.5" />
+                    <span>International certifications ensuring compliance</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-primary-600 mr-2 mt-0.5" />
+                    <span>Customizable packaging solutions</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-primary-600 mr-2 mt-0.5" />
+                    <span>Complete export documentation and support</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="lg:col-span-2">
+              <ProductInquiryForm productName={product.name} />
+            </div>
+          </div>
+          
+          {/* Related Products */}
+          <div>
+            <div className="border-b border-neutral-200 mb-8">
+              <h2 className="text-2xl font-bold pb-4">Related Products</h2>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {Object.entries(productData[category])
+                .filter(([key]) => key !== subcategory)
+                .slice(0, 2)
+                .map(([key, relatedProduct]) => (
+                  <div key={key} className="product-item card overflow-hidden group">
+                    <div className="relative overflow-hidden h-64">
+                      <img 
+                        src={relatedProduct.images[0]} 
+                        alt={relatedProduct.name} 
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end product-overlay">
+                        <div className="p-4 w-full">
+                          <Link to={`/products/${category}/${key}`} className="btn-primary w-full">
+                            View Details
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="p-4">
+                      <div className="flex justify-between items-start mb-2">
+                        <h3 className="text-xl font-semibold">{relatedProduct.name}</h3>
+                        <span className="bg-secondary-100 text-secondary-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
+                          {relatedProduct.category}
+                        </span>
+                      </div>
+                      <p className="text-neutral-600 mb-4">{relatedProduct.description}</p>
+                      <Link 
+                        to={`/products/${category}/${key}`} 
+                        className="text-primary-600 hover:text-primary-700 font-medium inline-flex items-center"
+                      >
+                        View Details
+                        <ArrowRight className="ml-1 h-4 w-4" />
+                      </Link>
+                    </div>
+                  </div>
+                ))}
+              
+              {/* View All Products */}
+              <div className="flex items-center justify-center border-2 border-dashed border-neutral-300 rounded-lg p-8">
+                <div className="text-center">
+                  <h3 className="text-xl font-semibold mb-3">Explore More Products</h3>
+                  <p className="text-neutral-600 mb-4">
+                    Discover our complete range of premium {product.category.toLowerCase()}.
+                  </p>
+                  <Link to={`/products/${category}`} className="btn-primary">
+                    View All {product.category}
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <WhatsAppButton />
+    </>
+  );
+};
+
+export default ProductDetailPage;

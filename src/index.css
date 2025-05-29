@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply font-sans text-neutral-800 bg-neutral-50;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-neutral-900 leading-tight;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply px-6 py-3 rounded-md font-medium transition-all duration-300 inline-flex items-center justify-center;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary-600 text-white hover:bg-primary-700 shadow-md hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary-500 text-white hover:bg-secondary-600 shadow-md hover:shadow-lg;
+  }
+  
+  .btn-outline {
+    @apply btn border-2 border-primary-600 text-primary-600 hover:bg-primary-50;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+  
+  .section-title {
+    @apply text-3xl sm:text-4xl font-bold mb-4 sm:mb-8 relative inline-block;
+  }
+  
+  .section-title::after {
+    content: '';
+    @apply block absolute -bottom-2 left-0 w-16 h-1 bg-primary-500;
+  }
+  
+  .form-input {
+    @apply w-full px-4 py-2 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500;
+  }
+  
+  .form-label {
+    @apply block text-sm font-medium text-neutral-700 mb-1;
+  }
+}
+
+/* Parallax effect */
+.parallax {
+  @apply bg-fixed bg-center bg-no-repeat bg-cover;
+  perspective: 1px;
+}
+
+/* Product item hover effect */
+.product-item:hover .product-overlay {
+  @apply opacity-100;
+}
+
+.product-item:hover img {
+  @apply scale-105;
+}
+
+/* Animated logo */
+.logo-animation {
+  animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    filter: drop-shadow(0 0 2px rgba(62, 148, 72, 0.3));
+  }
+  100% {
+    filter: drop-shadow(0 0 8px rgba(62, 148, 72, 0.6));
+  }
+}
+
+/* For the chatbot toggle button */
+.chatbot-toggle {
+  @apply fixed bottom-6 right-6 w-16 h-16 rounded-full bg-primary-600 text-white flex items-center justify-center shadow-lg z-50 cursor-pointer transition-transform duration-300 hover:scale-110;
+}
+
+/* AI chat container */
+.chat-container {
+  @apply fixed bottom-24 right-6 w-80 sm:w-96 h-96 bg-white rounded-lg shadow-xl z-50 flex flex-col overflow-hidden transition-all duration-300;
+}
