@@ -1101,7 +1101,291 @@ const productData = {
       'Specialty cuisines and gourmet preparations',
       'Health-focused diets and Ayurvedic treatments'
     ]
-  }
+  },
+  'wheat': {
+    name: 'Wheat',
+    description: 'Premium-quality wheat grains cultivated across India, known for their excellent milling characteristics, nutritional richness, and adaptability for diverse culinary uses.',
+    category: 'Grains',
+  longDescription: `
+    Wheat is one of the most widely cultivated cereal grains in India and forms the backbone of Indian diets. From the golden fields of Punjab to the plains of Madhya Pradesh, India produces a wide range of wheat varieties that cater to domestic and international demand.
+
+    Our wheat is carefully sourced from certified farms, cleaned, and processed under hygienic conditions to preserve its natural taste, aroma, and nutritional integrity. Whether it's for making rotis, breads, pasta, or bakery products, our wheat delivers consistent quality.
+
+    We offer multiple wheat varieties including hard and soft types, suitable for diverse food processing applications. Our supply chain emphasizes traceability, purity, and adherence to global food safety standards.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/9/343964748/EE/NY/EG/181658887/sharbati-wheat.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/9/343964836/UF/NM/FX/181658887/organic-wheat-grain.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2021/8/RH/NL/DX/1455976/indian-wheat.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/2/YI/LW/YO/176946471/locally-sourced-wheat.jpeg?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Sharbati Wheat',
+      description: 'Premium golden wheat with a sweet taste and high gluten content, ideal for soft, fluffy rotis.',
+      origin: 'Sehore & Vidisha, Madhya Pradesh, India'
+    },
+    {
+      name: 'Lokwan Wheat',
+      description: 'Hard wheat variety known for its bold grain and high protein, used for chapatis and bakery flour.',
+      origin: 'Maharashtra, India'
+    },
+    {
+      name: 'Durum Wheat',
+      description: 'High-protein wheat ideal for pasta, semolina (suji), and noodles due to its hardness and gluten strength.',
+      origin: 'Madhya Pradesh and Karnataka, India'
+    },
+    {
+      name: 'Organic Wheat',
+      description: 'Cultivated without synthetic chemicals, retaining all the nutritional value with zero contamination.',
+      origin: 'Certified organic farms across India'
+    },
+    {
+      name: 'Kathia Wheat',
+      description: 'Traditional soft wheat variety used in rural regions for its earthy flavor and easy digestibility.',
+      origin: 'Northern India'
+    }
+  ],
+  specifications: [
+    { name: 'Protein Content', value: '10-14% (variety dependent)' },
+    { name: 'Moisture Content', value: '≤ 12%' },
+    { name: 'Foreign Matter', value: '≤ 1%' },
+    { name: 'Damaged Kernels', value: '≤ 3%' },
+    { name: 'Shriveled Kernels', value: '≤ 3%' },
+    { name: 'Test Weight', value: '≥ 76 kg/hl' }
+  ],
+  packaging: [
+    { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE/PP Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['1kg', '5kg', '10kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Daily home cooking (chapatis, parathas, puris)',
+    'Bakery products (bread, biscuits, cakes)',
+    'Industrial milling (atta, maida, suji)',
+    'Pasta, noodles, and semolina production',
+    'Health food and nutrition-rich formulations'
+  ]
+  },
+  'millets': {
+  name: 'Millets',
+  description: 'A resilient, nutrient-dense group of ancient grains celebrated for their health benefits, drought resistance, and culinary versatility.',
+  category: 'Grains',
+  longDescription: `
+    Millets are a group of small-seeded grasses cultivated as cereal crops, traditionally consumed across India for centuries. Once considered a "poor man's grain," millets are now being revived as superfoods due to their exceptional nutritional profile and climate-smart nature.
+
+    These hardy crops require minimal water and can thrive in arid soils, making them a sustainable choice for modern agriculture. India is one of the largest producers of millets, with major cultivation in Karnataka, Maharashtra, Rajasthan, Tamil Nadu, and Andhra Pradesh.
+
+    Millets are rich in dietary fiber, proteins, essential amino acids, B-vitamins, and minerals like iron, magnesium, and phosphorus. Their low glycemic index makes them ideal for diabetic-friendly diets, weight management, and holistic wellness.
+
+    We offer a curated range of millets that are cleaned, graded, and processed under hygienic conditions for both domestic consumption and international export.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/8/334749556/NP/EM/LS/93800400/foxtail-millet.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/8/335136127/FW/MK/QS/93800400/barnyard-millet.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2022/9/LC/WJ/GL/93800400/kodo-millet.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/8/336084156/ZL/QU/BX/93800400/little-millet.jpeg?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Foxtail Millet (Kangni)',
+      description: 'Rich in iron and calcium, ideal for upma, pongal, and baked snacks.',
+      origin: 'Karnataka, Andhra Pradesh, India'
+    },
+    {
+      name: 'Barnyard Millet (Sanwa)',
+      description: 'Gluten-free millet high in fiber, perfect for fasting recipes and porridge.',
+      origin: 'Uttarakhand, Tamil Nadu, India'
+    },
+    {
+      name: 'Kodo Millet (Kodra)',
+      description: 'Easily digestible, low glycemic, suitable for diabetics and weight watchers.',
+      origin: 'Madhya Pradesh, Tamil Nadu, India'
+    },
+    {
+      name: 'Little Millet (Kutki)',
+      description: 'A versatile grain used in pulao, khichdi, and millet-based desserts.',
+      origin: 'Chhattisgarh, Odisha, India'
+    },
+    {
+      name: 'Pearl Millet (Bajra)',
+      description: 'High in protein and fiber, excellent for rotis, khichdi, and gruel.',
+      origin: 'Rajasthan, Gujarat, Haryana, India'
+    },
+    {
+      name: 'Finger Millet (Ragi)',
+      description: 'Calcium-rich millet used in porridge, laddoos, and gluten-free flour blends.',
+      origin: 'Karnataka, Tamil Nadu, India'
+    },
+    {
+      name: 'Sorghum (Jowar)',
+      description: 'A staple grain known for heart health, used in bhakri, dosas, and flours.',
+      origin: 'Maharashtra, Karnataka, India'
+    },
+    {
+      name: 'Proso Millet (Chena)',
+      description: 'Small-seeded millet known for fast cooking and nutty flavor.',
+      origin: 'Andhra Pradesh, Bihar, India'
+    },
+    {
+      name: 'Browntop Millet (Korle)',
+      description: 'Rare variety with high antioxidant content and quick cooking time.',
+      origin: 'Karnataka, India'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 12%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Foreign Matter', value: '≤ 1%' },
+    { name: 'Crude Fiber', value: '≤ 5%' },
+    { name: 'Ash Content', value: '≤ 2.5%' },
+    { name: 'Shelf Life', value: '6-12 months (when stored in dry, cool conditions)' }
+  ],
+  packaging: [
+    { type: 'Eco-friendly Jute Bags', sizes: ['10kg', '25kg', '50kg'] },
+    { type: 'HDPE/PP Bags', sizes: ['5kg', '10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Retail Packaging', sizes: ['As per buyer requirements'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for certified farms)'],
+  applications: [
+    'Gluten-free flours and health mixes',
+    'Breakfast cereals and snack bars',
+    'Traditional recipes like dosa, idli, upma',
+    'Weight management and diabetic diets',
+    'Baby foods, nutraceuticals, and Ayurvedic wellness formulations'
+  ]
+  },
+  'barley': {
+  name: 'Barley',
+  description: 'A versatile ancient cereal grain known for its robust nutrition, high fiber content, and diverse culinary and industrial uses.',
+  category: 'Grains',
+  longDescription: `
+    Barley is one of the world’s oldest cultivated grains, prized for thousands of years for its resilience and nutritional value. With a nutty flavor and chewy texture, barley has found its place in kitchens, breweries, and health food industries worldwide.
+
+    Grown extensively in India, particularly in Rajasthan, Haryana, Uttar Pradesh, and Punjab, barley thrives in cooler climates and moderate rainfall. It serves multiple purposes — from staple food and animal feed to malt production for brewing and pharmaceuticals.
+
+    Rich in dietary fiber, vitamins (especially B-complex), minerals such as selenium and magnesium, and antioxidants, barley supports heart health, digestion, and blood sugar regulation. Its beta-glucan content is especially notable for cholesterol-lowering benefits.
+
+    We supply premium-grade barley, cleaned and processed with strict quality controls, ready for export and bulk distribution to meet diverse buyer needs.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/7/FG/DS/YJ/12345678/barley-grains.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/7/FG/DS/YJ/12345678/barley-harvest.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/7/FG/DS/YJ/12345678/barley-flour.jpg?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Hulled Barley',
+      description: 'Whole grain barley with outer hull intact, retaining maximum nutrients and fiber.',
+      origin: 'Rajasthan, Haryana, India'
+    },
+    {
+      name: 'Pearled Barley',
+      description: 'Barley polished to remove the hull and bran layers, resulting in a softer texture and quicker cooking time.',
+      origin: 'Punjab, Uttar Pradesh, India'
+    },
+    {
+      name: 'Barley Flour',
+      description: 'Finely ground barley used for baking, health mixes, and gluten-free formulations.',
+      origin: 'Various Indian states'
+    },
+    {
+      name: 'Malted Barley',
+      description: 'Germinated barley grains dried for brewing beer, whisky, and malted beverages.',
+      origin: 'Rajasthan, Punjab, India'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 14%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Foreign Matter', value: '≤ 1%' },
+    { name: 'Protein Content', value: '10-12%' },
+    { name: 'Ash Content', value: '≤ 2.5%' },
+    { name: 'Shelf Life', value: '6-12 months (stored in cool, dry place)' }
+  ],
+  packaging: [
+    { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum-Sealed Packaging', sizes: ['1kg', '5kg'] },
+    { type: 'Custom Retail Packaging', sizes: ['Based on buyer requirements'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic Certification (if applicable)'],
+  applications: [
+    'Soups, stews, and salads',
+    'Brewing and malt production',
+    'Health foods and dietary supplements',
+    'Animal feed',
+    'Gluten-free baking alternatives'
+  ]
+  },
+  'corn': {
+  name: 'Yellow Corn',
+  description: 'Bright, high-quality yellow corn known for its versatility in food, feed, and industrial applications, sourced from prime Indian agricultural regions.',
+  category: 'Grains',
+  longDescription: `
+    Yellow corn, one of the world’s most versatile cereals, is a staple ingredient and raw material across multiple industries — from human consumption and animal feed to biofuel and starch production.
+
+    Cultivated extensively in India across states like Karnataka, Maharashtra, Andhra Pradesh, and Tamil Nadu, yellow corn thrives in varied climates, offering consistent yield and rich nutritional value. Known for its sweet flavor, crunchy texture, and rich carotenoid content, this corn variety is a powerhouse of energy and essential nutrients.
+
+    Our premium yellow corn is carefully harvested, cleaned, and graded to meet stringent quality standards, ensuring it is free from contaminants and ready for diverse end uses, including flour production, popcorn, cornmeal, and industrial processing.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/7/FG/DS/YJ/12345678/yellow-corn-kernels.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/7/FG/DS/YJ/12345678/yellow-corn-cobs.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/7/FG/DS/YJ/12345678/corn-flour.jpg?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Field Corn',
+      description: 'Primarily used for animal feed, industrial processing, and ethanol production.',
+      origin: 'Karnataka, Maharashtra, India'
+    },
+    {
+      name: 'Sweet Corn',
+      description: 'Tender and sweet kernels, ideal for fresh consumption and canned products.',
+      origin: 'Andhra Pradesh, Tamil Nadu, India'
+    },
+    {
+      name: 'Popcorn',
+      description: 'Specialized variety with kernels that pop upon heating, popular as a snack worldwide.',
+      origin: 'Maharashtra, Karnataka, India'
+    },
+    {
+      name: 'Flint Corn',
+      description: 'Hard outer shell kernels used for cornmeal and other food products.',
+      origin: 'Northern India'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 14%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Foreign Matter', value: '≤ 1%' },
+    { name: 'Broken Kernels', value: '≤ 2%' },
+    { name: 'Protein Content', value: '7-9%' },
+    { name: 'Shelf Life', value: '6-12 months (stored in cool, dry place)' }
+  ],
+  packaging: [
+    { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum-Sealed Packaging', sizes: ['1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per buyer specifications'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic Certification (for organic variants)'],
+  applications: [
+    'Animal feed formulations',
+    'Human consumption in forms like cornmeal, flour, and snacks',
+    'Industrial products including starch, ethanol, and biofuels',
+    'Canned and frozen sweet corn products',
+    'Popcorn production and other snack foods'
+  ]
+}
+
+
+ 
+
 
 
   },

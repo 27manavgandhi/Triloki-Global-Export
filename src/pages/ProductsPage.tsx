@@ -16,7 +16,7 @@ const categories = [
     name: 'Grains',
     description: 'Superior quality grains and cereals from India\'s finest agricultural regions.',
     image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800',
-    subcategories: ['Rice', 'Wheat', 'Millets', 'Barley']
+    subcategories: ['Rice', 'Wheat', 'Millets', 'Barley', 'corn']
   },
   {
     id: 'seeds',

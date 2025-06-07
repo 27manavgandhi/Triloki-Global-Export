@@ -147,7 +147,14 @@ const categories: Record<string, Category> = {
         name: 'Barley',
         description: 'Versatile grain used in beverages, soups, stews, and bread products.',
         image: 'https://images.pexels.com/photos/533346/pexels-photo-533346.jpeg?auto=compress&cs=tinysrgb&w=800'
-      }
+      },
+      {
+        id: 'corn',
+        name: 'Yellow Corn',
+        description: 'Versatile grain used for food, feed, and industrial purposes, prized for its sweetness and nutritional value.',
+        image: 'https://images.pexels.com/photos/33073/corn-maize-plant-yellow.jpg?auto=compress&cs=tinysrgb&w=800'
+}
+
     ]
   },
   'seeds': {
