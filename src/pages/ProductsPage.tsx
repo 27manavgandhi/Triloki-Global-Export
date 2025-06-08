@@ -19,11 +19,25 @@ const categories = [
     subcategories: ['Rice', 'Wheat', 'Millets', 'Barley', 'corn']
   },
   {
-    id: 'seeds',
-    name: 'Seeds',
+    id: 'pulses',
+    name: 'Pulses',
+    description: 'Superior quality grains and cereals from India\'s finest agricultural regions.',
+    image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800',
+    subcategories: ['Green Lentils', 'White Kidney Beans', 'Dry Peas', 'Chickpeas', 'Red Kidney Beans', 'Desi Chickpeas']
+  },
+  {
+    id: 'tea',
+    name: 'Tea',
+    description: 'Superior quality grains and cereals from India\'s finest agricultural regions.',
+    image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800',
+    subcategories: ['Black Tea', 'Wolf Leaf', 'Green Tea', 'Tea Dust', 'Fannings']
+  },
+  {
+    id: 'others',
+    name: 'Others',
     description: 'High-quality seeds for food products and oil extraction.',
     image: 'https://images.pexels.com/photos/144248/healthy-breakfast-organic-seeds-144248.jpeg?auto=compress&cs=tinysrgb&w=800',
-    subcategories: ['Sesame Seeds', 'Flax Seeds', 'Mustard Seeds', 'Pumpkin Seeds', 'Sunflower Seeds']
+    subcategories: ['Canned Sardines', 'Canned Tuna', 'Sea Food', 'Palm Oil', 'Saffron']
   }
 ];
 

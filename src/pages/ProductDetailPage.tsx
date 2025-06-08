@@ -1389,72 +1389,1087 @@ const productData = {
 
 
   },
-  'seeds': {
-    'sesame': {
-      name: 'Sesame Seeds',
-      description: 'Our premium sesame seeds are carefully selected for size, color uniformity, and oil content, available in natural, hulled, and toasted varieties.',
-      category: 'Seeds',
-      longDescription: `
-        Sesame (Sesamum indicum) is one of the oldest oilseed crops known to humanity, cultivated for over 5,000 years. These tiny seeds pack an impressive nutritional profile, including essential oils, proteins, vitamins, and minerals.
-        
-        Our premium sesame seeds are sourced from specialized growing regions in Gujarat, Rajasthan, and Madhya Pradesh in India, known for producing seeds with optimal oil content and flavor characteristics.
-        
-        Available in natural (with hull), hulled (white), and toasted varieties, our sesame seeds undergo careful cleaning, sorting, and processing to ensure they meet the highest quality standards for global markets.
-      `,
-      images: [
-        'https://images.pexels.com/photos/144248/healthy-breakfast-organic-seeds-144248.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/9986228/pexels-photo-9986228.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/4199094/pexels-photo-4199094.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/7438202/pexels-photo-7438202.jpeg?auto=compress&cs=tinysrgb&w=800'
-      ],
-      varieties: [
-        {
-          name: 'Natural (White) Sesame',
-          description: 'Unhulled seeds with natural creamy white to pale yellow color, highest oil content.',
-          origin: 'Gujarat and Rajasthan, India'
-        },
-        {
-          name: 'Hulled Sesame',
-          description: 'Seeds with outer hull removed, revealing pure white color, preferred for visual appeal in baking.',
-          origin: 'Various regions in India'
-        },
-        {
-          name: 'Black Sesame',
-          description: 'Distinct black color with rich, nutty flavor profile, popular in Asian cuisines.',
-          origin: 'Madhya Pradesh and Maharashtra, India'
-        },
-        {
-          name: 'Organic Certified Sesame',
-          description: 'Cultivated without synthetic pesticides or fertilizers, certified organic by international standards.',
-          origin: 'Organic farms across India'
-        }
-      ],
-      specifications: [
-        { name: 'Oil Content', value: '48-52% (variety dependent)' },
-        { name: 'Moisture Content', value: '≤ 8%' },
-        { name: 'Foreign Matter', value: '≤ 0.5%' },
-        { name: 'Damaged Seeds', value: '≤ 1%' },
-        { name: 'Free Fatty Acid', value: '≤ 2%' },
-        { name: 'Protein Content', value: '19-25%' },
-        { name: 'Purity', value: '≥ 99.5%' }
-      ],
-      packaging: [
-        { type: 'Jute Bags', sizes: ['25kg', '50kg'] },
-        { type: 'HDPE/PP Bags', sizes: ['5kg', '10kg', '25kg'] },
-        { type: 'Vacuum Packed', sizes: ['1kg', '5kg'] },
-        { type: 'Custom Packaging', sizes: ['As per requirement'] }
-      ],
-      certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)', 'Kosher', 'Halal'],
-      applications: [
-        'Bakery and confectionery products',
-        'Culinary applications across global cuisines',
-        'Oil extraction for premium sesame oil',
-        'Tahini and sesame paste production',
-        'Snack foods and toppings',
-        'Nutritional supplements'
-      ]
+  'pulses': {
+    'light-speckled-kidney-bean': {
+  name: 'Light Speckled Kidney Bean',
+  description: 'High-quality light speckled kidney beans known for their distinctive appearance, rich protein content, and excellent cooking characteristics.',
+  category: 'Pulses',
+  longDescription: `
+    Light Speckled Kidney Beans (Phaseolus vulgaris) are a popular variety of kidney beans distinguished by their light pink base color with reddish speckles. They are widely used in global cuisines, especially in soups, stews, and curries.
+
+    These beans are grown primarily in the Himalayan regions of India, including Jammu & Kashmir and Himachal Pradesh, where the cool climate and fertile soil contribute to their superior quality. Rich in protein, dietary fiber, and essential minerals, they are an excellent choice for vegetarian and vegan diets.
+
+    We source our light speckled kidney beans directly from farms using sustainable agricultural practices. Each batch undergoes strict quality checks to ensure purity, consistent size, and absence of foreign matter.
+  `,
+  images: [
+    'https://5.imimg.com/data5/QF/VB/MY-3057386/light-speckled-kidney-bean-500x500.jpg',
+    'https://cdn.pixabay.com/photo/2015/05/20/21/25/beans-775437_1280.jpg',
+    'https://shorturl.at/zFHJ4',
+    'https://shorturl.at/bmqKO'
+  ],
+  varieties: [
+    {
+      name: 'Jammu Light Speckled',
+      description: 'Premium variety with uniform speckling, rich aroma, and excellent cooking consistency.',
+      origin: 'Jammu & Kashmir, India'
+    },
+    {
+      name: 'Himachal Organic',
+      description: 'Organically grown, known for its creamy texture and higher fiber content.',
+      origin: 'Himachal Pradesh, India'
+    },
+    {
+      name: 'Imported Speckled',
+      description: 'Globally sourced for consistency in color and size, preferred in bulk exports.',
+      origin: 'Canada / Ethiopia'
     }
-  }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 14%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 1%' },
+    { name: 'Damaged Grains', value: '≤ 2%' },
+    { name: 'Protein Content', value: '22-24%' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' },
+    { name: 'Size', value: '6–8 mm (uniform)' }
+  ],
+  packaging: [
+    { type: 'PP Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'NPOP (for organic variants)'],
+  applications: [
+    'Cooked dishes like rajma, chili, and soups',
+    'Ready-to-eat canned products',
+    'Protein-rich snacks and flour blends',
+    'Catering and institutional food services',
+    'Export to health-conscious and vegan markets'
+  ]
+    },
+     'green-lentils': {
+  name: 'Green Lentils',
+  description: 'Nutrient-rich green lentils known for their earthy flavor, firm texture, and versatility in global cuisines.',
+  category: 'Pulses',
+  longDescription: `
+    Green Lentils (Lens culinaris) are a highly nutritious legume variety known for their pale green to mottled olive hue and a slightly peppery flavor. Unlike other lentils, green lentils hold their shape well after cooking, making them ideal for salads, side dishes, soups, and stews.
+
+    Our green lentils are primarily sourced from Madhya Pradesh, Maharashtra, and selected farms in Canada, which are globally recognized for their lentil production quality. They are rich in protein, dietary fiber, folate, and iron, making them an essential component of plant-based and health-focused diets.
+
+    Carefully cleaned and graded through modern processing units, our green lentils are offered in bulk and consumer-grade packaging with strict adherence to food safety and quality certifications.
+  `,
+  images: [
+    'https://5.imimg.com/data5/VJ/NS/MY-3057386/green-lentils-500x500.jpg',
+    'https://cdn.pixabay.com/photo/2016/06/27/18/29/lentils-1482043_1280.jpg',
+    'https://shorturl.at/oDJ28',
+    'https://shorturl.at/bcGI4'
+  ],
+  varieties: [
+    {
+      name: 'Indian Green Lentils',
+      description: 'Locally grown with earthy taste and slightly smaller grain size; excellent for traditional recipes.',
+      origin: 'Madhya Pradesh & Maharashtra, India'
+    },
+    {
+      name: 'Canadian Green Lentils',
+      description: 'Large, whole lentils with consistent color and size; preferred in high-end retail and export.',
+      origin: 'Saskatchewan, Canada'
+    },
+    {
+      name: 'Organic Green Lentils',
+      description: 'Certified organic lentils grown without synthetic inputs, ideal for health and export markets.',
+      origin: 'Various certified organic farms'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 12%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 0.5%' },
+    { name: 'Broken Grains', value: '≤ 2%' },
+    { name: 'Protein Content', value: '22-25%' },
+    { name: 'Size', value: '3–5 mm' },
+    { name: 'Foreign Matter', value: '≤ 0.2%' }
+  ],
+  packaging: [
+    { type: 'PP Woven Bags', sizes: ['25kg', '50kg'] },
+    { type: 'Paper Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Retail Pouches', sizes: ['500g', '1kg', '2kg'] },
+    { type: 'Custom Packaging', sizes: ['As per client specification'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'USDA Organic (for organic variants)', 'EU Organic'],
+  applications: [
+    'Healthy salads and warm grain bowls',
+    'Soups, stews, and dal recipes',
+    'Canned lentil products',
+    'Ready-to-cook meal kits',
+    'Plant-based protein flours and blends'
+  ]
+    },
+    'white-kidney-beans': {
+  name: 'White Kidney Beans',
+  description: 'Premium-quality white kidney beans known for their creamy texture, mild flavor, and excellent protein content.',
+  category: 'Pulses',
+  longDescription: `
+    White Kidney Beans (Phaseolus vulgaris), also known as cannellini beans, are large, kidney-shaped legumes prized for their smooth, creamy texture and subtle flavor. They are a staple in Mediterranean, American, and Asian cuisines, frequently used in soups, salads, casseroles, and baked dishes.
+
+    Our white kidney beans are sourced from high-altitude farms in Uttarakhand and Himachal Pradesh, as well as from international suppliers in Canada and Argentina known for consistent quality and size. These beans are an excellent source of plant-based protein, fiber, and essential micronutrients such as iron, folate, and magnesium.
+
+    Carefully cleaned, graded, and packed using hygienic processing lines, our white kidney beans meet international quality and food safety standards, making them suitable for retail, wholesale, and export markets.
+  `,
+  images: [
+    'https://5.imimg.com/data5/JF/QA/MY-3057386/white-kidney-beans-500x500.jpg',
+    'https://cdn.pixabay.com/photo/2017/03/06/01/26/white-beans-2129588_1280.jpg',
+    'https://shorturl.at/rwCD3',
+    'https://shorturl.at/dxI69'
+  ],
+  varieties: [
+    {
+      name: 'Indian White Kidney Beans',
+      description: 'Locally grown in cooler climates with a softer texture, ideal for Indian-style curries and dal.',
+      origin: 'Uttarakhand & Himachal Pradesh, India'
+    },
+    {
+      name: 'Canadian Cannellini Beans',
+      description: 'Larger and firmer beans with uniform color and size, highly favored in global foodservice industries.',
+      origin: 'Saskatchewan, Canada'
+    },
+    {
+      name: 'Argentinian White Kidney Beans',
+      description: 'Known for their brilliant white appearance and excellent cooking properties.',
+      origin: 'Tucumán & Salta, Argentina'
+    },
+    {
+      name: 'Organic Certified Beans',
+      description: 'Certified organic, grown without chemical inputs, and compliant with USDA/EU organic standards.',
+      origin: 'Various certified organic farms'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 14%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 1%' },
+    { name: 'Protein Content', value: '21–24%' },
+    { name: 'Broken/Damaged Grains', value: '≤ 2%' },
+    { name: 'Size', value: '8–10 mm (uniform)' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' }
+  ],
+  packaging: [
+    { type: 'PP Woven Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Retail Packs', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Packaging', sizes: ['As per client requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'USDA Organic (for organic variants)', 'EU Organic'],
+  applications: [
+    'Mediterranean and Italian dishes like pasta e fagioli and minestrone',
+    'Protein-rich salads and meal bowls',
+    'Canned bean products',
+    'Veg-based patties and burgers',
+    'Ready-to-cook kits and meal preparations'
+  ]
+    },
+    'dry-peas': {
+  name: 'Dry Peas',
+  description: 'High-quality dry peas, valued for their nutritional richness, long shelf life, and wide culinary versatility in traditional and modern recipes.',
+  category: 'Pulses',
+  longDescription: `
+    Dry peas (Pisum sativum) are mature peas that are harvested when fully ripened and then dried. They come in two main varieties—green and yellow—and are a staple ingredient in soups, purees, dals, and snack foods across the globe.
+
+    Our dry peas are primarily sourced from northern Indian states like Uttar Pradesh, Madhya Pradesh, and Bihar, as well as international suppliers from Canada and Russia, ensuring a consistent and high-quality supply. These legumes are naturally rich in protein, dietary fiber, and essential vitamins such as B1 and folate.
+
+    Available in whole and split forms, our dry peas undergo stringent quality sorting, polishing, and grading processes to maintain color, texture, and uniformity. Their excellent shelf life and high nutritional value make them an ideal ingredient for bulk processors, retailers, and health-conscious consumers alike.
+  `,
+  images: [
+    'https://5.imimg.com/data5/XM/GV/MY-3057386/dry-peas-500x500.jpg',
+    'https://cdn.pixabay.com/photo/2014/12/22/12/36/pea-576138_1280.jpg',
+    'https://shorturl.at/axzX1',
+    'https://shorturl.at/gnzDI'
+  ],
+  varieties: [
+    {
+      name: 'Green Dry Peas (Whole)',
+      description: 'Round, bright green peas with a mildly sweet flavor, ideal for soups and curries.',
+      origin: 'Uttar Pradesh & Madhya Pradesh, India'
+    },
+    {
+      name: 'Yellow Dry Peas (Whole)',
+      description: 'Light yellow in color, known for their earthy taste and high protein content.',
+      origin: 'Bihar, India / Saskatchewan, Canada'
+    },
+    {
+      name: 'Split Green Peas',
+      description: 'Green peas that have been peeled and split, used in soups, dals, and baby food.',
+      origin: 'India / Canada'
+    },
+    {
+      name: 'Split Yellow Peas',
+      description: 'Dehulled and split yellow peas with fast cooking time, great for purees and snacks.',
+      origin: 'India / Russia'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 13%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 0.5%' },
+    { name: 'Protein Content', value: '20-24%' },
+    { name: 'Size', value: '4–6 mm (whole); 2–4 mm (split)' },
+    { name: 'Foreign Matter', value: '≤ 0.2%' },
+    { name: 'Broken/Damaged', value: '≤ 2%' }
+  ],
+  packaging: [
+    { type: 'PP Woven Bags', sizes: ['25kg', '50kg'] },
+    { type: 'Jute Bags', sizes: ['50kg'] },
+    { type: 'Consumer Packs', sizes: ['500g', '1kg', '2kg'] },
+    { type: 'Bulk Containers', sizes: ['1 MT Jumbo Bags'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'NPOP Organic (on request)', 'USDA Organic (on request)'],
+  applications: [
+    'Soups, purees, and dals',
+    'Snack food processing',
+    'Ready-to-cook mixes',
+    'Flour production for gluten-free baking',
+    'Baby food and protein supplements'
+  ]
+    },
+    'chickpeas': {
+  name: 'Chickpeas',
+  description: 'Versatile and nutrient-rich chickpeas with a nutty flavor and firm texture, perfect for a wide range of culinary and industrial uses.',
+  category: 'Pulses',
+  longDescription: `
+    Chickpeas (Cicer arietinum), also known as garbanzo beans, are one of the most consumed legumes globally, valued for their dense nutritional profile, creamy texture, and mild nutty flavor. They are a staple in Middle Eastern, Indian, Mediterranean, and African cuisines.
+
+    We source our chickpeas from the finest agricultural regions in India such as Madhya Pradesh, Rajasthan, and Maharashtra, as well as from global suppliers like Australia and Mexico, depending on the client's size and specification requirements. Our chickpeas are available in both **Desi** (small, darker, and angular) and **Kabuli** (large, round, and pale) varieties.
+
+    Rich in plant-based protein, dietary fiber, and essential minerals like iron, magnesium, and zinc, our chickpeas are ideal for bulk processing, retail, and export. All products are machine-cleaned, size-graded, and polished according to international food safety standards.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2021/6/KE/LE/RR/126492563/white-chickpeas-500x500.jpg',
+    'https://cdn.pixabay.com/photo/2018/03/06/22/41/chickpeas-3201387_1280.jpg',
+    'https://shorturl.at/nEX39',
+    'https://shorturl.at/ayzE6'
+  ],
+  varieties: [
+    {
+      name: 'Kabuli Chickpeas (White)',
+      description: 'Large-sized, pale white beans known for their smooth texture and high export demand.',
+      origin: 'Madhya Pradesh & Maharashtra, India / Australia'
+    },
+    {
+      name: 'Desi Chickpeas (Brown Kala Chana)',
+      description: 'Smaller, darker beans with rough coats, used widely in Indian cooking and sprouting.',
+      origin: 'Rajasthan, Uttar Pradesh, India'
+    },
+    {
+      name: 'Processed Kabuli (Polished)',
+      description: 'Machine-polished Kabuli chickpeas with enhanced appearance, ideal for premium retail packaging.',
+      origin: 'India'
+    },
+    {
+      name: 'Organic Certified Chickpeas',
+      description: 'Cultivated without chemicals and certified under USDA and EU organic standards.',
+      origin: 'Certified organic farms across India'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 12%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 1%' },
+    { name: 'Size', value: '6–12 mm (Kabuli); 4–7 mm (Desi)' },
+    { name: 'Protein Content', value: '20–22%' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' },
+    { name: 'Damaged Kernels', value: '≤ 2%' }
+  ],
+  packaging: [
+    { type: 'PP Woven Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE & Jute Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Retail Packs', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Custom Export Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'USDA Organic (for organic variants)', 'EU Organic'],
+  applications: [
+    'Culinary use in hummus, curries, and salads',
+    'Canned and frozen food manufacturing',
+    'Chickpea flour (besan) production',
+    'Plant-based protein products',
+    'Ready-to-cook and instant meals'
+  ]
+    },
+    'black-eyed-beans': {
+  name: 'Black Eyed Beans',
+  description: 'Nutritious and easy-to-digest legumes with a distinct black eye mark, widely used in Indian, African, and Southern U.S. cuisines.',
+  category: 'Pulses',
+  longDescription: `
+    Black Eyed Beans (Vigna unguiculata), also known as cowpeas or lobia, are small, creamy-white legumes with a distinctive black spot on their hilum (the "eye"). They are a staple across South Asian, African, and Southern American diets due to their quick cooking time, earthy flavor, and excellent digestibility.
+
+    Our black eyed beans are cultivated in key Indian states like Maharashtra, Karnataka, and Andhra Pradesh, as well as imported from quality-assured farms in Nigeria and Myanmar. These beans are high in plant-based protein, iron, folate, and fiber, making them ideal for both vegetarian diets and general health-conscious applications.
+
+    Processed under hygienic conditions and machine-cleaned to ensure uniformity and purity, our black eyed beans meet export-grade standards and are available in bulk or retail packaging formats.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/10/354201835/JT/MT/NJ/166316007/black-eyed-beans-500x500.jpeg',
+    'https://cdn.pixabay.com/photo/2021/01/03/21/07/black-eyed-peas-5885934_1280.jpg',
+    'https://shorturl.at/iIWZ3',
+    'https://shorturl.at/cwLST'
+  ],
+  varieties: [
+    {
+      name: 'Indian Desi Lobia',
+      description: 'Medium-sized beans with a rich, earthy taste, commonly used in Indian home cooking and snacks.',
+      origin: 'Maharashtra, Karnataka, Andhra Pradesh, India'
+    },
+    {
+      name: 'Nigerian Cowpeas',
+      description: 'Larger beans with creamy color and strong aroma, often used in traditional African stews.',
+      origin: 'Kano, Nigeria'
+    },
+    {
+      name: 'Myanmar Black Eyed Beans',
+      description: 'High-quality export-grade beans with uniform appearance and high protein content.',
+      origin: 'Mandalay Region, Myanmar'
+    },
+    {
+      name: 'Organic Black Eyed Beans',
+      description: 'Grown under certified organic farming practices without chemical fertilizers or pesticides.',
+      origin: 'Various certified organic farms'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 12%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 0.5%' },
+    { name: 'Protein Content', value: '22–25%' },
+    { name: 'Size', value: '4–6 mm' },
+    { name: 'Foreign Matter', value: '≤ 0.2%' },
+    { name: 'Damaged/Broken Grains', value: '≤ 2%' }
+  ],
+  packaging: [
+    { type: 'PP Woven Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Retail Packs', sizes: ['500g', '1kg', '2kg'] },
+    { type: 'Vacuum Sealed Bags', sizes: ['1kg', '5kg'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'USDA Organic (for organic variants)', 'EU Organic'],
+  applications: [
+    'Indian curries (lobia masala), salads, and chaats',
+    'African stews, porridge, and side dishes',
+    'Southern-style dishes like Hoppin’ John',
+    'Canned beans and frozen meals',
+    'Protein flour blends and health mixes'
+  ]
+    },
+    'red-kidney-beans': {
+  name: 'Red Kidney Beans',
+  description: 'High-quality red kidney beans known for their deep red color, firm texture, and rich nutritional content—perfect for diverse global cuisines.',
+  category: 'Pulses',
+  longDescription: `
+    Red Kidney Beans (Phaseolus vulgaris) are one of the most widely consumed legumes globally, recognized for their dark red hue, kidney shape, and meaty texture. They are a staple in Indian rajma dishes, Latin American chili recipes, Caribbean stews, and Mediterranean salads.
+
+    Our red kidney beans are sourced from premium farms in India (notably Jammu & Kashmir, Himachal Pradesh, and Uttarakhand), as well as internationally from Mexico and Ethiopia, depending on client requirements. These beans are naturally rich in protein, dietary fiber, folate, potassium, and iron, making them ideal for health-focused consumers and food processors alike.
+
+    Carefully machine-cleaned, size-graded, and polished, our red kidney beans meet international standards for food safety, appearance, and cooking performance. Available in various sizes and types to suit both retail and bulk buyers.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/10/342273166/ZD/AC/YA/31566213/red-kidney-beans-rajma-500x500.jpeg',
+    'https://cdn.pixabay.com/photo/2022/10/07/17/44/kidney-beans-7504823_1280.jpg',
+    'https://shorturl.at/jnC57',
+    'https://shorturl.at/ozELN'
+  ],
+  varieties: [
+    {
+      name: 'Jammu Rajma',
+      description: 'Small, dark red beans known for their quick cooking time and creamy texture when cooked.',
+      origin: 'Jammu & Kashmir, India'
+    },
+    {
+      name: 'Chitra Rajma',
+      description: 'Light red beans with distinctive speckled skin, rich flavor, and firm bite.',
+      origin: 'Uttarakhand & Himachal Pradesh, India'
+    },
+    {
+      name: 'Mexican Red Kidney Beans',
+      description: 'Large, bright red beans with a meaty flavor, popular in chili and Latin dishes.',
+      origin: 'Mexico'
+    },
+    {
+      name: 'Organic Red Kidney Beans',
+      description: 'Grown without chemical fertilizers or pesticides, certified organic by global standards.',
+      origin: 'Certified organic farms in India'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 14%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 1%' },
+    { name: 'Protein Content', value: '22–24%' },
+    { name: 'Size', value: '6–9 mm (variety dependent)' },
+    { name: 'Foreign Matter', value: '≤ 0.2%' },
+    { name: 'Damaged/Broken', value: '≤ 2%' }
+  ],
+  packaging: [
+    { type: 'PP Woven Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE & Jute Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Retail Packaging', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Vacuum or Nitrogen Flushed', sizes: ['1kg', '2kg'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'USDA Organic (for organic variants)', 'EU Organic'],
+  applications: [
+    'Rajma curry and North Indian gravies',
+    'Latin American chili and rice dishes',
+    'Caribbean stews and rice & peas',
+    'Ready-to-eat canned meals',
+    'Plant-based protein mixes and flours'
+  ]
+    },
+    'pigeon-peas': {
+  name: 'Pigeon Peas',
+  description: 'Premium-quality pigeon peas (toor dal) known for their earthy flavor, high protein content, and wide culinary versatility.',
+  category: 'Pulses',
+  longDescription: `
+    Pigeon Peas (Cajanus cajan), locally known as Toor Dal or Arhar Dal in India, are a staple pulse in South Asian, African, and Caribbean cuisines. They are valued for their nutty, earthy flavor, quick cooking properties, and nutritional richness.
+
+    Our pigeon peas are primarily cultivated in India’s leading pulse-producing regions such as Maharashtra, Karnataka, and Madhya Pradesh, with additional sourcing from East Africa (Tanzania and Mozambique) and Myanmar to meet international demand. They are available in whole, split, and polished forms.
+
+    Packed with plant-based protein, dietary fiber, B-complex vitamins, and essential minerals like iron and magnesium, pigeon peas are an essential component of balanced vegetarian diets. Our offerings are thoroughly cleaned, machine-sorted, and processed in certified facilities adhering to global food safety standards.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/1/YC/XA/OG/26185388/arhar-toor-dal-500x500.jpg',
+    'https://cdn.pixabay.com/photo/2021/06/20/17/52/split-pigeon-peas-6351853_1280.jpg',
+    'https://shorturl.at/gvwPY',
+    'https://shorturl.at/hDQTZ'
+  ],
+  varieties: [
+    {
+      name: 'Whole Pigeon Peas',
+      description: 'Unprocessed, mature pigeon peas with husk; ideal for traditional recipes and sprouting.',
+      origin: 'Karnataka & Maharashtra, India'
+    },
+    {
+      name: 'Split Pigeon Peas (Toor Dal)',
+      description: 'Hulled and split yellow dal, widely used in Indian dals, sambhar, and khichdi.',
+      origin: 'Madhya Pradesh & Telangana, India'
+    },
+    {
+      name: 'Polished Toor Dal',
+      description: 'Uniformly polished yellow lentils for enhanced visual appeal in retail packaging.',
+      origin: 'India'
+    },
+    {
+      name: 'Organic Toor Dal',
+      description: 'Cultivated under certified organic practices with no chemical inputs.',
+      origin: 'Certified organic farms in India'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 12%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Admixture', value: '≤ 1%' },
+    { name: 'Protein Content', value: '21–24%' },
+    { name: 'Size', value: '3–6 mm (split); 4–7 mm (whole)' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' },
+    { name: 'Broken or Damaged', value: '≤ 2%' }
+  ],
+  packaging: [
+    { type: 'PP Woven Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Retail Packs', sizes: ['500g', '1kg', '2kg'] },
+    { type: 'Vacuum Sealed / Nitrogen Flushed', sizes: ['1kg', '5kg'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'USDA Organic (for organic variants)', 'EU Organic'],
+  applications: [
+    'Toor dal curry and sambhar in Indian cuisine',
+    'Khichdi, dals, and lentil soups',
+    'African stews and Caribbean rice dishes',
+    'Instant food mixes and ready meals',
+    'Protein flour blends and fortified foods'
+  ]
+    },
+    'lupins': {
+  name: 'Lupins',
+  description: 'Nutrient-dense legumes known for their high protein and fiber content, ideal for gluten-free and plant-based diets.',
+  category: 'Pulses',
+  longDescription: `
+    Lupins (Lupinus spp.) are high-protein legumes commonly cultivated in Mediterranean regions, Australia, and parts of South America. Known for their impressive nutritional profile—rich in protein, dietary fiber, and low in starch—lupins are increasingly used in health foods, meat substitutes, and gluten-free products.
+
+    Our lupins are sourced from premium farms in Australia and the Mediterranean (particularly Spain and Italy), and are available in both sweet (low-alkaloid) and bitter (high-alkaloid, traditionally soaked) varieties. Sweet lupins, especially *Lupinus albus* and *Lupinus angustifolius*, are the preferred varieties for direct human consumption due to their mild flavor and minimal processing needs.
+
+    Processed using stringent food-grade cleaning, dehulling, and sorting systems, our lupins meet the highest standards for nutritional integrity, allergen control, and microbiological safety.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/4/299156005/TD/ZD/JF/133302319/lupin-seeds-500x500.jpg',
+    'https://cdn.pixabay.com/photo/2021/09/25/11/36/lupin-beans-6654767_1280.jpg',
+    'https://shorturl.at/fotxR',
+    'https://shorturl.at/euHPU'
+  ],
+  varieties: [
+    {
+      name: 'Sweet White Lupin (Lupinus albus)',
+      description: 'Mild-flavored, low-alkaloid variety ideal for direct consumption, flours, and plant-based food products.',
+      origin: 'Italy, Spain, Australia'
+    },
+    {
+      name: 'Australian Narrow-Leaf Lupin (Lupinus angustifolius)',
+      description: 'Hardy variety with excellent protein profile and low glycemic index, commonly used in flours and protein concentrates.',
+      origin: 'Western Australia'
+    },
+    {
+      name: 'Bitter Lupins',
+      description: 'Traditional high-alkaloid variety requiring soaking; used in ethnic cuisines and fermentation processes.',
+      origin: 'South America, North Africa'
+    },
+    {
+      name: 'Organic Sweet Lupins',
+      description: 'Certified organic lupins grown without synthetic inputs, ideal for natural food and specialty health brands.',
+      origin: 'Certified organic farms in Europe and Australia'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 12%' },
+    { name: 'Protein Content', value: '36–42%' },
+    { name: 'Fiber Content', value: '20–25%' },
+    { name: 'Alkaloid Content', value: '≤ 0.02% (sweet variety)' },
+    { name: 'Starch Content', value: '≤ 3%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' }
+  ],
+  packaging: [
+    { type: 'PP or Kraft Bags', sizes: ['25kg', '50kg'] },
+    { type: 'Vacuum Sealed', sizes: ['1kg', '5kg'] },
+    { type: 'Bulk Containers', sizes: ['1 MT Jumbo Bags'] },
+    { type: 'Retail Packs', sizes: ['500g', '1kg'] }
+  ],
+  certifications: ['FSSAI', 'ISO 22000', 'HACCP', 'USDA Organic (for organic variants)', 'EU Organic', 'Non-GMO'],
+  applications: [
+    'Lupin flour for baking and gluten-free foods',
+    'Meat substitutes and vegan protein products',
+    'Canned and marinated lupin snacks',
+    'Functional food and dietary fiber supplements',
+    'Traditional pickled dishes in Mediterranean cuisines'
+  ]
+    },
+    'vetches': {
+  name: 'Vetches',
+  description: 'Protein-rich forage and cover crop legumes with growing applications in food, feed, and soil enhancement systems.',
+  category: 'Pulses',
+  longDescription: `
+    Vetches (Vicia spp.) are cool-season leguminous plants valued for their versatility in agricultural, livestock, and environmental applications. Traditionally grown as cover crops and forage, certain vetch varieties are now gaining traction in food and feed sectors due to their high protein and nitrogen-fixing benefits.
+
+    Our vetches are primarily sourced from sustainable farms in India, Australia, Canada, and Eastern Europe. Common commercial species include *Vicia sativa* (Common Vetch), *Vicia villosa* (Hairy Vetch), and *Vicia narbonensis* (Narbon Vetch), each suited to specific climates and uses.
+
+    Vetch seeds are used in green manuring, livestock feed, erosion control, and increasingly in specialty flours and plant-based products. Our offering includes cleaned, graded seeds available for human consumption, animal feed, or agricultural use, depending on the variety and processing method.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2021/10/NF/EL/FL/1477037/vetch-seeds-500x500.jpg',
+    'https://cdn.pixabay.com/photo/2021/11/24/12/55/vetch-6820327_1280.jpg',
+    'https://shorturl.at/fvySX',
+    'https://shorturl.at/lwIY2'
+  ],
+  varieties: [
+    {
+      name: 'Common Vetch (Vicia sativa)',
+      description: 'Widely grown variety used as green manure and forage; seeds also utilized in flour and feed production.',
+      origin: 'India, Australia, Turkey'
+    },
+    {
+      name: 'Hairy Vetch (Vicia villosa)',
+      description: 'Winter-hardy cover crop with dense foliage and excellent nitrogen-fixing capacity.',
+      origin: 'Eastern Europe, Canada'
+    },
+    {
+      name: 'Narbon Vetch (Vicia narbonensis)',
+      description: 'Drought-tolerant species suitable for arid environments; used for forage and soil fertility.',
+      origin: 'Spain, Morocco, Middle East'
+    },
+    {
+      name: 'Organic Vetch',
+      description: 'Certified organic vetch cultivated without synthetic inputs, ideal for organic farms and feed applications.',
+      origin: 'Certified farms in Europe and India'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 13%' },
+    { name: 'Protein Content', value: '24–30%' },
+    { name: 'Crude Fiber', value: '≤ 7%' },
+    { name: 'Purity', value: '≥ 98%' },
+    { name: 'Admixture', value: '≤ 2%' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' },
+    { name: 'Size Range', value: '3–6 mm (variety dependent)' }
+  ],
+  packaging: [
+    { type: 'PP Bags', sizes: ['25kg', '50kg'] },
+    { type: 'Jumbo Bags', sizes: ['1 MT'] },
+    { type: 'Vacuum Packs', sizes: ['1kg', '5kg'] },
+    { type: 'Retail Packs', sizes: ['500g', '1kg'] }
+  ],
+  certifications: ['FSSAI', 'ISO 22000', 'HACCP', 'EU Organic', 'Non-GMO', 'Feed Grade (where applicable)'],
+  applications: [
+    'Soil enrichment via green manuring',
+    'Livestock feed and forage',
+    'Cover cropping and erosion control',
+    'Protein flours and food processing (select varieties)',
+    'Regenerative and organic agriculture inputs'
+  ]
+    },
+    'desi-chickpeas': {
+  name: 'Desi Chickpeas',
+  description: 'Traditional small, dark, and rough-coated chickpeas with rich flavor and high nutritional value, widely used in Indian and Middle Eastern cuisines.',
+  category: 'Pulses',
+  longDescription: `
+    Desi Chickpeas (Cicer arietinum desi) are a distinctive variety of chickpeas characterized by their smaller size, darker color, and rough textured coat compared to the Kabuli type. They are predominantly cultivated in India, Pakistan, Ethiopia, and Mexico.
+
+    Known for their robust flavor and excellent cooking qualities, Desi Chickpeas are a staple ingredient in many traditional dishes such as chana masala, stews, and salads. These pulses are rich in protein, dietary fiber, iron, and essential vitamins, making them a healthy addition to vegetarian and vegan diets.
+
+    Our Desi Chickpeas are sourced from top pulse-producing regions like Madhya Pradesh, Maharashtra, and Rajasthan. They undergo thorough cleaning, sorting, and grading to ensure consistent quality, uniform size, and free from impurities.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2020/11/FC/DT/PK/6937279/desi-chickpeas-500x500.jpg',
+    'https://cdn.pixabay.com/photo/2019/06/22/20/18/chickpeas-4293278_1280.jpg',
+    'https://shorturl.at/fxAK4',
+    'https://shorturl.at/egDJ8'
+  ],
+  varieties: [
+    {
+      name: 'Desi Kabuli Hybrid',
+      description: 'Improved hybrid variety with higher yield and uniform grain size, suitable for multiple culinary uses.',
+      origin: 'Madhya Pradesh, India'
+    },
+    {
+      name: 'Traditional Desi',
+      description: 'Classic local variety with authentic taste and texture, preferred for traditional recipes.',
+      origin: 'Rajasthan, India'
+    },
+    {
+      name: 'Organic Desi Chickpeas',
+      description: 'Cultivated organically without synthetic pesticides or fertilizers, certified organic by international standards.',
+      origin: 'Certified organic farms in India'
+    },
+    {
+      name: 'Colored Desi Chickpeas',
+      description: 'Desi chickpeas with natural color variations such as brown, black, and mottled, used for specialty culinary applications.',
+      origin: 'Various regions in India'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 12%' },
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Protein Content', value: '18–22%' },
+    { name: 'Admixture', value: '≤ 1%' },
+    { name: 'Foreign Matter', value: '≤ 0.5%' },
+    { name: 'Size', value: '5–7 mm' },
+    { name: 'Broken or Damaged', value: '≤ 2%' }
+  ],
+  packaging: [
+    { type: 'PP Woven Bags', sizes: ['25kg', '50kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Vacuum Packed', sizes: ['1kg', '5kg', '10kg'] },
+    { type: 'Retail Packs', sizes: ['500g', '1kg', '2kg'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 22000', 'HACCP', 'Organic (for organic variants)'],
+  applications: [
+    'Traditional Indian curries and dals',
+    'Roasted and snack products',
+    'Flours for baking and gluten-free products',
+    'Salads and soups',
+    'Plant-based protein and nutrition supplements'
+  ]
+    }
+  },
+  'tea': {
+    'black-tea': {
+  name: 'Black Tea',
+  description: 'Our premium black tea is handpicked from high-altitude estates in Assam and Darjeeling, known for their rich aroma, bold flavor, and antioxidant properties.',
+  category: 'Tea',
+  longDescription: `
+    Black tea is a fully oxidized tea variety made from the leaves of the *Camellia sinensis* plant. It is the most widely consumed type of tea globally and is renowned for its strong flavor, dark color, and higher caffeine content compared to other teas.
+
+    Our black tea is sourced from prestigious estates in India, including Assam and Darjeeling, where the unique climate and soil conditions create a naturally rich and aromatic profile. Harvested at optimal maturity, the tea leaves are processed using traditional withering, rolling, oxidation, and drying techniques to ensure full-bodied flavor and freshness.
+
+    Available in whole leaf, broken leaf, and CTC (crush-tear-curl) formats, our black tea is carefully graded and sorted to suit various customer preferences, from gourmet blends to industrial bulk supply.
+  `,
+  images: [
+    'https://upload.wikimedia.org/wikipedia/commons/3/3b/Black_tea_leaves.jpg',
+    'https://5.imimg.com/data5/SELLER/Default/2022/10/FE/YU/XO/135004824/black-tea.jpg',
+    'https://shorturl.at/mwAEP',
+    'https://shorturl.at/qsDS0'
+  ],
+  varieties: [
+    {
+      name: 'Assam Orthodox',
+      description: 'Bold, malty flavor with a dark infusion and high strength, ideal for milk-based teas.',
+      origin: 'Assam, India'
+    },
+    {
+      name: 'Darjeeling First Flush',
+      description: 'Delicate floral aroma with a light golden liquor, known as the "Champagne of Teas."',
+      origin: 'Darjeeling, West Bengal, India'
+    },
+    {
+      name: 'CTC Assam',
+      description: 'Granular black tea with strong briskness and astringency, widely used in chai blends.',
+      origin: 'Assam, India'
+    },
+    {
+      name: 'Nilgiri Black',
+      description: 'Smooth and fragrant tea with a fruity note and medium body, great for iced tea.',
+      origin: 'Nilgiri Hills, Tamil Nadu, India'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 6%' },
+    { name: 'Total Ash', value: '≤ 8%' },
+    { name: 'Caffeine Content', value: '2.5-4.5%' },
+    { name: 'Theaflavins', value: '0.5-1.5%' },
+    { name: 'Bulk Density', value: '300-500 g/L' },
+    { name: 'Particle Size', value: 'Varies by grade (Whole, Broken, Fannings, Dust)' },
+    { name: 'Foreign Matter', value: '≤ 1%' }
+  ],
+  packaging: [
+    { type: 'Paper Sacks', sizes: ['25kg', '50kg'] },
+    { type: 'PP Bags with Inner Liner', sizes: ['25kg'] },
+    { type: 'Tin Cans', sizes: ['250g', '500g', '1kg'] },
+    { type: 'Custom Branded Packaging', sizes: ['As per client request'] }
+  ],
+  certifications: ['FSSAI', 'Tea Board of India', 'ISO 22000', 'HACCP', 'Rainforest Alliance (on request)'],
+  applications: [
+    'Daily beverage consumption',
+    'Masala chai and flavored blends',
+    'Ready-to-drink bottled tea',
+    'Tea bags and loose-leaf retail',
+    'Functional wellness infusions'
+  ]
+    },
+    'whole-leaf': {
+  name: 'Whole Leaf ',
+  description: 'Premium grade black tea made from unbroken, full-size leaves that offer superior aroma, flavor complexity, and a smooth finish.',
+  category: 'Tea',
+  longDescription: `
+    Whole Leaf Black Tea refers to unbroken, carefully rolled leaves of the *Camellia sinensis* plant, processed through full oxidation to achieve a deep flavor and rich character. Unlike CTC or broken tea, whole leaf preserves the integrity of the leaf, allowing for a more refined and layered tea experience.
+
+    Our whole leaf black tea is sourced from certified organic and conventional tea estates in Assam, Darjeeling, and Nilgiris. These high-altitude gardens cultivate leaves under optimal conditions, producing tea that is naturally rich in antioxidants like theaflavins and thearubigins.
+
+    The whole leaf format is favored by connoisseurs and specialty tea brands for its visual appeal, infusion clarity, and complex taste profile. Each batch is hand-sorted and graded for uniformity and purity, ensuring premium quality with every brew.
+  `,
+  images: [
+    'https://upload.wikimedia.org/wikipedia/commons/2/26/Loose_black_tea_leaves.jpg',
+    'https://5.imimg.com/data5/ANDROID/Default/2023/2/FN/WL/RZ/154042866/product-jpeg-500x500.jpg',
+    'https://shorturl.at/aekGH',
+    'https://shorturl.at/dmwO6'
+  ],
+  varieties: [
+    {
+      name: 'Assam Whole Leaf',
+      description: 'Bold and malty with a coppery liquor, ideal for strong breakfast-style tea.',
+      origin: 'Assam, India'
+    },
+    {
+      name: 'Darjeeling Whole Leaf (Second Flush)',
+      description: 'Muscatel aroma with amber color and a sweet, fruity finish.',
+      origin: 'Darjeeling, West Bengal, India'
+    },
+    {
+      name: 'Nilgiri Highland Leaf',
+      description: 'Bright and brisk with floral undertones, great for iced tea and blends.',
+      origin: 'Nilgiri Hills, Tamil Nadu, India'
+    },
+    {
+      name: 'Organic Whole Leaf',
+      description: 'Grown without synthetic chemicals, certified organic, with a smooth earthy flavor.',
+      origin: 'Various organic estates in India'
+    }
+  ],
+  specifications: [
+    { name: 'Leaf Size', value: 'Whole, unbroken leaves' },
+    { name: 'Moisture Content', value: '≤ 6%' },
+    { name: 'Caffeine Content', value: '3.0-4.5%' },
+    { name: 'Theaflavins', value: '0.6-1.5%' },
+    { name: 'Thearubigins', value: '3.0-6.0%' },
+    { name: 'Foreign Matter', value: '≤ 1%' },
+    { name: 'Shelf Life', value: '24 months (in dry, cool conditions)' }
+  ],
+  packaging: [
+    { type: 'Kraft Paper Bags', sizes: ['250g', '500g', '1kg'] },
+    { type: 'Aluminum Foil Pouches', sizes: ['100g', '500g'] },
+    { type: 'Bulk Sacks (with inner liner)', sizes: ['10kg', '25kg'] },
+    { type: 'Custom Label Tins', sizes: ['As per requirement'] }
+  ],
+  certifications: ['FSSAI', 'Tea Board of India', 'ISO 22000', 'Organic (for organic varieties)', 'Fair Trade (on request)'],
+  applications: [
+    'Loose-leaf luxury blends',
+    'Specialty café and tea house service',
+    'High-end retail packaging',
+    'Gifting and private label brands',
+    'Multiple-infusion teapots and tea ceremonies'
+  ]
+    },
+    'broken-leaf': {
+  name: 'Broken Leaf',
+  description: 'A popular black tea grade made from partially broken tea leaves, offering a stronger infusion and quicker brew with rich flavor and color.',
+  category: 'Tea',
+  longDescription: `
+    Broken Leaf Black Tea refers to tea leaves that have been intentionally broken during processing to enhance the strength, color, and infusion speed. It strikes a balance between whole leaf complexity and CTC briskness, making it ideal for everyday tea drinkers and commercial blending.
+
+    Our broken leaf tea is carefully sourced from high-quality gardens in Assam, Darjeeling, and Nilgiri. These estates follow traditional plucking and orthodox processing methods, where the leaves are withered, rolled, oxidized, and broken to the desired grade.
+
+    This format is widely used in domestic and international tea markets for its cost-effectiveness and ability to deliver a flavorful cup quickly, whether served plain or with milk.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2021/6/TI/JF/CT/72333650/black-tea-broken.jpg',
+    'https://shorturl.at/aelEO',
+    'https://shorturl.at/ptBJS',
+    'https://shorturl.at/fqBTV'
+  ],
+  varieties: [
+    {
+      name: 'Assam BOP (Broken Orange Pekoe)',
+      description: 'Robust flavor, bright red liquor, and suitable for strong milk tea.',
+      origin: 'Assam, India'
+    },
+    {
+      name: 'Darjeeling Broken Leaf',
+      description: 'Lighter body with floral-fruity notes and amber liquor.',
+      origin: 'Darjeeling, West Bengal, India'
+    },
+    {
+      name: 'Nilgiri Broken Leaf',
+      description: 'Brisk and aromatic with a smooth finish, perfect for iced tea and blends.',
+      origin: 'Nilgiri Hills, Tamil Nadu, India'
+    },
+    {
+      name: 'Organic Broken Leaf',
+      description: 'Grown without synthetic chemicals, certified organic, medium-bodied infusion.',
+      origin: 'Certified organic estates across India'
+    }
+  ],
+  specifications: [
+    { name: 'Leaf Size', value: 'Partially broken leaves (2–5 mm)' },
+    { name: 'Moisture Content', value: '≤ 6%' },
+    { name: 'Caffeine Content', value: '2.8–4.2%' },
+    { name: 'Theaflavins', value: '0.5–1.2%' },
+    { name: 'Thearubigins', value: '2.5–5.5%' },
+    { name: 'Foreign Matter', value: '≤ 1%' },
+    { name: 'Shelf Life', value: '24 months in cool, dry storage' }
+  ],
+  packaging: [
+    { type: 'Laminated PP Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Paper Sacks with Inner Liner', sizes: ['25kg'] },
+    { type: 'Stand-Up Pouches', sizes: ['100g', '500g', '1kg'] },
+    { type: 'Customized Retail Packs', sizes: ['As per client requirement'] }
+  ],
+  certifications: ['FSSAI', 'Tea Board of India', 'ISO 22000', 'Organic (on request)', 'HACCP'],
+  applications: [
+    'Daily household tea consumption',
+    'Milk tea and chai preparation',
+    'Tea bags and blended formulations',
+    'Foodservice and bulk brewing',
+    'Base for flavored or spiced teas'
+  ]
+    },
+    'green-tea': {
+  name: 'Green Tea',
+  description: 'Our premium green tea is minimally processed to preserve its natural antioxidants, offering a light, refreshing taste and a range of wellness benefits.',
+  category: 'Tea',
+  longDescription: `
+    Green Tea is made from the unoxidized leaves of the *Camellia sinensis* plant and is known for its delicate flavor, pale color, and high levels of catechins, a type of antioxidant. It undergoes minimal processing, typically involving steaming or pan-firing, to retain its green color and nutritional profile.
+
+    Our green tea is sourced from the finest tea-growing regions of India, including Darjeeling, Assam, and the Nilgiri Hills. The leaves are handpicked and carefully processed to ensure maximum freshness and efficacy.
+
+    Revered both as a beverage and a health tonic, green tea is widely consumed for its potential to aid metabolism, support immunity, and provide a calming yet alert state of mind. We offer a range of green tea variants tailored for both everyday drinking and premium specialty markets.
+  `,
+  images: [
+    'https://upload.wikimedia.org/wikipedia/commons/3/3c/Green_tea_leaf_001.jpg',
+    'https://5.imimg.com/data5/SELLER/Default/2022/5/OB/VC/DI/1402837/green-tea-leaves.jpg',
+    'https://shorturl.at/cvJ36',
+    'https://shorturl.at/boCK6'
+  ],
+  varieties: [
+    {
+      name: 'Darjeeling Green Tea',
+      description: 'Delicate and floral with a light body and subtle sweetness.',
+      origin: 'Darjeeling, West Bengal, India'
+    },
+    {
+      name: 'Assam Green Tea',
+      description: 'Brisk and bold with a grassy aroma and strong vegetal notes.',
+      origin: 'Assam, India'
+    },
+    {
+      name: 'Nilgiri Green Tea',
+      description: 'Smooth and mildly fruity with excellent clarity in infusion.',
+      origin: 'Nilgiri Hills, Tamil Nadu, India'
+    },
+    {
+      name: 'Organic Green Tea',
+      description: 'Certified organic, cultivated without synthetic pesticides, with a clean and earthy profile.',
+      origin: 'Certified organic gardens across India'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 6%' },
+    { name: 'Catechin Content', value: '10–20%' },
+    { name: 'Caffeine Content', value: '1.5–3.5%' },
+    { name: 'Polyphenols', value: '20–30%' },
+    { name: 'Foreign Matter', value: '≤ 1%' },
+    { name: 'Shelf Life', value: '18–24 months in airtight conditions' }
+  ],
+  packaging: [
+    { type: 'Foil-Lined Pouches', sizes: ['100g', '250g', '1kg'] },
+    { type: 'Pyramid Tea Bags', sizes: ['15s', '25s', '100s'] },
+    { type: 'Bulk Paper Sacks', sizes: ['10kg', '25kg'] },
+    { type: 'Custom Retail Tins', sizes: ['As per client requirement'] }
+  ],
+  certifications: ['FSSAI', 'Tea Board of India', 'ISO 22000', 'Organic (for certified lots)', 'HACCP'],
+  applications: [
+    'Health and wellness beverages',
+    'Detox and slimming blends',
+    'Ready-to-drink green tea products',
+    'Flavored and infused green teas',
+    'Premium retail and gift packaging'
+  ]
+    },
+    'fannings': {
+  name: 'Fannings',
+  description: 'A fine-grade black tea made from small particles left after the processing of whole and broken leaves, perfect for quick infusion and strong brew.',
+  category: 'Tea',
+  longDescription: `
+    Fannings Black Tea is a finely sorted grade of tea consisting of smaller broken particles of the *Camellia sinensis* leaf. Though often a byproduct of higher leaf grades, fannings are purposefully used in tea bags for their ability to infuse quickly and produce a strong, bold cup.
+
+    Our fannings are sourced from premium orthodox and CTC tea estates across Assam, Darjeeling, and Nilgiris. The tea particles are carefully sieved, graded, and cleaned to ensure consistent size and flavor quality.
+
+    Ideal for mass-market and quick-consumption formats, fannings provide an economical yet flavorful solution for commercial brands and institutional use. Their briskness and strength make them especially suitable for milk tea and vending applications.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2020/12/OZ/GD/AL/2524672/tea-fannings.jpg',
+    'https://shorturl.at/nqFL8',
+    'https://shorturl.at/fAQU2',
+    'https://shorturl.at/dHKS3'
+  ],
+  varieties: [
+    {
+      name: 'Assam Fannings',
+      description: 'Strong and malty with deep reddish-brown liquor; perfect for masala chai.',
+      origin: 'Assam, India'
+    },
+    {
+      name: 'Darjeeling Fannings',
+      description: 'Lighter-bodied with fruity undertones; ideal for quick gourmet tea bags.',
+      origin: 'Darjeeling, West Bengal, India'
+    },
+    {
+      name: 'Nilgiri Fannings',
+      description: 'Clean, brisk character with subtle floral notes; great for iced teas.',
+      origin: 'Nilgiri Hills, Tamil Nadu, India'
+    },
+    {
+      name: 'Organic Fannings',
+      description: 'Processed from organically cultivated leaves without synthetic inputs.',
+      origin: 'Certified organic tea estates in India'
+    }
+  ],
+  specifications: [
+    { name: 'Leaf Size', value: '0.5–1.5 mm (approx.)' },
+    { name: 'Moisture Content', value: '≤ 6%' },
+    { name: 'Caffeine Content', value: '3.0–4.5%' },
+    { name: 'Liquor Color', value: 'Coppery to deep red (variety dependent)' },
+    { name: 'Theaflavins', value: '0.6–1.2%' },
+    { name: 'Foreign Matter', value: '≤ 1%' },
+    { name: 'Shelf Life', value: '24 months in dry, airtight conditions' }
+  ],
+  packaging: [
+    { type: 'Paper Sacks with Inner Poly Liner', sizes: ['25kg'] },
+    { type: 'PP Woven Bags', sizes: ['10kg', '20kg'] },
+    { type: 'Heat-Sealed Pouches', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'Private Label Tea Bags', sizes: ['Customized sachets, boxes, pouches'] }
+  ],
+  certifications: ['FSSAI', 'Tea Board of India', 'ISO 22000', 'Organic (for certified batches)', 'HACCP'],
+  applications: [
+    'Commercial tea bags and sachets',
+    'Chai vending machines',
+    'Institutional and hospitality services',
+    'Flavored blends and premix teas',
+    'Export packaging for private-label brands'
+  ]
+    },
+    'tea-dust': {
+  name: 'Tea Dust',
+  description: 'Finest particle grade of black tea used for strong, quick infusions, typically in tea bags and vending machines.',
+  category: 'Tea',
+  longDescription: `
+    Tea Dust is the smallest grade of tea obtained during the production of black tea, consisting of fine tea particles that infuse rapidly and yield a very strong, dark liquor. Though often considered a low-grade byproduct, high-quality dust tea is purposefully manufactured in CTC and orthodox processing to serve bulk and commercial markets.
+
+    Our Tea Dust is sourced from reputable estates in Assam, West Bengal, and South India, where it is screened, filtered, and packed under hygienic conditions. It’s favored for large-scale tea bag production, vending machines, and use in low-cost tea blends where strength and color are prioritized.
+
+    Despite its fine texture, Tea Dust offers exceptional value and performance in applications demanding bold flavor, rapid steeping, and cost-effectiveness.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/8/334385982/FE/HK/KE/41849863/assam-tea-dust.jpg',
+    'https://shorturl.at/lzMP2',
+    'https://shorturl.at/hxAX4',
+    'https://shorturl.at/aEQX4'
+  ],
+  varieties: [
+    {
+      name: 'Assam Dust',
+      description: 'Strong, malty, and brisk with deep reddish liquor; best for milk-based vending chai.',
+      origin: 'Assam, India'
+    },
+    {
+      name: 'CTC Dust',
+      description: 'Uniform particle size, high infusion strength, widely used in premixes and hotel chains.',
+      origin: 'Various CTC factories across India'
+    },
+    {
+      name: 'South Indian Dust',
+      description: 'Bright and aromatic, ideal for budget-conscious bulk blends.',
+      origin: 'Kerala, Karnataka, and Tamil Nadu'
+    },
+    {
+      name: 'Organic Dust',
+      description: 'Made from organically grown tea leaves and processed without chemical residues.',
+      origin: 'Certified organic estates'
+    }
+  ],
+  specifications: [
+    { name: 'Particle Size', value: '≤ 0.5 mm' },
+    { name: 'Moisture Content', value: '≤ 6%' },
+    { name: 'Caffeine Content', value: '3.0–4.5%' },
+    { name: 'Theaflavins', value: '0.8–1.5%' },
+    { name: 'Thearubigins', value: '4.0–7.0%' },
+    { name: 'Liquor Strength', value: 'Very Strong' },
+    { name: 'Shelf Life', value: '24 months in sealed, dry storage' }
+  ],
+  packaging: [
+    { type: 'Multi-wall Kraft Paper Bags', sizes: ['25kg'] },
+    { type: 'Laminated Pouches', sizes: ['1kg', '5kg', '10kg'] },
+    { type: 'Tea Bag Sachets', sizes: ['Customized for OEM brands'] },
+    { type: 'Private Label Packs', sizes: ['As per buyer specification'] }
+  ],
+  certifications: ['FSSAI', 'Tea Board of India', 'ISO 22000', 'HACCP', 'Organic (if applicable)'],
+  applications: [
+    'Single-serve tea bags',
+    'Tea vending machines',
+    'Instant chai and premix blends',
+    'Hotel, airline, and railway catering',
+    'Budget-friendly retail tea offerings'
+  ]
+},
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+},
+  'others': {
+
+  }  
+
 };
 
 const ProductDetailPage: React.FC = () => {

@@ -153,47 +153,220 @@ const categories: Record<string, Category> = {
         name: 'Yellow Corn',
         description: 'Versatile grain used for food, feed, and industrial purposes, prized for its sweetness and nutritional value.',
         image: 'https://images.pexels.com/photos/33073/corn-maize-plant-yellow.jpg?auto=compress&cs=tinysrgb&w=800'
-}
+      }
 
     ]
   },
-  'seeds': {
-    id: 'seeds',
-    name: 'Seeds',
-    description: 'Our carefully selected seeds offer exceptional quality for food products, oil extraction, and agricultural purposes.',
-    image: 'https://images.pexels.com/photos/144248/healthy-breakfast-organic-seeds-144248.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    subcategories: [
-      {
-        id: 'sesame',
-        name: 'Sesame Seeds',
-        description: 'Natural, hulled, and toasted sesame seeds with rich, nutty flavor for various culinary uses.',
-        image: 'https://images.pexels.com/photos/144248/healthy-breakfast-organic-seeds-144248.jpeg?auto=compress&cs=tinysrgb&w=800'
-      },
-      {
-        id: 'flax',
-        name: 'Flax Seeds',
-        description: 'Nutrient-dense flax seeds with high omega-3 content, available in brown and golden varieties.',
-        image: 'https://images.pexels.com/photos/7469189/pexels-photo-7469189.jpeg?auto=compress&cs=tinysrgb&w=800'
-      },
-      {
-        id: 'mustard',
-        name: 'Mustard Seeds',
-        description: 'Yellow, brown, and black mustard seeds used in pickling, spice blends, and condiments.',
-        image: 'https://images.pexels.com/photos/6157050/pexels-photo-6157050.jpeg?auto=compress&cs=tinysrgb&w=800'
-      },
-      {
-        id: 'pumpkin',
-        name: 'Pumpkin Seeds',
-        description: 'Nutritious, versatile seeds used in snacks, baking, and cooking.',
-        image: 'https://images.pexels.com/photos/5765830/pexels-photo-5765830.jpeg?auto=compress&cs=tinysrgb&w=800'
-      },
-      {
-        id: 'sunflower',
-        name: 'Sunflower Seeds',
-        description: 'Oil-rich seeds used for direct consumption, oil extraction, and as ingredients.',
-        image: 'https://images.pexels.com/photos/433491/pexels-photo-433491.jpeg?auto=compress&cs=tinysrgb&w=800'
-      }
-    ]
+  'pulses': {
+  id: 'pulses',
+  name: 'Pulses',
+  description: 'A rich collection of protein-packed pulses including lentils, chickpeas, beans, and peas—sourced from trusted farms to ensure top-tier quality and nutrition.',
+  image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  subcategories: [
+    {
+      id: 'light-speckled-kidney-bean',
+      name: 'Light Speckled Kidney Bean',
+      description: 'Distinctive beans known for their speckled appearance and use in hearty dishes.',
+      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'green-lentils',
+      name: 'Green Lentils',
+      description: 'Firm-textured lentils that hold their shape well, perfect for salads and stews.',
+      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'white-kidney-beans',
+      name: 'White Kidney Beans',
+      description: 'Creamy-textured beans ideal for soups, stews, and Mediterranean dishes.',
+      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'dry-peas',
+      name: 'Dry Peas',
+      description: 'Split or whole peas used in traditional soups and high-fiber recipes.',
+      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'chickpeas',
+      name: 'Chickpeas',
+      description: 'Versatile legumes used in hummus, curries, and snacks with great nutritional value.',
+      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'black-eyed-bean',
+      name: 'Black Eyed Bean',
+      description: 'Easily recognizable beans with a black spot, known for their earthy flavor.',
+      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'red-kidney-beans',
+      name: 'Red Kidney Beans',
+      description: 'Classic rajma beans with bold flavor and firm texture, ideal for Indian and Latin cuisine.',
+      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'pigeon-peas',
+      name: 'Pigeon Peas',
+      description: 'A staple in tropical diets, used in dals and rice dishes for their nutty taste.',
+      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'lupins',
+      name: 'Lupins',
+      description: 'Nutrient-rich legumes often used in Mediterranean cuisines and as flour substitutes.',
+      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'vetches',
+      name: 'Vetches',
+      description: 'Small legumes traditionally used in feed and gaining popularity for human consumption.',
+      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'desi-chickpeas',
+      name: 'Desi Chickpeas',
+      description: 'Smaller, darker, and richer in fiber compared to Kabuli chickpeas—widely used in Indian cuisine.',
+      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+    }
+  ]
+  },
+  'tea': {
+  id: 'tea',
+  name: 'Tea',
+  description: 'A curated selection of high-quality teas including black, green, whole leaf, and more—carefully sourced to deliver freshness, flavor, and aroma in every cup.',
+  image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  subcategories: [
+    {
+      id: 'black-tea',
+      name: 'Black Tea',
+      description: 'Robust and fully oxidized tea known for its bold flavor and deep color.',
+      image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'whole-leaf',
+      name: 'Whole Leaf',
+      description: 'Premium grade tea with intact leaves offering richer taste and aroma.',
+      image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'broken-leaf',
+      name: 'Broken Leaf',
+      description: 'Partially broken leaves that infuse quickly while retaining full flavor.',
+      image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'green-tea',
+      name: 'Green Tea',
+      description: 'Lightly processed tea celebrated for its delicate flavor and health benefits.',
+      image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'fannings',
+      name: 'Fannings',
+      description: 'Small tea particles often used in tea bags for quick infusion and strong brew.',
+      image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'tea-dust',
+      name: 'Tea Dust',
+      description: 'Finely ground tea particles providing an intense flavor, commonly used in commercial blends.',
+      image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800'
+    }
+  ]
+  },
+  'others': {
+  id: 'others',
+  name: 'Others',
+  description: 'A diverse category of essential oils, seeds, nuts, sweeteners, and specialty items, handpicked for quality and versatility across culinary and nutritional applications.',
+  image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  subcategories: [
+    {
+      id: 'sunflower-oil',
+      name: 'Sunflower Oil',
+      description: 'Light and healthy cooking oil extracted from sunflower seeds, known for its high smoke point.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'palm-oil',
+      name: 'Palm Oil',
+      description: 'Versatile and widely used oil with a reddish tint, suitable for both cooking and industrial use.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'olive-oil',
+      name: 'Olive Oil',
+      description: 'Heart-healthy oil prized for its flavor and antioxidant content, commonly used in Mediterranean diets.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'sesame-oil',
+      name: 'Sesame Oil',
+      description: 'Aromatic oil with a nutty flavor, popular in Asian cuisines and rich in healthy fats.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'soyabean-meal',
+      name: 'Soyabean Meal',
+      description: 'High-protein feed ingredient used in livestock and poultry nutrition.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'raw-sugar',
+      name: 'Raw Sugar',
+      description: 'Partially refined sugar with a golden hue and subtle molasses flavor.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'crystal-white',
+      name: 'Crystal White',
+      description: 'Highly refined white sugar crystals, perfect for baking and beverages.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'chia-seeds',
+      name: 'Chia Seeds',
+      description: 'Tiny superfood seeds packed with omega-3, fiber, and essential nutrients.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'sunflower-seeds',
+      name: 'Sunflower Seeds',
+      description: 'Crunchy, nutritious seeds great for snacking or adding to salads and baking.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'cashew-nuts',
+      name: 'Cashew Nuts',
+      description: 'Creamy, crescent-shaped nuts used in cooking, snacks, and desserts.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'pistachio',
+      name: 'Pistachio',
+      description: 'Flavorful green nuts loved for their rich taste and healthy fats.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'saffron',
+      name: 'Saffron',
+      description: 'A premium spice known for its vivid color and fragrance, used in fine dishes worldwide.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'dried-onion',
+      name: 'Dried Onion',
+      description: 'Dehydrated onion flakes perfect for seasoning, soups, and instant recipes.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      id: 'sea-foods',
+      name: 'Sea Foods',
+      description: 'Shelf-stable seafood options packed with flavor and nutrition.',
+      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800',
+    
+    }
+  ]
   }
 };
 
