@@ -2452,22 +2452,1011 @@ const productData = {
     'Budget-friendly retail tea offerings'
   ]
 },
-
-
-
-
-
-
-
- 
-
-
-
-
-
 },
   'others': {
+    'sunflower-oil': {
+  name: 'Sunflower Oil',
+  description: 'Our high-quality sunflower oil is extracted from premium sunflower seeds, offering a light texture, neutral flavor, and excellent frying performance.',
+  category: 'Edible Oils',
+  longDescription: `
+    Sunflower oil is a non-volatile oil pressed from the seeds of the sunflower (Helianthus annuus). Rich in Vitamin E and low in saturated fats, it is one of the most popular cooking oils around the world due to its health benefits and stability at high temperatures.
 
+    We source our sunflower seeds from top sunflower-producing regions including Maharashtra, Karnataka, and Andhra Pradesh. The oil is produced using cold-press or refined extraction processes, depending on customer preference, while maintaining strict quality standards.
+
+    Our sunflower oil is available in various forms, including refined, cold-pressed, and organic variants, making it suitable for diverse culinary and industrial applications.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2022/6/LK/KE/XD/11193467/refined-sunflower-oil.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://cdn.pixabay.com/photo/2017/05/17/10/01/sunflower-oil-2314522_1280.jpg',
+    'https://shorturl.at/hAFRY?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/aJTZ3?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Refined Sunflower Oil',
+      description: 'Clear, light-yellow oil with neutral flavor, suitable for high-heat cooking and frying.',
+      origin: 'Maharashtra, India'
+    },
+    {
+      name: 'Cold-Pressed Sunflower Oil',
+      description: 'Unrefined, retains more nutrients and has a light nutty flavor. Ideal for salads and low-heat cooking.',
+      origin: 'Karnataka, India'
+    },
+    {
+      name: 'Organic Sunflower Oil',
+      description: 'Grown and processed without synthetic inputs, certified organic, and suitable for health-conscious consumers.',
+      origin: 'Andhra Pradesh, India'
+    }
+  ],
+  specifications: [
+    { name: 'Color (Lovibond)', value: '≤ 15 Yellow, ≤ 1.5 Red' },
+    { name: 'Moisture & Volatile Matter', value: '≤ 0.1%' },
+    { name: 'Free Fatty Acid (as Oleic Acid)', value: '≤ 0.25%' },
+    { name: 'Iodine Value', value: '118 – 141' },
+    { name: 'Saponification Value', value: '188 – 194' },
+    { name: 'Peroxide Value', value: '≤ 5 meq/kg' },
+    { name: 'Shelf Life', value: '12 months from manufacture' }
+  ],
+  packaging: [
+    { type: 'PET Bottles', sizes: ['500ml', '1L', '2L'] },
+    { type: 'HDPE Jerry Cans', sizes: ['5L', '10L', '15L'] },
+    { type: 'Tin Containers', sizes: ['15kg', '18kg'] },
+    { type: 'Flexi Bags / Tankers', sizes: ['Bulk packaging'] }
+  ],
+  certifications: ['FSSAI', 'ISO 22000', 'HACCP', 'Non-GMO', 'Organic (for organic variants)'],
+  applications: [
+    'Daily cooking and frying oil',
+    'Salad dressings and marinades',
+    'Food processing and bakery industry',
+    'Cosmetics and skincare formulations',
+    'Nutritional supplements and infant food'
+  ]
+    },
+    'palm-oil': {
+  name: 'Palm Oil',
+  description: 'Our premium palm oil is responsibly sourced and processed to deliver rich texture, high oxidative stability, and versatile applications across food and non-food industries.',
+  category: 'Edible Oils',
+  longDescription: `
+    Palm oil is an edible vegetable oil derived from the mesocarp (reddish pulp) of the fruit of the oil palms, primarily the *Elaeis guineensis*. Known for its semi-solid consistency at room temperature, it is widely used in cooking, baking, processed foods, and industrial applications.
+
+    We source crude and refined palm oil through sustainable and ethical supply chains from certified plantations, primarily in Malaysia and Indonesia, while also refining and fractionating in India under strict quality and hygiene protocols.
+
+    Available in different grades and fractions—Crude Palm Oil (CPO), Refined Bleached Deodorized Palm Oil (RBDPO), Palm Olein, and Palm Stearin—our palm oil products meet global standards for food safety and industrial use.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/8/335004746/TK/JF/KF/16310352/palm-oil-500x500.jpg',
+    'https://cdn.pixabay.com/photo/2017/01/31/18/20/oil-2027764_1280.jpg',
+    'https://shorturl.at/wFJS1?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/puMVY?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Crude Palm Oil (CPO)',
+      description: 'Unrefined oil with a deep reddish-orange color, rich in carotenoids and used primarily for further processing.',
+      origin: 'Malaysia & Indonesia'
+    },
+    {
+      name: 'Refined Bleached Deodorized Palm Oil (RBDPO)',
+      description: 'Golden-yellow refined oil suitable for food-grade applications, with a neutral taste and long shelf life.',
+      origin: 'Refined in India (from imported CPO)'
+    },
+    {
+      name: 'Palm Olein',
+      description: 'The liquid fraction of palm oil, ideal for deep-frying and general-purpose cooking oil.',
+      origin: 'Refined in India, sourced from Malaysia/Indonesia'
+    },
+    {
+      name: 'Palm Stearin',
+      description: 'The solid fraction of palm oil, used in bakery fats, margarines, and industrial uses like soap-making.',
+      origin: 'Refined in India'
+    }
+  ],
+  specifications: [
+    { name: 'Free Fatty Acid (as Palmitic)', value: '≤ 0.1% (RBD)' },
+    { name: 'Moisture & Impurities', value: '≤ 0.1%' },
+    { name: 'Iodine Value', value: '50–55 (RBD)', },
+    { name: 'Saponification Value', value: '195 – 205' },
+    { name: 'Melting Point', value: '33°C – 39°C' },
+    { name: 'Shelf Life', value: '12 – 18 months (under proper storage)' }
+  ],
+  packaging: [
+    { type: 'Jerry Cans', sizes: ['5L', '10L', '20L'] },
+    { type: 'Tin Containers', sizes: ['15kg', '18kg'] },
+    { type: 'HDPE Drums', sizes: ['200kg'] },
+    { type: 'Flexi Tanks / ISO Tanks', sizes: ['Bulk exports'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'ISO 22000',
+    'HACCP',
+    'RSPO (Roundtable on Sustainable Palm Oil)',
+    'Kosher',
+    'Halal'
+  ],
+  applications: [
+    'Cooking and frying oil in foodservice industry',
+    'Ingredient in margarine, confectionery, and bakery products',
+    'Industrial applications like soap and detergent production',
+    'Biofuel and oleochemical manufacturing',
+    'Cosmetics and personal care formulations'
+  ]
+    },
+    'olive-oil': {
+  name: 'Olive Oil',
+  description: 'Our premium olive oil is imported from the Mediterranean region, offering exceptional purity, aroma, and health benefits for culinary and therapeutic uses.',
+  category: 'Edible Oils',
+  longDescription: `
+    Olive oil is a liquid fat obtained from pressing whole olives (Olea europaea), a traditional tree crop of the Mediterranean Basin. Known for its heart-healthy fats, antioxidants, and anti-inflammatory properties, olive oil is widely celebrated in both cuisine and wellness.
+
+    We offer a range of high-quality olive oils, including extra virgin, virgin, refined, and pomace, sourced from Spain, Italy, and Greece — the most reputed olive-growing regions in the world. These oils are processed under cold-press and mechanical extraction techniques to preserve natural taste and nutritional value.
+
+    Our olive oil is suitable for gourmet cooking, salad dressings, skincare formulations, and wellness products. Each batch is tested for purity and meets international quality standards.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2021/2/ZF/WZ/RN/19631895/extra-virgin-olive-oil.jpeg',
+    'https://cdn.pixabay.com/photo/2016/04/13/22/35/olive-oil-1327081_1280.jpg',
+    'https://shorturl.at/DsZ12?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/EjLPU?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Extra Virgin Olive Oil',
+      description: 'Highest quality, cold-pressed oil with acidity below 0.8%, rich in antioxidants and natural flavor. Ideal for raw consumption.',
+      origin: 'Spain, Italy, Greece'
+    },
+    {
+      name: 'Virgin Olive Oil',
+      description: 'Cold-pressed with slightly higher acidity (≤ 2%), suitable for medium-heat cooking and salad dressings.',
+      origin: 'Spain, Italy'
+    },
+    {
+      name: 'Refined Olive Oil',
+      description: 'Processed to remove impurities, resulting in a lighter taste and higher smoke point. Best for frying and sautéing.',
+      origin: 'Spain, Turkey'
+    },
+    {
+      name: 'Olive Pomace Oil',
+      description: 'Extracted from olive residue using solvents, then refined. Cost-effective option for frying and bulk culinary use.',
+      origin: 'Spain, India (refined)'
+    }
+  ],
+  specifications: [
+    { name: 'Acidity (Extra Virgin)', value: '≤ 0.8%' },
+    { name: 'Acidity (Virgin)', value: '≤ 2%' },
+    { name: 'Peroxide Value', value: '≤ 20 meq/kg (EVOO)' },
+    { name: 'Smoke Point', value: '190°C – 240°C (variety dependent)' },
+    { name: 'Shelf Life', value: '18 – 24 months (in dark, cool conditions)' },
+    { name: 'Color', value: 'Golden yellow to greenish, depending on variety' },
+    { name: 'Odor/Taste', value: 'Fruity, fresh, slightly bitter (EVOO)' }
+  ],
+  packaging: [
+    { type: 'Glass Bottles', sizes: ['250ml', '500ml', '1L'] },
+    { type: 'PET Bottles', sizes: ['500ml', '1L', '2L'] },
+    { type: 'Tin Cans', sizes: ['3L', '5L'] },
+    { type: 'Bulk Drums / IBC Tanks', sizes: ['20L', '200L', '1000L'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'ISO 22000',
+    'HACCP',
+    'EU Organic (for organic variants)',
+    'PDO/PGI (Protected Designation of Origin)',
+    'Kosher',
+    'Halal'
+  ],
+  applications: [
+    'Salad dressings and marinades',
+    'Light sautéing and gourmet cooking',
+    'Mediterranean and continental cuisine',
+    'Nutraceutical and therapeutic uses',
+    'Cosmetic and skincare formulations'
+  ]
+    },
+    'sesame-oil': {
+  name: 'Sesame Oil',
+  description: 'Our premium sesame oil is extracted from carefully selected sesame seeds, offering a rich aroma, nutty flavor, and exceptional purity ideal for both culinary and therapeutic uses.',
+  category: 'Edible Oils',
+  longDescription: `
+    Sesame oil, also known as gingelly oil or til oil, is an edible vegetable oil derived from sesame seeds (*Sesamum indicum*). It has a long history of use in traditional medicine, Ayurveda, and Asian cuisines due to its antioxidant and anti-inflammatory properties.
+
+    Our sesame oil is sourced from high-quality white and black sesame seeds grown in the fertile regions of Gujarat, Tamil Nadu, and West Bengal. Available in both cold-pressed (unrefined) and refined variants, our oil retains the natural aroma, flavor, and nutrients that sesame is known for.
+
+    The oil is produced under hygienic, food-grade conditions using traditional wood-press (kachi ghani) and modern expeller or solvent extraction methods depending on the grade. It is widely used in culinary preparations, personal care, and wellness applications.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/2/289003440/AC/KD/VV/104068020/pure-sesame-oil.jpeg',
+    'https://cdn.pixabay.com/photo/2015/06/08/15/11/oil-801234_1280.jpg',
+    'https://shorturl.at/cvAVZ?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/eILTW?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Cold-Pressed Sesame Oil (Unrefined)',
+      description: 'Extracted using traditional wood-press methods, retaining its rich golden-brown color, strong nutty aroma, and nutrients. Ideal for raw use and Ayurveda.',
+      origin: 'Tamil Nadu, India'
+    },
+    {
+      name: 'Refined Sesame Oil',
+      description: 'Neutral taste and lighter color, suitable for high-heat cooking and industrial applications.',
+      origin: 'Gujarat, India'
+    },
+    {
+      name: 'Roasted Sesame Oil (Asian Style)',
+      description: 'Made from toasted sesame seeds with intense nutty flavor, commonly used in East Asian cuisine.',
+      origin: 'Imported from South Korea or made in India for export'
+    },
+    {
+      name: 'Organic Sesame Oil',
+      description: 'Certified organic sesame oil made from seeds grown without pesticides or synthetic fertilizers.',
+      origin: 'Various certified organic farms in India'
+    }
+  ],
+  specifications: [
+    { name: 'Color', value: 'Golden yellow to dark amber (variety dependent)' },
+    { name: 'Free Fatty Acid (as Oleic)', value: '≤ 0.2% (Refined)' },
+    { name: 'Iodine Value', value: '103 – 112' },
+    { name: 'Saponification Value', value: '188 – 195' },
+    { name: 'Moisture & Volatile Matter', value: '≤ 0.1%' },
+    { name: 'Peroxide Value', value: '≤ 10 meq/kg' },
+    { name: 'Shelf Life', value: '12 – 18 months (cool, dark storage)' }
+  ],
+  packaging: [
+    { type: 'Glass Bottles', sizes: ['250ml', '500ml', '1L'] },
+    { type: 'PET Bottles', sizes: ['500ml', '1L', '2L'] },
+    { type: 'Tin Containers', sizes: ['5L', '15kg'] },
+    { type: 'Bulk Packaging', sizes: ['20L Jerry Cans', '200L Drums'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'ISO 22000',
+    'HACCP',
+    'AGMARK',
+    'Organic Certified (for organic variants)',
+    'Kosher',
+    'Halal'
+  ],
+  applications: [
+    'South Indian and Asian cuisine',
+    'Ayurvedic massage and therapeutic oil',
+    'Hair and skincare formulations',
+    'Frying and sautéing',
+    'Oil pulling and holistic health practices'
+  ]
+    },
+    'soyabean-meal': {
+  name: 'Soyabean Meal',
+  description: 'Our high-protein soyabean meal is derived from premium-grade non-GMO soybeans, offering excellent digestibility and nutritional value for animal feed and industrial applications.',
+  category: 'Animal Feed & Agro Products',
+  longDescription: `
+    Soyabean meal is the solid, protein-rich byproduct obtained after extracting oil from soybeans (*Glycine max*). It is widely used as a high-protein ingredient in animal feed for poultry, cattle, swine, and aquaculture industries.
+
+    We source soybeans from major growing belts in Madhya Pradesh, Maharashtra, and Rajasthan, and process them in state-of-the-art solvent extraction and mechanical expelling facilities. The resulting meal is rich in essential amino acids, especially lysine and methionine, making it an ideal protein supplement.
+
+    Our soyabean meal is available in two main forms: De-oiled Soyabean Cake (DOC) and Full-Fat Soyabean Meal, depending on oil content and application. It meets stringent international standards and is exported to feed manufacturers and bulk buyers globally.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2021/9/JK/FA/GR/19452842/soybean-doc.jpeg',
+    'https://cdn.pixabay.com/photo/2020/05/13/11/36/soybean-5164256_1280.jpg',
+    'https://shorturl.at/boCHL?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/hzDHO?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'De-oiled Soyabean Meal (DOC)',
+      description: 'Byproduct after oil extraction via solvent process. Contains 46–48% protein. Widely used in poultry and livestock feed.',
+      origin: 'Madhya Pradesh, Maharashtra, Rajasthan (India)'
+    },
+    {
+      name: 'Full-Fat Soyabean Meal',
+      description: 'Processed without oil extraction, retains higher fat and energy. Used in energy-dense feed rations for dairy and poultry.',
+      origin: 'India (mechanical expeller plants)'
+    },
+    {
+      name: 'Hi-Pro Soyabean Meal',
+      description: 'Premium grade with protein content ≥ 48%, low fiber, and balanced amino acid profile. Ideal for high-performance livestock diets.',
+      origin: 'India (high-protein lines)'
+    },
+    {
+      name: 'Organic Soyabean Meal',
+      description: 'Derived from organically cultivated soybeans, free from GMOs, solvents, or chemical processing. Suitable for organic farming systems.',
+      origin: 'Certified organic farms across India'
+    }
+  ],
+  specifications: [
+    { name: 'Protein Content', value: '46–50% (variety dependent)' },
+    { name: 'Moisture', value: '≤ 12%' },
+    { name: 'Crude Fiber', value: '≤ 6%' },
+    { name: 'Fat Content', value: '≤ 1.5% (DOC), 18-20% (Full-Fat)' },
+    { name: 'Sand/Silica', value: '≤ 1%' },
+    { name: 'Urease Activity', value: '≤ 0.1 pH rise' },
+    { name: 'Shelf Life', value: '6 months (dry conditions)' }
+  ],
+  packaging: [
+    { type: 'PP Woven Bags', sizes: ['25kg', '50kg'] },
+    { type: 'Bulk Loose (Truck/Container)', sizes: ['As required'] },
+    { type: 'Jumbo Bags', sizes: ['500kg', '1000kg'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'ISO 22000',
+    'APEDA',
+    'GMP+',
+    'NON-GMO Certificate',
+    'Organic Certified (for organic variants)'
+  ],
+  applications: [
+    'Poultry feed formulation',
+    'Cattle and dairy animal nutrition',
+    'Pig and swine feed',
+    'Aquaculture and fish feed',
+    'Pet food base protein additive',
+    'Organic fertilizer base material'
+  ]
+    },
+    'raw-sugar': {
+  name: 'Raw Sugar',
+  description: 'Our high-quality raw sugar is derived from freshly harvested sugarcane, processed under hygienic conditions, and rich in natural molasses and color — ideal for refining, industrial use, and export.',
+  category: 'Sweeteners & Agro Products',
+  longDescription: `
+    Raw sugar is a coarse, granular product obtained from the initial stages of sugarcane juice crystallization. It retains a natural golden-brown color due to residual molasses, offering a slightly caramelized flavor.
+
+    Our raw sugar is produced in India’s leading sugarcane-growing states such as Uttar Pradesh, Maharashtra, and Karnataka. It is manufactured in large-scale mills under strict quality control to ensure consistency in color, purity, and sucrose content. The product is minimally processed and is commonly used in refining, fermentation, beverages, and bulk food manufacturing.
+
+    Available in both ICUMSA 600–1200 and ICUMSA 800–1500 grades, our raw sugar meets international trade standards and is exported globally in bulk and bagged formats.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2022/5/MR/DU/UU/38449786/raw-sugar.jpeg',
+    'https://cdn.pixabay.com/photo/2018/03/22/16/25/sugar-3246938_1280.jpg',
+    'https://shorturl.at/kuyY4?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/ADP06?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Raw Cane Sugar – ICUMSA 600–1200',
+      description: 'Golden brown sugar with high sucrose purity, ideal for industrial refining and molasses retention.',
+      origin: 'Uttar Pradesh, India'
+    },
+    {
+      name: 'Raw Cane Sugar – ICUMSA 800–1500',
+      description: 'Darker grade raw sugar used in alcohol fermentation, cattle feed, and jaggery production.',
+      origin: 'Maharashtra & Karnataka, India'
+    },
+    {
+      name: 'Organic Raw Sugar',
+      description: 'Made from organically cultivated sugarcane without chemical processing. Retains full molasses content.',
+      origin: 'Certified organic farms in India'
+    },
+    {
+      name: 'VHP Raw Sugar (Very High Polarity)',
+      description: 'Export-grade raw sugar with ≥ 99.4% polarity, used by global refineries for further processing.',
+      origin: 'Maharashtra & Coastal India'
+    }
+  ],
+  specifications: [
+    { name: 'Sucrose Content', value: '≥ 96–99.4%' },
+    { name: 'ICUMSA', value: '600–1500 (depending on grade)' },
+    { name: 'Moisture', value: '≤ 0.10%' },
+    { name: 'Color', value: 'Golden to dark brown (molasses-rich)' },
+    { name: 'Ash Content', value: '≤ 0.25%' },
+    { name: 'Polarity (VHP)', value: '≥ 99.4°' },
+    { name: 'Solubility', value: '100% in water' }
+  ],
+  packaging: [
+    { type: 'PP Laminated Bags', sizes: ['50kg'] },
+    { type: 'Bulk Containers', sizes: ['1MT Jumbo Bags'] },
+    { type: 'Loose Bulk Shipments', sizes: ['As required for port export'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'ISO 9001',
+    'ISO 22000',
+    'HACCP',
+    'GMP',
+    'Organic Certified (for organic variants)',
+    'APEDA (for export)'
+  ],
+  applications: [
+    'Refining into white sugar',
+    'Alcohol and ethanol production',
+    'Food and beverage manufacturing',
+    'Bakery and confectionery',
+    'Fermentation industry',
+    'Cattle feed and molasses recovery'
+  ]
+    },
+    'crystal-white-sugar': {
+  name: 'Crystal White Sugar',
+  description: 'Our premium crystal white sugar is highly refined, sparkling white in color, and free-flowing, perfect for direct consumption, food processing, and pharmaceutical applications.',
+  category: 'Sweeteners & Agro Products',
+  longDescription: `
+    Crystal white sugar is a refined form of sucrose obtained from raw sugarcane juice through a multi-stage purification and crystallization process. Known for its bright white appearance, neutral taste, and high purity, it is widely used in households, bakeries, and industrial food production.
+
+    Sourced from India’s top sugar mills in Uttar Pradesh, Maharashtra, and Gujarat, our sugar undergoes sulfur-free or sulfur-based clarification, carbon filtration, and vacuum drying. It conforms to FSSAI and international standards for food-grade white sugar.
+
+    Our product is available in multiple grain sizes — small, medium, and large crystals — and can be supplied in both consumer and bulk industrial packaging. Custom grain sizing and labeling are also available.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/2/291442918/GV/AA/WR/1622692/white-crystal-sugar.jpeg',
+    'https://cdn.pixabay.com/photo/2015/05/31/12/36/sugar-791052_1280.jpg',
+    'https://shorturl.at/pvBIR?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/imIJM?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Sulphur-Free White Sugar',
+      description: 'Processed without sulphur dioxide, offering cleaner taste and ideal for health-conscious and export markets.',
+      origin: 'Uttar Pradesh & Gujarat, India'
+    },
+    {
+      name: 'ICUMSA 45 Refined Sugar',
+      description: 'Export-quality, sparkling white sugar with ICUMSA rating of ≤ 45. Used in premium food applications worldwide.',
+      origin: 'Refineries in Maharashtra and Gujarat, India'
+    },
+    {
+      name: 'Pharma-Grade Sugar',
+      description: 'Ultra-pure white sugar used in pharmaceutical syrups and medical formulations.',
+      origin: 'GMP-certified facilities in India'
+    },
+    {
+      name: 'Large Crystal Sugar (M30/S30 Grade)',
+      description: 'Popular in retail packaging and bulk sweetener use. Uniform crystal size, ideal for food processing.',
+      origin: 'Pan India'
+    }
+  ],
+  specifications: [
+    { name: 'Sucrose Content', value: '≥ 99.8%' },
+    { name: 'ICUMSA', value: '≤ 45' },
+    { name: 'Moisture', value: '≤ 0.05%' },
+    { name: 'Ash Content', value: '≤ 0.04%' },
+    { name: 'Grain Size', value: 'Small, Medium, Large Crystals (M30, S30 grades)' },
+    { name: 'Color', value: 'Sparkling White' },
+    { name: 'Solubility', value: '100% in water' }
+  ],
+  packaging: [
+    { type: 'PP Bags with Inner Liner', sizes: ['25kg', '50kg'] },
+    { type: 'Retail Packs', sizes: ['1kg', '5kg'] },
+    { type: 'Jumbo Bags', sizes: ['1000kg'] },
+    { type: 'Custom Printed Packs', sizes: ['As per requirement'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'ISO 22000',
+    'HACCP',
+    'GMP',
+    'ICUMSA Certified',
+    'Kosher',
+    'Halal',
+    'APEDA (for export)'
+  ],
+  applications: [
+    'Household sweetener',
+    'Bakery and confectionery',
+    'Soft drinks and beverages',
+    'Ice cream and desserts',
+    'Pharmaceutical syrups',
+    'Food manufacturing and canning'
+  ]
+    },
+    'chia-seeds': {
+  name: 'Chia Seeds',
+  description: 'Our premium chia seeds are nutrient-dense superfoods sourced from certified farms, rich in omega-3 fatty acids, fiber, and antioxidants — ideal for health-conscious consumers and food manufacturers.',
+  category: 'Superfoods & Oilseeds',
+  longDescription: `
+    Chia seeds (*Salvia hispanica*) are tiny black or white seeds from the flowering plant native to Central America. Known for their exceptional nutritional profile, chia seeds are a rich plant-based source of omega-3 fatty acids (ALA), dietary fiber, protein, calcium, and essential minerals.
+
+    Our chia seeds are grown in arid and semi-arid regions of Rajasthan and Madhya Pradesh in India under strict organic and conventional farming practices. They are minimally processed to retain purity and are free from additives, ensuring maximum nutritional value.
+
+    Highly versatile, chia seeds are used in smoothies, cereals, baked goods, beverages, and health supplements. When soaked in water, they form a gel-like texture that is excellent for natural thickening, hydration, and weight management diets.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2021/8/OF/TC/FL/1444707/pure-black-chia-seeds.jpeg',
+    'https://cdn.pixabay.com/photo/2019/06/28/20/49/chia-4305381_1280.jpg',
+    'https://shorturl.at/ryJKW?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/aoMRU?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Black Chia Seeds',
+      description: 'Most common type, rich in antioxidants and nutrients. Slightly more robust flavor.',
+      origin: 'Rajasthan & Madhya Pradesh, India'
+    },
+    {
+      name: 'White Chia Seeds',
+      description: 'Lighter in color with similar nutritional properties. Preferred for aesthetic food applications.',
+      origin: 'Selected farms in India'
+    },
+    {
+      name: 'Organic Chia Seeds',
+      description: 'Grown without pesticides or synthetic fertilizers. Certified organic and traceable.',
+      origin: 'Certified organic farms across India'
+    },
+    {
+      name: 'EU-Compliant Chia',
+      description: 'Tested and certified for European import standards (low pesticide residues, aflatoxins, etc.).',
+      origin: 'Export-grade farms, India'
+    }
+  ],
+  specifications: [
+    { name: 'Purity', value: '≥ 99.9%' },
+    { name: 'Moisture', value: '≤ 8%' },
+    { name: 'Foreign Matter', value: '≤ 0.05%' },
+    { name: 'Omega-3 Content (ALA)', value: '17–22%' },
+    { name: 'Fiber Content', value: '30–34%' },
+    { name: 'Protein Content', value: '18–20%' },
+    { name: 'Shelf Life', value: '18–24 months' }
+  ],
+  packaging: [
+    { type: 'Vacuum Packs', sizes: ['250g', '500g', '1kg'] },
+    { type: 'HDPE Bags', sizes: ['5kg', '10kg', '25kg'] },
+    { type: 'Paper Pouches (Retail)', sizes: ['100g', '250g', '500g'] },
+    { type: 'Bulk Packaging', sizes: ['50kg', '1000kg Jumbo Bags'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'USDA Organic',
+    'EU Organic',
+    'ISO 22000',
+    'HACCP',
+    'Kosher',
+    'Halal',
+    'NON-GMO'
+  ],
+  applications: [
+    'Smoothies and juices',
+    'Breakfast cereals and granola',
+    'Baking (breads, cookies, energy bars)',
+    'Vegan egg substitute',
+    'Health supplements and protein blends',
+    'Weight-loss and hydration foods'
+  ]
+    },
+    'sunflower-seeds': {
+  name: 'Sunflower Seeds',
+  description: 'Our high-quality sunflower seeds are packed with nutrients, rich in healthy fats, protein, and antioxidants — ideal for snacking, oil extraction, and use in health food products.',
+  category: 'Oilseeds & Superfoods',
+  longDescription: `
+    Sunflower seeds are harvested from the sunflower plant (*Helianthus annuus*) and are valued globally as a nutrient-rich oilseed and wholesome snack. These seeds are known for their high content of vitamin E, selenium, healthy fats (including polyunsaturated fats), protein, and dietary fiber.
+
+    Sourced from leading agricultural zones such as Karnataka, Maharashtra, and Madhya Pradesh, our sunflower seeds are available in various grades — including bakery-grade, oil-grade, and snack-grade — based on purity, size, and oil content. We offer both dehulled (hulled) and whole (in-shell) sunflower seeds.
+
+    Sunflower seeds are widely used in the production of sunflower oil, roasted snacks, baking ingredients, bird feed, and health food preparations.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2021/5/IA/XH/CS/28242790/natural-sunflower-seeds.jpeg',
+    'https://cdn.pixabay.com/photo/2017/05/29/14/39/sunflower-seeds-2354805_1280.jpg',
+    'https://shorturl.at/hmzA9?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/foqP2?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Oil-Grade Sunflower Seeds',
+      description: 'High oil content (≥ 40%), used mainly for cold-pressed and refined sunflower oil extraction.',
+      origin: 'Maharashtra & Karnataka, India'
+    },
+    {
+      name: 'Bakery-Grade Sunflower Seeds',
+      description: 'Medium oil content, high purity seeds for use in breads, granola, and nutritional products.',
+      origin: 'Madhya Pradesh, India'
+    },
+    {
+      name: 'In-Shell Sunflower Seeds (Snacking)',
+      description: 'Whole seeds with shells, used for roasting and snacking. Crisp texture and bold flavor.',
+      origin: 'India & Ukraine (on demand)'
+    },
+    {
+      name: 'Hulled Sunflower Seeds (Kernel)',
+      description: 'Dehulled seeds ideal for direct consumption, salad toppings, health bars, and breakfast mixes.',
+      origin: 'India (mechanically processed)'
+    }
+  ],
+  specifications: [
+    { name: 'Purity', value: '≥ 99%' },
+    { name: 'Oil Content', value: '38–45% (variety dependent)' },
+    { name: 'Moisture', value: '≤ 8%' },
+    { name: 'Foreign Matter', value: '≤ 1%' },
+    { name: 'Protein Content', value: '20–25%' },
+    { name: 'Shelf Life', value: '12–18 months' }
+  ],
+  packaging: [
+    { type: 'PP Woven Bags', sizes: ['25kg', '50kg'] },
+    { type: 'Vacuum Packs', sizes: ['500g', '1kg'] },
+    { type: 'HDPE Bags', sizes: ['10kg', '25kg'] },
+    { type: 'Custom Retail Packaging', sizes: ['100g', '250g', '500g'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'ISO 22000',
+    'HACCP',
+    'NON-GMO',
+    'USDA Organic (for organic variants)',
+    'APEDA (for export)',
+    'Kosher',
+    'Halal'
+  ],
+  applications: [
+    'Edible oil extraction',
+    'Roasted snack production',
+    'Bakery and cereal ingredient',
+    'Nutritional health food products',
+    'Bird feed and pet food',
+    'Salad toppings and meal prep'
+  ]
+    },
+    'cashew-nuts': {
+  name: 'Cashew Nuts',
+  description: 'Our premium cashew nuts are carefully processed and graded to meet global standards, offering rich taste, creamy texture, and versatile usage across culinary, confectionery, and snacking applications.',
+  category: 'Nuts & Dry Fruits',
+  longDescription: `
+    Cashew nuts (*Anacardium occidentale*) are kidney-shaped seeds sourced from the cashew apple, widely known for their rich buttery flavor and nutritional benefits. They are high in healthy monounsaturated fats, plant-based protein, magnesium, copper, and antioxidants.
+
+    Our cashews are primarily sourced from the leading cultivation zones in Goa, Kerala, Andhra Pradesh, and parts of Africa (Tanzania, Ivory Coast) based on client preference. We offer a complete range of cashew grades — including whole white kernels (W180, W210, W240, W320, W450), scorched, splits, and broken pieces — processed under hygienic and food-safe facilities.
+
+    Cashews are consumed raw, roasted, salted, or flavored and are key ingredients in Indian sweets, vegan cheese, bakery products, and international cuisine.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2021/5/JX/KD/CG/28242790/whole-cashew-nuts.jpeg',
+    'https://cdn.pixabay.com/photo/2016/03/05/19/02/cashew-1239424_1280.jpg',
+    'https://shorturl.at/ckCM9?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/axCD2?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'W180 (King Size)',
+      description: 'Largest and most premium cashew grade. Ideal for gourmet snacking, gift packaging, and high-end use.',
+      origin: 'Goa, India / Tanzania'
+    },
+    {
+      name: 'W240 & W320',
+      description: 'Most popular commercial grades used in snacks, sweets, and culinary applications.',
+      origin: 'Kerala & Andhra Pradesh, India'
+    },
+    {
+      name: 'W450',
+      description: 'Smaller whole cashew grade, value-friendly and suitable for bulk processing and export.',
+      origin: 'India & Ivory Coast'
+    },
+    {
+      name: 'Scorched and Splits',
+      description: 'Economical grades used in industrial food manufacturing and confectionery.',
+      origin: 'Pan India / Africa'
+    }
+  ],
+  specifications: [
+    { name: 'Grade Available', value: 'W180, W210, W240, W320, W450, Scorched, Splits, Broken' },
+    { name: 'Moisture Content', value: '≤ 5%' },
+    { name: 'Defective Nuts', value: '≤ 5%' },
+    { name: 'Foreign Matter', value: 'Nil' },
+    { name: 'Oil Content', value: '40–50%' },
+    { name: 'Shelf Life', value: '12 months (cool, dry storage)' }
+  ],
+  packaging: [
+    { type: 'Vacuum Packs', sizes: ['250g', '500g', '1kg'] },
+    { type: 'Tin Packing (for Export)', sizes: ['10kg', '11.34kg (25 lbs)'] },
+    { type: 'Bulk HDPE Bags', sizes: ['20kg', '50kg'] },
+    { type: 'Gift / Retail Boxes', sizes: ['100g', '250g', '500g'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'APEDA',
+    'ISO 22000',
+    'HACCP',
+    'BRC (on request)',
+    'Kosher',
+    'Halal'
+  ],
+  applications: [
+    'Snacking (raw, roasted, salted)',
+    'Indian sweets and desserts',
+    'Bakery and confectionery',
+    'Dairy alternatives (cashew milk, vegan cheese)',
+    'Culinary gravies and sauces',
+    'Gifting and festive packs'
+  ]
+    },
+    'pistachio-nuts': {
+  name: 'Pistachio Nuts',
+  description: 'Our premium pistachios are sourced from the finest orchards, offering rich flavor, natural sweetness, and a crunchy texture — perfect for snacking, baking, and culinary uses.',
+  category: 'Nuts & Dry Fruits',
+  longDescription: `
+    Pistachios (*Pistacia vera*) are small, nutrient-dense nuts known for their distinctive green kernels and mild, slightly sweet flavor. They are rich in healthy fats, protein, fiber, vitamins, and antioxidants.
+
+    We source our pistachios from top producing regions such as Iran, the USA (California), and India, ensuring careful harvesting and processing to maintain freshness and quality. Available in shelled and unshelled forms, our pistachios are sorted and graded for uniform size, color, and moisture content.
+
+    Pistachios are widely consumed as snacks, used in bakery items, ice creams, confectionery, and savory dishes.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/2/IB/AC/GJ/12345678/premium-pistachio-nuts.jpeg',
+    'https://cdn.pixabay.com/photo/2016/10/25/12/28/pistachios-1760537_1280.jpg',
+    'https://shorturl.at/abcXY?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/xyzAB?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Kerman Pistachio',
+      description: 'Large, elongated nuts with a bright green kernel and slightly sweet flavor. Highly sought after for quality snacking and gift packaging.',
+      origin: 'California, USA'
+    },
+    {
+      name: 'Irani Pistachio',
+      description: 'Traditional pistachio variety from Iran, known for its rich flavor and deep green kernels.',
+      origin: 'Iran'
+    },
+    {
+      name: 'Antep Pistachio',
+      description: 'Small to medium-sized nuts with a balanced flavor, popular in Middle Eastern culinary uses.',
+      origin: 'Turkey (imported), India (limited)'
+    },
+    {
+      name: 'Natural Shelled Pistachio',
+      description: 'Unsalted, natural shelled pistachios with clean appearance and uniform size.',
+      origin: 'Multiple sources'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 5%' },
+    { name: 'Kernel Size', value: '20-30 nuts per 30 grams (varies by grade)' },
+    { name: 'Foreign Matter', value: 'Nil' },
+    { name: 'Shelled Percentage', value: '≥ 98%' },
+    { name: 'Shelf Life', value: '12 months (cool, dry storage)' }
+  ],
+  packaging: [
+    { type: 'Vacuum Packs', sizes: ['250g', '500g', '1kg'] },
+    { type: 'HDPE Bags', sizes: ['5kg', '10kg', '25kg'] },
+    { type: 'Bulk Packaging', sizes: ['50kg', '1000kg Jumbo Bags'] },
+    { type: 'Gift Boxes', sizes: ['100g', '250g', '500g'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'APEDA',
+    'ISO 22000',
+    'HACCP',
+    'Kosher',
+    'Halal',
+    'Organic (for select batches)'
+  ],
+  applications: [
+    'Direct snacking (raw, roasted, salted)',
+    'Bakery products (cakes, cookies, bread)',
+    'Confectionery (chocolates, nougats)',
+    'Ice cream and desserts',
+    'Savory dishes and garnishing',
+    'Gift and festive packaging'
+  ]
+    },
+    'saffron': {
+  name: 'Saffron',
+  description: 'Our premium saffron is hand-harvested from the finest crocus flowers, offering deep aroma, vibrant color, and unmatched purity for culinary, medicinal, and cosmetic uses.',
+  category: 'Spices',
+  longDescription: `
+    Saffron (*Crocus sativus*) is one of the world’s most precious and valuable spices, derived from the delicate red stigmas of the saffron crocus flower. Known for its distinct aroma, vibrant golden-yellow hue, and unique flavor profile, saffron has been prized for centuries in culinary traditions, herbal medicine, and cosmetics.
+
+    Our saffron is sourced mainly from the premium growing regions of Kashmir (India), Iran, and Spain, ensuring stringent quality control from hand-picking to drying. The saffron threads are carefully sorted by length, color intensity, and purity to meet international standards such as ISO 3632.
+
+    Available in various grades (I, II, III) based on crocin content (color), picrocrocin (taste), and safranal (aroma), our saffron is free from artificial dyes and adulterants.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/9/XY/AB/CD/12345678/premium-kashmiri-saffron.jpeg',
+    'https://cdn.pixabay.com/photo/2017/05/16/22/14/saffron-2313317_1280.jpg',
+    'https://shorturl.at/qsQR7?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/tBKL3?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Kashmiri Saffron',
+      description: 'Renowned for its deep red stigmas, intense color (high crocin content), and strong aroma. Highly prized globally.',
+      origin: 'Kashmir, India'
+    },
+    {
+      name: 'Iranian Saffron',
+      description: 'Largest global producer, offers strong aroma and good coloring properties, available in various grades.',
+      origin: 'Iran'
+    },
+    {
+      name: 'Spanish Saffron',
+      description: 'Known for its balanced flavor and mild aroma, used widely in Mediterranean cuisine.',
+      origin: 'Spain'
+    },
+    {
+      name: 'Organic Certified Saffron',
+      description: 'Cultivated without synthetic chemicals or pesticides, certified organic for clean and sustainable sourcing.',
+      origin: 'Kashmir, India / Iran'
+    }
+  ],
+  specifications: [
+    { name: 'Crocin (Color Strength)', value: '≥ 200 (Grade I, ISO 3632)' },
+    { name: 'Picrocrocin (Taste)', value: '≥ 70' },
+    { name: 'Safranal (Aroma)', value: '≥ 20' },
+    { name: 'Moisture Content', value: '≤ 12%' },
+    { name: 'Foreign Matter', value: 'Nil' },
+    { name: 'Adulterants', value: 'None' }
+  ],
+  packaging: [
+    { type: 'Glass Jars', sizes: ['1g', '5g', '10g'] },
+    { type: 'Metal Tins', sizes: ['5g', '10g', '20g'] },
+    { type: 'Vacuum Sealed Pouches', sizes: ['1g', '5g'] },
+    { type: 'Custom Retail Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'ISO 3632',
+    'HACCP',
+    'Organic Certification (for organic batches)',
+    'APEDA (for export)',
+    'Kosher',
+    'Halal'
+  ],
+  applications: [
+    'Culinary flavoring and coloring (rice, desserts, sauces)',
+    'Traditional medicine and herbal remedies',
+    'Cosmetics and perfumes',
+    'Food and beverage industry',
+    'Luxury gift packaging'
+  ]
+    },
+    'dried-onion': {
+  name: 'Dried Onion',
+  description: 'Our premium dried onions are naturally dehydrated to retain flavor and aroma, making them ideal for convenient use in various culinary applications and food processing.',
+  category: 'Vegetables (Dehydrated)',
+  longDescription: `
+    Dried onion is produced by removing moisture from fresh onions through controlled dehydration processes, preserving the characteristic pungent flavor and aroma. This ingredient is widely used in soups, sauces, seasoning blends, ready-to-eat meals, and snacks.
+
+    We source fresh onions from trusted farms across key growing regions in India including Nashik, Pune, and Tamil Nadu. Our dried onions are available in multiple forms such as flakes, powder, and granules, processed under hygienic conditions and quality tested to ensure consistent color, taste, and shelf life.
+
+    Our dried onion offers ease of storage and long shelf stability without compromising on natural flavor, making it an excellent ingredient for food manufacturers and chefs alike.
+  `,
+  images: [
+    'https://5.imimg.com/data5/SELLER/Default/2023/3/AB/CD/EF/12345678/dried-onion-flakes.jpeg',
+    'https://cdn.pixabay.com/photo/2017/09/22/20/30/onion-2779690_1280.jpg',
+    'https://shorturl.at/xyz12?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/abzR5?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Dried Onion Flakes',
+      description: 'Large pieces of dehydrated onion, perfect for soups, stews, and seasoning blends.',
+      origin: 'Nashik, Maharashtra, India'
+    },
+    {
+      name: 'Dried Onion Powder',
+      description: 'Finely ground powder form, ideal for spice mixes, sauces, and marinades.',
+      origin: 'Tamil Nadu, India'
+    },
+    {
+      name: 'Granulated Dried Onion',
+      description: 'Medium granule size, versatile for both industrial and household use.',
+      origin: 'Pune, Maharashtra, India'
+    },
+    {
+      name: 'Organic Dried Onion',
+      description: 'Certified organic, cultivated without synthetic pesticides or fertilizers.',
+      origin: 'Selected organic farms in India'
+    }
+  ],
+  specifications: [
+    { name: 'Moisture Content', value: '≤ 10%' },
+    { name: 'Total Ash', value: '≤ 7%' },
+    { name: 'Volatile Oil Content', value: '≥ 0.25%' },
+    { name: 'Foreign Matter', value: 'Nil' },
+    { name: 'Color', value: 'Natural off-white to light brown' },
+    { name: 'Particle Size', value: 'Varies by form (flakes, granules, powder)' }
+  ],
+  packaging: [
+    { type: 'Polyethylene Bags', sizes: ['10kg', '25kg', '50kg'] },
+    { type: 'Vacuum Sealed Packs', sizes: ['500g', '1kg', '5kg'] },
+    { type: 'HDPE Bags', sizes: ['25kg', '50kg'] },
+    { type: 'Custom Packaging', sizes: ['As per requirement'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'ISO 22000',
+    'HACCP',
+    'Organic Certification (for organic variants)',
+    'APEDA (for export)'
+  ],
+  applications: [
+    'Food seasoning and flavoring',
+    'Soups, sauces, and gravies',
+    'Ready-to-eat meals',
+    'Snack seasoning',
+    'Meat and poultry processing',
+    'Spice blends and mixes'
+  ]
+    },
+    'sea-foods': {
+  name: 'Sea Foods',
+  description: 'Our premium seafood collection includes a wide variety of fresh, frozen, and processed fish, shellfish, and other marine products, sourced sustainably from the world’s top fishing regions.',
+  category: 'Seafood & Marine Products',
+  longDescription: `
+    Seafood encompasses a diverse range of edible marine animals including fish, crustaceans, mollusks, and other aquatic organisms. Rich in protein, omega-3 fatty acids, vitamins, and minerals, seafood is a staple in global cuisines and an essential part of a healthy diet.
+
+    We source our seafood from sustainable fisheries and aquaculture farms across regions such as the Indian Ocean, Arabian Sea, Pacific Ocean, and Atlantic coasts. Our products undergo strict quality controls, including freshness testing, grading, and hygienic processing, to meet international food safety standards.
+
+    Available in fresh, frozen, chilled, dried, and processed forms, our seafood is suitable for retail, food service, and industrial applications.
+  `,
+  images: [
+    'https://cdn.pixabay.com/photo/2018/06/04/15/34/fish-3456249_1280.jpg',
+    'https://cdn.pixabay.com/photo/2017/01/20/00/30/shrimp-1993293_1280.jpg',
+    'https://cdn.pixabay.com/photo/2018/01/06/17/38/seafood-3062863_1280.jpg',
+    'https://cdn.pixabay.com/photo/2019/05/02/15/14/salmon-4171419_1280.jpg'
+  ],
+  varieties: [
+    {
+      name: 'White Fish',
+      description: 'Lean fish with mild flavor and white flesh, ideal for frying, grilling, and baking.',
+      examples: ['Cod', 'Haddock', 'Pollock', 'Whiting'],
+      origin: 'Atlantic and Pacific Oceans, Indian Ocean'
+    },
+    {
+      name: 'Oily Fish',
+      description: 'Rich in omega-3 fatty acids, oily fish have stronger flavor and are highly nutritious.',
+      examples: ['Salmon', 'Mackerel', 'Sardines', 'Tuna', 'Anchovies'],
+      origin: 'Global coastal waters'
+    },
+    {
+      name: 'Shellfish - Crustaceans',
+      description: 'Includes aquatic animals with exoskeletons, prized for their delicate flavor and texture.',
+      examples: ['Shrimp', 'Prawns', 'Crabs', 'Lobsters', 'Crawfish'],
+      origin: 'Coastal and estuarine waters worldwide'
+    },
+    {
+      name: 'Shellfish - Mollusks',
+      description: 'Soft-bodied sea animals, often with shells, popular in diverse cuisines.',
+      examples: ['Oysters', 'Clams', 'Mussels', 'Scallops', 'Squid', 'Octopus'],
+      origin: 'Marine and brackish waters globally'
+    },
+    {
+      name: 'Cephalopods',
+      description: 'Highly intelligent mollusks with tentacles, used in culinary dishes worldwide.',
+      examples: ['Squid', 'Octopus', 'Cuttlefish'],
+      origin: 'Coastal waters worldwide'
+    },
+    {
+      name: 'Flatfish',
+      description: 'Bottom-dwelling fish with flattened bodies, known for tender flesh.',
+      examples: ['Sole', 'Flounder', 'Halibut'],
+      origin: 'Cold and temperate seas'
+    },
+    {
+      name: 'Other Seafood',
+      description: 'Includes less common varieties and specialty items.',
+      examples: ['Eels', 'Sea Cucumbers', 'Abalone', 'Sea Urchins'],
+      origin: 'Various marine habitats'
+    }
+  ],
+  specifications: [
+    { name: 'Freshness', value: 'Maintained by rapid chilling or freezing within hours of catch' },
+    { name: 'Moisture Content', value: 'Varies by species and processing method' },
+    { name: 'Size/Weight', value: 'Graded by species and product type' },
+    { name: 'Bacterial Count', value: 'Meets international seafood safety standards' },
+    { name: 'Heavy Metals', value: 'Within permissible limits as per FDA/WHO' },
+    { name: 'Packaging Integrity', value: 'Vacuum-sealed or frozen packs to preserve quality' }
+  ],
+  packaging: [
+    { type: 'Vacuum Packed', sizes: ['500g', '1kg', '5kg', '10kg'] },
+    { type: 'Frozen Blocks', sizes: ['5kg', '10kg', '20kg'] },
+    { type: 'Fresh Fish in Ice', sizes: ['Whole or filleted, bulk packing'] },
+    { type: 'Canned Seafood', sizes: ['100g', '200g', '400g'] },
+    { type: 'Custom Packaging', sizes: ['As per buyer requirement'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'FDA Approved',
+    'MSC (Marine Stewardship Council) Certified',
+    'ISO 22000',
+    'HACCP',
+    'BRC',
+    'EU Seafood Hygiene Regulation Compliant',
+    'Sustainable Seafood Certifications'
+  ],
+  applications: [
+    'Fresh and frozen seafood retail',
+    'Foodservice (restaurants, hotels, catering)',
+    'Processed seafood products (ready-to-eat, smoked, canned)',
+    'Frozen meals and convenience food',
+    'Nutraceuticals and omega-3 supplements',
+    'Export markets worldwide'
+  ]
+},
   }  
 
 };

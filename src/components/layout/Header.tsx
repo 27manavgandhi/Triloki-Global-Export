@@ -88,14 +88,20 @@ const Header: React.FC = () => {
             
             {activeDropdown === 'products' && (
               <div className="absolute top-full left-0 mt-2 w-56 bg-white shadow-lg rounded-md py-2 z-20">
-                <Link to="/products/seeds" className="block px-4 py-2 text-sm text-neutral-700 hover:bg-primary-50 hover:text-primary-600">
-                  Seeds
+                <Link to="/products/spices" className="block px-4 py-2 text-sm text-neutral-700 hover:bg-primary-50 hover:text-primary-600">
+                  Spices
                 </Link>
                 <Link to="/products/grains" className="block px-4 py-2 text-sm text-neutral-700 hover:bg-primary-50 hover:text-primary-600">
                   Grains
                 </Link>
-                <Link to="/products/spices" className="block px-4 py-2 text-sm text-neutral-700 hover:bg-primary-50 hover:text-primary-600">
-                  Spices
+                <Link to="/products/pulses" className="block px-4 py-2 text-sm text-neutral-700 hover:bg-primary-50 hover:text-primary-600">
+                  Pulses
+                </Link>
+                <Link to="/products/tea" className="block px-4 py-2 text-sm text-neutral-700 hover:bg-primary-50 hover:text-primary-600">
+                  Tea
+                </Link>
+                <Link to="/products/others" className="block px-4 py-2 text-sm text-neutral-700 hover:bg-primary-50 hover:text-primary-600">
+                  Others
                 </Link>
               </div>
             )}
