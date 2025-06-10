@@ -386,10 +386,10 @@ const productData = {
     Available in various forms including whole seeds, ground cumin, and organic certified batches, our cumin meets global food safety and flavor standards.
   `,
   images: [
-    'https://short-link.me/ZGtD?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12HP9?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/ZGua?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12HQC?auto=compress&cs=tinysrgb&w=800'
+    'https://shorturl.at/Sg1cn?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/U0uBP?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/PKV4E?auto=compress&cs=tinysrgb&w=800',
+    'https://shorturl.at/KuaZX?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {

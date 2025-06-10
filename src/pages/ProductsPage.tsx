@@ -15,28 +15,28 @@ const categories = [
     id: 'grains',
     name: 'Grains',
     description: 'Superior quality grains and cereals from India\'s finest agricultural regions.',
-    image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://hips.hearstapps.com/hmg-prod/images/gettyimages-611609590-6627de2d8c0bb.jpg?auto=compress&cs=tinysrgb&w=800',
     subcategories: ['Rice', 'Wheat', 'Millets', 'Barley', 'corn']
   },
   {
     id: 'pulses',
     name: 'Pulses',
     description: 'Superior quality grains and cereals from India\'s finest agricultural regions.',
-    image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://i0.wp.com/nmrdn.com/wp-content/uploads/2020/07/AdobeStock_117825265-L.jpeg?auto=compress&cs=tinysrgb&w=800',
     subcategories: ['Green Lentils', 'White Kidney Beans', 'Dry Peas', 'Chickpeas', 'Red Kidney Beans', 'Desi Chickpeas']
   },
   {
     id: 'tea',
     name: 'Tea',
     description: 'Superior quality grains and cereals from India\'s finest agricultural regions.',
-    image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://budleaf.com/wp-content/uploads/2023/03/Different-Types-of-Tea-min-2048x1365.jpeg?auto=compress&cs=tinysrgb&w=800',
     subcategories: ['Black Tea', 'Wolf Leaf', 'Green Tea', 'Tea Dust', 'Fannings']
   },
   {
     id: 'others',
     name: 'Others',
     description: 'High-quality seeds for food products and oil extraction.',
-    image: 'https://images.pexels.com/photos/144248/healthy-breakfast-organic-seeds-144248.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://mgindiaexport.com/wp-content/uploads/2025/05/indian-food-export-mg-india.png?auto=compress&cs=tinysrgb&w=800',
     subcategories: ['Canned Sardines', 'Canned Tuna', 'Sea Food', 'Palm Oil', 'Saffron']
   }
 ];
