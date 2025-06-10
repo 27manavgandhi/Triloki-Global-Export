@@ -443,10 +443,10 @@ const productData = {
     Available in varieties such as bold (large seeds), green cleaned, and organic-certified fennel, our products meet international food safety and export quality standards.
   `,
   images: [
-    'https://short-link.me/12HTX?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12HUh?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12HU7?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/ZGye?auto=compress&cs=tinysrgb&w=800'
+    'https://shorturl.at/lB1TA?auto=compress&cs=tinysrgb&w=800',
+    'https://alseadawy.com/assets/images/fennelseeds.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://kinalglobalcare.com/wp-content/uploads/fennel-seeds-big-771x308.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.shivindianspices.com/wp-content/uploads/2014/12/FENNEL.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -500,10 +500,10 @@ const productData = {
     Available in bulk or custom packaging, our nigella seeds are suitable for culinary, nutraceutical, and cosmetic applications.
   `,
   images: [
-    'https://short-link.me/12HV5?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12HVJ?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/ZGAE?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12HW4?auto=compress&cs=tinysrgb&w=800'
+    'https://heeraagri.com/wp-content/uploads/2024/05/kalonji-image.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://spicenest.in/cdn/shop/articles/DeWatermark.ai_1732251832420.png?auto=compress&cs=tinysrgb&w=800',
+    'https://cdn.shopify.com/s/files/1/0740/1878/3472/files/stock-photo-nigella-sativa-or-black-cumin-in-wooden-bowl-isolated-on-white-background-top-view-flat-lay-1765788344-transformed_9fa4d1d7-02cc-424e-b60c-d4de293cfe66_480x480.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://2.wlimg.com/product_images/bc-full/2022/11/11255672/nigella-seeds-1667562761-6610722.jpeg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -557,10 +557,10 @@ const productData = {
     Available in whole, split, and ground form, our coriander seeds meet international food quality standards and are ideal for culinary, commercial, and medicinal uses.
   `,
   images: [
-    'https://short-link.me/12HWH?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12HXr?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12HXy?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/ZGCt?auto=compress&cs=tinysrgb&w=800'
+    'https://nuffoodsspectrum.in/wp-content/uploads/articles/coriander_export-7731.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/5/305936280/QS/HF/YQ/187509036/coriander-seeds-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/ANDROID/Default/2023/10/351598027/TF/YI/BS/92374395/product-jpeg-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://img1.exportersindia.com/product_images/bc-small/2021/4/1449033/premium-quality-coriander-seeds-1618465023-5790776.jpeg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -614,10 +614,10 @@ const productData = {
     We offer fenugreek in whole, ground, and organic-certified forms, ideal for culinary, nutraceutical, and cosmetic industries.
   `,
   images: [
-    'https://short-link.me/12HZP?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12I0A?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12I0G?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/ZGFq?auto=compress&cs=tinysrgb&w=800'
+    'https://mginternationalexport.com/wp-content/uploads/2023/05/fenugreek-on-a-spoon.webp?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/7/324514603/NM/PY/QZ/11104951/indian-fenugreek-seeds-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/GLADMIN/Default/2022/6/VI/IR/KZ/92368/methi-dana-250x250.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://a2zagrofood.com/wp-content/uploads/2017/12/Fenugreek_seeds.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -671,10 +671,10 @@ const productData = {
     These seeds are available in raw, organic, and bulk forms. Cleaned and sorted with care, our Asaliya seeds meet high quality standards for both food-grade and nutraceutical applications.
   `,
   images: [
-    'https://short-link.me/12I1d?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12I1X?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/ZGGN?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12I2c?auto=compress&cs=tinysrgb&w=800'
+    'https://ashapuraexporters.com/wp-content/uploads/2024/07/Asaliya-Seeds.webp?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2020/12/KP/MJ/UC/72660211/halim-seeds-garden-cress-seeds-asaliya-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2020/12/GP/BE/JG/72660211/halim-seeds-garden-cress-seeds-asaliya-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2020/12/NV/XP/JT/72660211/halim-seeds-garden-cress-seeds-asaliya-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -727,10 +727,10 @@ const productData = {
     Available in bulk or custom packaging, our dill seeds are ideal for food processing, herbal teas, and traditional medicinal use.
   `,
   images: [
-    'https://short-link.me/12I2t?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12I30?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12I37?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12I3e?auto=compress&cs=tinysrgb&w=800'
+    'https://www.koteshwaragriexports.com/images/product/DillSeed-4242024113145PM.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/5/310048512/KJ/IN/ON/187555324/dill-seeds-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/1/MA/FP/HD/5642594/dill-seeds-250x250.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://pruthviindustries.com/wp-content/uploads/2024/08/dill-seed.png?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -783,10 +783,10 @@ const productData = {
     Available in food-grade and organic-certified varieties, our yellow mustard seeds meet international standards for flavor, oil content, and safety.
   `,
   images: [
-    'https://short-link.me/12I3H?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/ZGJ4?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12I4y?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12I4P?auto=compress&cs=tinysrgb&w=800'
+    'https://seasonsinternational.in/wp-content/uploads/2024/05/Mustard-Seeds.webp?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/NV/SX/VH/SELLER-93212663/yellow-mustard-seeds-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.organicgyaan.com/cdn/shop/files/Yellow-Mustard-Seeds.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.jdmagicbox.com/quickquotes/images_main/yellow-mustard-seeds-372459744-rk2az.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -840,10 +840,10 @@ const productData = {
     Available in whole, sliced, and ground powder forms, our dry ginger is ideal for culinary use, health formulations, and food processing.
   `,
   images: [
-    'https://short-link.me/12I5k?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12I5x?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/ZGKd?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/ZGJM?auto=compress&cs=tinysrgb&w=800'
+    'https://seasonsinternational.in/wp-content/uploads/2021/05/dry_ginger_2.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.geewinexim.com/wp-content/uploads/2024/10/dried-ginger.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.geewinexim.com/wp-content/uploads/2024/10/dried3.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://cdn.globalso.com/ncgce/U5eedb8e653e145a4bd55752fb9d37832p.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {

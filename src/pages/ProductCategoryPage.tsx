@@ -65,55 +65,55 @@ const categories: Record<string, Category> = {
         id: 'cumin-seeds',
         name: 'Cumin Seeds',
         description: 'Earthy, nutty cumin seeds and powder that add depth to various cuisines.',
-        image: 'https://short-link.me/ZGtD?auto=compress&cs=tinysrgb&w=800'
+        image: 'https://shorturl.at/Sg1cn?auto=compress&cs=tinysrgb&w=800'
       },
       {
         id: 'fennel-seeds',
         name: 'Fennel Seeds',
         description: 'Sweet, aromatic fennel seeds used in cooking, teas, and digestion-boosting remedies.',
-        image: 'https://short-link.me/ZGye?auto=compress&cs=tinysrgb&w=800'
+        image: 'https://shorturl.at/lB1TA?auto=compress&cs=tinysrgb&w=800'
       },
       {
         id: 'nigella-seeds',
         name: 'Nigella Seeds',
         description: 'Tiny black seeds with a bitter, peppery flavor, used in breads, pickles, and traditional remedies.',
-        image: 'https://short-link.me/12HV5?auto=compress&cs=tinysrgb&w=800'
+        image: 'https://heeraagri.com/wp-content/uploads/2024/05/kalonji-image.jpg?auto=compress&cs=tinysrgb&w=800'
       },
       {
         id: 'coriander-seeds',
         name: 'Coriander Seeds',
         description: 'Citrusy, mildly sweet coriander seeds widely used in cooking, pickling, and spice blends.',
-        image: 'https://short-link.me/12HWH?auto=compress&cs=tinysrgb&w=800'
+        image: 'https://nuffoodsspectrum.in/wp-content/uploads/articles/coriander_export-7731.jpg?auto=compress&cs=tinysrgb&w=800'
       },
       {
         id: 'fenugreek-seeds',
         name: 'Fenugreek seeds',
         description: 'Bitter-sweet fenugreek seeds with a distinct aroma, used in cooking, pickling, and traditional medicine.',
-        image: 'https://short-link.me/12HZP?auto=compress&cs=tinysrgb&w=800'
+        image: 'https://mginternationalexport.com/wp-content/uploads/2023/05/fenugreek-on-a-spoon.webp?auto=compress&cs=tinysrgb&w=800'
       },
       {
         id: 'asaliya-seeds',
         name: 'Asaliya Seeds',
         description: 'Nutrient-rich, slightly peppery Asaliya seeds used in traditional health tonics, ayurveda, and spiced recipes.',
-        image: 'https://short-link.me/12I1d?auto=compress&cs=tinysrgb&w=800'
+        image: 'https://ashapuraexporters.com/wp-content/uploads/2024/07/Asaliya-Seeds.webp?auto=compress&cs=tinysrgb&w=800'
       },
       {
         id: 'dill-seeds',
         name: 'Dill Seeds',
         description: 'Aromatic dill seeds with a warm, slightly bitter flavor, used in pickling, cooking, and herbal remedies.',
-        image: 'https://short-link.me/12I2t?auto=compress&cs=tinysrgb&w=800'
+        image: 'https://www.koteshwaragriexports.com/images/product/DillSeed-4242024113145PM.jpeg?auto=compress&cs=tinysrgb&w=800'
       },
       {
         id: 'yellow-mustard',
         name: 'Yellow Mustard',
         description: 'Mild, nutty-flavored yellow mustard seeds used in pickles, sauces, and spice blends.',
-        image: 'https://short-link.me/12I3H?auto=compress&cs=tinysrgb&w=800'
+        image: 'https://seasonsinternational.in/wp-content/uploads/2024/05/Mustard-Seeds.webp?auto=compress&cs=tinysrgb&w=800'
       },  
       {
         id: 'dry-ginger',
         name: 'Dry Ginger',
         description: 'Pungent, aromatic dry ginger root used in spice blends, teas, and traditional medicine.',
-        image: 'https://short-link.me/12I5k?auto=compress&cs=tinysrgb&w=800'
+        image: 'https://seasonsinternational.in/wp-content/uploads/2021/05/dry_ginger_2.jpg?auto=compress&cs=tinysrgb&w=800'
       }
 
     ]
