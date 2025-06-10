@@ -221,13 +221,13 @@ const categories: Record<string, Category> = {
       id: 'vetches',
       name: 'Vetches',
       description: 'Small legumes traditionally used in feed and gaining popularity for human consumption.',
-      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://agro-log.com/products/vetch/img/naf/products/91-b.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'desi-chickpeas',
       name: 'Desi Chickpeas',
       description: 'Smaller, darker, and richer in fiber compared to Kabuli chickpeas—widely used in Indian cuisine.',
-      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://dejenexport.com/wp-content/uploads/2023/02/ChickPeas-Desi-Type.jpg?auto=compress&cs=tinysrgb&w=800'
     }
   ]
   },

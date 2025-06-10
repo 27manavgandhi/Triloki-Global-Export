@@ -1961,7 +1961,7 @@ const productData = {
     Vetch seeds are used in green manuring, livestock feed, erosion control, and increasingly in specialty flours and plant-based products. Our offering includes cleaned, graded seeds available for human consumption, animal feed, or agricultural use, depending on the variety and processing method.
   `,
   images: [
-    'https://exportgrain.net/wp-content/uploads/2025/04/vika-5.webp?auto=compress&cs=tinysrgb&w=800',
+    'https://agro-log.com/products/vetch/img/naf/products/91-b.jpg?auto=compress&cs=tinysrgb&w=800',
     'https://ethiopiaexport.net/wp-content/uploads/2023/11/vetch.png?auto=compress&cs=tinysrgb&w=800',
     'https://2.wlimg.com/product_images/bc-full/2025/4/14409648/vetch-seeds-1745912358-8029805.jpeg?auto=compress&cs=tinysrgb&w=800',
     'https://dejenexport.com/wp-content/uploads/2023/02/Vetch.jpg?auto=compress&cs=tinysrgb&w=800'
