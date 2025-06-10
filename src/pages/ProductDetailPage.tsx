@@ -902,9 +902,9 @@ const productData = {
     `,
     images: [
       'https://shorturl.at/eTYvl?auto=compress&cs=tinysrgb&w=800',
-      'https://shorturl.at/eTYvl?auto=compress&cs=tinysrgb&w=800',
-      'https://shorturl.at/eTYvl?auto=compress&cs=tinysrgb&w=800',
-      'https://shorturl.at/eTYvl?auto=compress&cs=tinysrgb&w=800'
+      'https://dst.news/wp-content/uploads/2023/07/1-rice-wheat.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://www.knnindia.co.in/uploads/newsfiles/BASMATI-20-7-2021.jpg?auto=compress&cs=tinysrgb&w=800',
+      'https://agronfoodprocessing.com/wp-content/uploads/2023/11/Export-rice.jpg?auto=compress&cs=tinysrgb&w=800'
       
     ],
     varieties: [
@@ -1114,10 +1114,10 @@ const productData = {
     We offer multiple wheat varieties including hard and soft types, suitable for diverse food processing applications. Our supply chain emphasizes traceability, purity, and adherence to global food safety standards.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/9/343964748/EE/NY/EG/181658887/sharbati-wheat.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://5.imimg.com/data5/SELLER/Default/2023/9/343964836/UF/NM/FX/181658887/organic-wheat-grain.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://5.imimg.com/data5/SELLER/Default/2021/8/RH/NL/DX/1455976/indian-wheat.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://5.imimg.com/data5/SELLER/Default/2023/2/YI/LW/YO/176946471/locally-sourced-wheat.jpeg?auto=compress&cs=tinysrgb&w=800'
+    'https://shorturl.at/fsWp1?auto=compress&cs=tinysrgb&w=800',
+    'https://www.livemint.com/rf/Image-621x414/LiveMint/Period1/2013/05/23/Photos/wheat--621x414.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.equitypandit.com/wp-content/uploads/2022/11/Wheat-Export-Doubles-to-1.48-Billion-in-April-September-Quarter-EP.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.siasat.com/wp-content/uploads/2020/04/2020_4img19_Apr_2020_PTI19-04-2020_000133B-scaled.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -1183,10 +1183,10 @@ const productData = {
     We offer a curated range of millets that are cleaned, graded, and processed under hygienic conditions for both domestic consumption and international export.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/8/334749556/NP/EM/LS/93800400/foxtail-millet.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://5.imimg.com/data5/SELLER/Default/2023/8/335136127/FW/MK/QS/93800400/barnyard-millet.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://5.imimg.com/data5/SELLER/Default/2022/9/LC/WJ/GL/93800400/kodo-millet.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://5.imimg.com/data5/SELLER/Default/2023/8/336084156/ZL/QU/BX/93800400/little-millet.jpeg?auto=compress&cs=tinysrgb&w=800'
+    'https://shivaruthraexports.com/wp-content/uploads/2021/10/millets9.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.amar-khamar.com/cdn/shop/products/LittleMillet1.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.uasbangalore.edu.in/wp-content/uploads/2021/09/Small-Millet-image.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://2.wlimg.com/product_images/bc-full/2024/4/45366/indian-green-millet-1713960211-7397159.jpeg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -1272,9 +1272,10 @@ const productData = {
     We supply premium-grade barley, cleaned and processed with strict quality controls, ready for export and bulk distribution to meet diverse buyer needs.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/7/FG/DS/YJ/12345678/barley-grains.jpg?auto=compress&cs=tinysrgb&w=800',
-    'https://5.imimg.com/data5/SELLER/Default/2023/7/FG/DS/YJ/12345678/barley-harvest.jpg?auto=compress&cs=tinysrgb&w=800',
-    'https://5.imimg.com/data5/SELLER/Default/2023/7/FG/DS/YJ/12345678/barley-flour.jpg?auto=compress&cs=tinysrgb&w=800'
+    'https://m.media-amazon.com/images/I/51pxG6EMPrL.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://3.imimg.com/data3/IO/LC/MY-3788746/barley-seeds-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/MI/HS/JC/SELLER-3623669/barley-cleaned--1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://img1.exportersindia.com/product_images/bc-small/2023/10/2438772/barley-grain-1697188416-7129239.jpeg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -1333,9 +1334,10 @@ const productData = {
     Our premium yellow corn is carefully harvested, cleaned, and graded to meet stringent quality standards, ensuring it is free from contaminants and ready for diverse end uses, including flour production, popcorn, cornmeal, and industrial processing.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/7/FG/DS/YJ/12345678/yellow-corn-kernels.jpg?auto=compress&cs=tinysrgb&w=800',
-    'https://5.imimg.com/data5/SELLER/Default/2023/7/FG/DS/YJ/12345678/yellow-corn-cobs.jpg?auto=compress&cs=tinysrgb&w=800',
-    'https://5.imimg.com/data5/SELLER/Default/2023/7/FG/DS/YJ/12345678/corn-flour.jpg?auto=compress&cs=tinysrgb&w=800'
+    'https://img.etimg.com/thumb/msid-83390480,width-300,height-225,imgsize-176599,resizemode-75/istock-1061097354.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.datamarnews.com/wp-content/uploads/2019/10/corn-exports-exporta%C3%A7%C3%B5es-de-milho.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://cpimg.tistatic.com/1850746/b/5/fresh-baby-corn.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://images-global.nhst.tech/image/VEEwVjFJUlo1cmNpVzRJV1NjdlFsdzROci9VN1M3TmZzTnk5SU5DaW1kND0=/nhst/binary/ea074378b8733b9dd5e90842cbc150bb?image_version=800?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {

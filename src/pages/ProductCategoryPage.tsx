@@ -122,7 +122,7 @@ const categories: Record<string, Category> = {
     id: 'grains',
     name: 'Grains',
     description: 'Our grain selection includes premium rice varieties, wheat, millets, and other staples, all sourced directly from specialized growing regions.',
-    image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://hips.hearstapps.com/hmg-prod/images/gettyimages-611609590-6627de2d8c0bb.jpg?auto=compress&cs=tinysrgb&w=1200',
     subcategories: [
       {
         id: 'rice',
@@ -140,19 +140,19 @@ const categories: Record<string, Category> = {
         id: 'millets',
         name: 'Millets',
         description: 'Nutritious ancient grains including pearl millet, finger millet, and foxtail millet.',
-        image: 'https://images.pexels.com/photos/206828/pexels-photo-206828.jpeg?auto=compress&cs=tinysrgb&w=800'
+        image: 'https://shivaruthraexports.com/wp-content/uploads/2021/10/millets9.jpg?auto=compress&cs=tinysrgb&w=800'
       },
       {
         id: 'barley',
         name: 'Barley',
         description: 'Versatile grain used in beverages, soups, stews, and bread products.',
-        image: 'https://images.pexels.com/photos/533346/pexels-photo-533346.jpeg?auto=compress&cs=tinysrgb&w=800'
+        image: 'https://m.media-amazon.com/images/I/51pxG6EMPrL.jpg?auto=compress&cs=tinysrgb&w=800'
       },
       {
         id: 'corn',
         name: 'Yellow Corn',
         description: 'Versatile grain used for food, feed, and industrial purposes, prized for its sweetness and nutritional value.',
-        image: 'https://images.pexels.com/photos/33073/corn-maize-plant-yellow.jpg?auto=compress&cs=tinysrgb&w=800'
+        image: 'https://img.etimg.com/thumb/msid-83390480,width-300,height-225,imgsize-176599,resizemode-75/istock-1061097354.jpg?auto=compress&cs=tinysrgb&w=800'
       }
 
     ]
