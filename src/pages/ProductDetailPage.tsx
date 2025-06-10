@@ -1404,10 +1404,10 @@ const productData = {
     We source our light speckled kidney beans directly from farms using sustainable agricultural practices. Each batch undergoes strict quality checks to ensure purity, consistent size, and absence of foreign matter.
   `,
   images: [
-    'https://5.imimg.com/data5/QF/VB/MY-3057386/light-speckled-kidney-bean-500x500.jpg',
-    'https://cdn.pixabay.com/photo/2015/05/20/21/25/beans-775437_1280.jpg',
-    'https://shorturl.at/zFHJ4',
-    'https://shorturl.at/bmqKO'
+    'https://www.b2bagriculture.com/file/2020/01/Light-speckled-kidney-bean-Pinto-bean-Sugar-2.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://tiimg.tistatic.com/fp/1/006/933/light-speckled-pinto-red-sugar-kidney-beans-660.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/3/292469870/LS/BO/DO/159824908/light-speckled-kidney-bean-1000x1000.png?auto=compress&cs=tinysrgb&w=800',
+    'https://web.tradekorea.com/product/471/1586471/Organic%20Light%20Speckled%20KIDNEY%20BEANS_4.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -1462,10 +1462,10 @@ const productData = {
     Carefully cleaned and graded through modern processing units, our green lentils are offered in bulk and consumer-grade packaging with strict adherence to food safety and quality certifications.
   `,
   images: [
-    'https://5.imimg.com/data5/VJ/NS/MY-3057386/green-lentils-500x500.jpg',
-    'https://cdn.pixabay.com/photo/2016/06/27/18/29/lentils-1482043_1280.jpg',
-    'https://shorturl.at/oDJ28',
-    'https://shorturl.at/bcGI4'
+    'https://2.wlimg.com/product_images/bc-full/2023/9/8571437/green-lentils-1617966109-5784881.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://cdn-img.freshdi.com/350x350/files/ff35d3925e0f41b5b1161d4e3bb1ef99.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/8/335806748/XK/GG/BI/195244355/canadian-green-lentils-1000x1000.png?auto=compress&cs=tinysrgb&w=800',
+    'https://cpimg.tistatic.com/09618589/b/4/High-Quality-Lentils-Red-Lentils-Green-Lentils.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -1520,10 +1520,10 @@ const productData = {
     Carefully cleaned, graded, and packed using hygienic processing lines, our white kidney beans meet international quality and food safety standards, making them suitable for retail, wholesale, and export markets.
   `,
   images: [
-    'https://5.imimg.com/data5/JF/QA/MY-3057386/white-kidney-beans-500x500.jpg',
-    'https://cdn.pixabay.com/photo/2017/03/06/01/26/white-beans-2129588_1280.jpg',
-    'https://shorturl.at/rwCD3',
-    'https://shorturl.at/dxI69'
+    'https://5.imimg.com/data5/ANDROID/Default/2025/2/486786826/IK/XK/SC/187802390/product-jpeg-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.freshplaza.com/remote/https/agfstorage.blob.core.windows.net/misc/FP_com/2024/06/07/habony26.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://geoexporting.com/wp-content/uploads/2023/11/Egyptian-White-Beans-from-GEO-FARMS-5.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://deltaspiceegy.com/wp-content/uploads/2023/04/white-beans-3.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -1583,10 +1583,10 @@ const productData = {
     Available in whole and split forms, our dry peas undergo stringent quality sorting, polishing, and grading processes to maintain color, texture, and uniformity. Their excellent shelf life and high nutritional value make them an ideal ingredient for bulk processors, retailers, and health-conscious consumers alike.
   `,
   images: [
-    'https://5.imimg.com/data5/XM/GV/MY-3057386/dry-peas-500x500.jpg',
-    'https://cdn.pixabay.com/photo/2014/12/22/12/36/pea-576138_1280.jpg',
-    'https://shorturl.at/axzX1',
-    'https://shorturl.at/gnzDI'
+    'https://eshaaexim.com/assets/images/product/Dry_Peas.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/ANDROID/Default/2023/6/317270075/LJ/YA/CI/3155414/product-jpeg-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/QM/NC/MY-7435813/white-pea-28safed-vatana-29.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/ANDROID/Default/2023/6/317270075/LJ/YA/CI/3155414/product-jpeg-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -1646,10 +1646,10 @@ const productData = {
     Rich in plant-based protein, dietary fiber, and essential minerals like iron, magnesium, and zinc, our chickpeas are ideal for bulk processing, retail, and export. All products are machine-cleaned, size-graded, and polished according to international food safety standards.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2021/6/KE/LE/RR/126492563/white-chickpeas-500x500.jpg',
-    'https://cdn.pixabay.com/photo/2018/03/06/22/41/chickpeas-3201387_1280.jpg',
-    'https://shorturl.at/nEX39',
-    'https://shorturl.at/ayzE6'
+    'https://srexports.co.in/wp-content/uploads/2019/05/kabuli-chickpeas.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://flourist.com/cdn/shop/products/DC81EFFB-91E6-4649-BE20-D7305782F9D0.jpg?v=1621638501&width=1920?auto=compress&cs=tinysrgb&w=800',
+    'https://sumtradecorp.com/wp-content/uploads/2021/08/chickpeas1-2-768x1024.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://seedea.pl/wp-content/uploads/2023/06/Chickpeas-Whole-1-1024x576.png?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -1709,10 +1709,10 @@ const productData = {
     Processed under hygienic conditions and machine-cleaned to ensure uniformity and purity, our black eyed beans meet export-grade standards and are available in bulk or retail packaging formats.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/10/354201835/JT/MT/NJ/166316007/black-eyed-beans-500x500.jpeg',
-    'https://cdn.pixabay.com/photo/2021/01/03/21/07/black-eyed-peas-5885934_1280.jpg',
-    'https://shorturl.at/iIWZ3',
-    'https://shorturl.at/cwLST'
+    'https://2.wlimg.com/product_images/bc-full/2022/8/10363981/black-eyed-beans-1660820078-6496342.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://globexia.com/wp-content/uploads/2020/05/black-eyed-beans-cowpea-export-in-nigeria-globexia-1.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://2.wlimg.com/product_images/bc-full/2022/8/10110871/black-eyed-beans-1659691012-6479129.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://img3.21food.com/img/product/2020/6/20/flaviorwallauer-15550190.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -1772,10 +1772,10 @@ const productData = {
     Carefully machine-cleaned, size-graded, and polished, our red kidney beans meet international standards for food safety, appearance, and cooking performance. Available in various sizes and types to suit both retail and bulk buyers.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/10/342273166/ZD/AC/YA/31566213/red-kidney-beans-rajma-500x500.jpeg',
-    'https://cdn.pixabay.com/photo/2022/10/07/17/44/kidney-beans-7504823_1280.jpg',
-    'https://shorturl.at/jnC57',
-    'https://shorturl.at/ozELN'
+    'https://5.imimg.com/data5/SELLER/Default/2023/4/299700746/FN/BX/GB/69968307/red-kidney-bean-beans-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://cdn.tridge.com/attachment-file/54/a0/44/54a044dc642d99202c3519e5dbe9b5aa00f8a700/Ethiopian-Red-Kidney-Beans-5.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://rupshri.com/wp-content/uploads/2022/08/ethiopian-red-kidney-beans.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://didwblovvwmoz.cloudfront.net/product_images/3285379/1286208/live/featured_image/6a4eb5002389f9b1d0e3676e19b4_900_900.jpeg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -1835,10 +1835,10 @@ const productData = {
     Packed with plant-based protein, dietary fiber, B-complex vitamins, and essential minerals like iron and magnesium, pigeon peas are an essential component of balanced vegetarian diets. Our offerings are thoroughly cleaned, machine-sorted, and processed in certified facilities adhering to global food safety standards.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/1/YC/XA/OG/26185388/arhar-toor-dal-500x500.jpg',
-    'https://cdn.pixabay.com/photo/2021/06/20/17/52/split-pigeon-peas-6351853_1280.jpg',
-    'https://shorturl.at/gvwPY',
-    'https://shorturl.at/hDQTZ'
+    'https://api.globy.com/public/market/6799c7a24d4ca20047388dc5/photos/6799c7a34d4ca20047388f27/6799c7a34d4ca20047388f27_lg.webp?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2024/7/434741022/AY/KN/YH/50984650/pigeon-peas-whole-1000x1000.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2024/7/434741058/ZP/KZ/BG/50984650/pigeon-peas-2-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/YP/DJ/RK/SELLER-35432286/pigeon-peas-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -1898,10 +1898,10 @@ const productData = {
     Processed using stringent food-grade cleaning, dehulling, and sorting systems, our lupins meet the highest standards for nutritional integrity, allergen control, and microbiological safety.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/4/299156005/TD/ZD/JF/133302319/lupin-seeds-500x500.jpg',
-    'https://cdn.pixabay.com/photo/2021/09/25/11/36/lupin-beans-6654767_1280.jpg',
-    'https://shorturl.at/fotxR',
-    'https://shorturl.at/euHPU'
+    'https://walupins.com.au/wp-content/uploads/2020/08/LUPINS-in-hand-1.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://walupins.com.au/wp-content/uploads/2020/08/WHOLE-LUPINS-SEED-edited.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://dejenexport.com/wp-content/uploads/2023/02/Lupin.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.healthyfood.com/wp-content/uploads/2021/01/The-health-benefits-of-lupin-iStock-471019695-768x628.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -1961,10 +1961,10 @@ const productData = {
     Vetch seeds are used in green manuring, livestock feed, erosion control, and increasingly in specialty flours and plant-based products. Our offering includes cleaned, graded seeds available for human consumption, animal feed, or agricultural use, depending on the variety and processing method.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2021/10/NF/EL/FL/1477037/vetch-seeds-500x500.jpg',
-    'https://cdn.pixabay.com/photo/2021/11/24/12/55/vetch-6820327_1280.jpg',
-    'https://shorturl.at/fvySX',
-    'https://shorturl.at/lwIY2'
+    'https://exportgrain.net/wp-content/uploads/2025/04/vika-5.webp?auto=compress&cs=tinysrgb&w=800',
+    'https://ethiopiaexport.net/wp-content/uploads/2023/11/vetch.png?auto=compress&cs=tinysrgb&w=800',
+    'https://2.wlimg.com/product_images/bc-full/2025/4/14409648/vetch-seeds-1745912358-8029805.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://dejenexport.com/wp-content/uploads/2023/02/Vetch.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2024,10 +2024,10 @@ const productData = {
     Our Desi Chickpeas are sourced from top pulse-producing regions like Madhya Pradesh, Maharashtra, and Rajasthan. They undergo thorough cleaning, sorting, and grading to ensure consistent quality, uniform size, and free from impurities.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2020/11/FC/DT/PK/6937279/desi-chickpeas-500x500.jpg',
-    'https://cdn.pixabay.com/photo/2019/06/22/20/18/chickpeas-4293278_1280.jpg',
-    'https://shorturl.at/fxAK4',
-    'https://shorturl.at/egDJ8'
+    'https://dejenexport.com/wp-content/uploads/2023/02/ChickPeas-Desi-Type.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2024/11/469018357/TZ/BJ/PG/236762987/desi-chickpeas-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://img3.exportersindia.com/product_images/bc-small/dir_182/5447009/desi-chick-peas-1515498220-3568863.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://srexports.co.in/wp-content/uploads/2019/06/42-44-Counts-per-Ounce-12mm.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2089,10 +2089,10 @@ const productData = {
     Available in whole leaf, broken leaf, and CTC (crush-tear-curl) formats, our black tea is carefully graded and sorted to suit various customer preferences, from gourmet blends to industrial bulk supply.
   `,
   images: [
-    'https://upload.wikimedia.org/wikipedia/commons/3/3b/Black_tea_leaves.jpg',
-    'https://5.imimg.com/data5/SELLER/Default/2022/10/FE/YU/XO/135004824/black-tea.jpg',
-    'https://shorturl.at/mwAEP',
-    'https://shorturl.at/qsDS0'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2152,10 +2152,10 @@ const productData = {
     The whole leaf format is favored by connoisseurs and specialty tea brands for its visual appeal, infusion clarity, and complex taste profile. Each batch is hand-sorted and graded for uniformity and purity, ensuring premium quality with every brew.
   `,
   images: [
-    'https://upload.wikimedia.org/wikipedia/commons/2/26/Loose_black_tea_leaves.jpg',
-    'https://5.imimg.com/data5/ANDROID/Default/2023/2/FN/WL/RZ/154042866/product-jpeg-500x500.jpg',
-    'https://shorturl.at/aekGH',
-    'https://shorturl.at/dmwO6'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2215,10 +2215,10 @@ const productData = {
     This format is widely used in domestic and international tea markets for its cost-effectiveness and ability to deliver a flavorful cup quickly, whether served plain or with milk.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2021/6/TI/JF/CT/72333650/black-tea-broken.jpg',
-    'https://shorturl.at/aelEO',
-    'https://shorturl.at/ptBJS',
-    'https://shorturl.at/fqBTV'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2278,10 +2278,10 @@ const productData = {
     Revered both as a beverage and a health tonic, green tea is widely consumed for its potential to aid metabolism, support immunity, and provide a calming yet alert state of mind. We offer a range of green tea variants tailored for both everyday drinking and premium specialty markets.
   `,
   images: [
-    'https://upload.wikimedia.org/wikipedia/commons/3/3c/Green_tea_leaf_001.jpg',
-    'https://5.imimg.com/data5/SELLER/Default/2022/5/OB/VC/DI/1402837/green-tea-leaves.jpg',
-    'https://shorturl.at/cvJ36',
-    'https://shorturl.at/boCK6'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2340,10 +2340,10 @@ const productData = {
     Ideal for mass-market and quick-consumption formats, fannings provide an economical yet flavorful solution for commercial brands and institutional use. Their briskness and strength make them especially suitable for milk tea and vending applications.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2020/12/OZ/GD/AL/2524672/tea-fannings.jpg',
-    'https://shorturl.at/nqFL8',
-    'https://shorturl.at/fAQU2',
-    'https://shorturl.at/dHKS3'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2403,10 +2403,10 @@ const productData = {
     Despite its fine texture, Tea Dust offers exceptional value and performance in applications demanding bold flavor, rapid steeping, and cost-effectiveness.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/8/334385982/FE/HK/KE/41849863/assam-tea-dust.jpg',
-    'https://shorturl.at/lzMP2',
-    'https://shorturl.at/hxAX4',
-    'https://shorturl.at/aEQX4'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2468,10 +2468,10 @@ const productData = {
     Our sunflower oil is available in various forms, including refined, cold-pressed, and organic variants, making it suitable for diverse culinary and industrial applications.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2022/6/LK/KE/XD/11193467/refined-sunflower-oil.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://cdn.pixabay.com/photo/2017/05/17/10/01/sunflower-oil-2314522_1280.jpg',
-    'https://shorturl.at/hAFRY?auto=compress&cs=tinysrgb&w=800',
-    'https://shorturl.at/aJTZ3?auto=compress&cs=tinysrgb&w=800'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2526,10 +2526,10 @@ const productData = {
     Available in different grades and fractions—Crude Palm Oil (CPO), Refined Bleached Deodorized Palm Oil (RBDPO), Palm Olein, and Palm Stearin—our palm oil products meet global standards for food safety and industrial use.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/8/335004746/TK/JF/KF/16310352/palm-oil-500x500.jpg',
-    'https://cdn.pixabay.com/photo/2017/01/31/18/20/oil-2027764_1280.jpg',
-    'https://shorturl.at/wFJS1?auto=compress&cs=tinysrgb&w=800',
-    'https://shorturl.at/puMVY?auto=compress&cs=tinysrgb&w=800'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2595,10 +2595,10 @@ const productData = {
     Our olive oil is suitable for gourmet cooking, salad dressings, skincare formulations, and wellness products. Each batch is tested for purity and meets international quality standards.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2021/2/ZF/WZ/RN/19631895/extra-virgin-olive-oil.jpeg',
-    'https://cdn.pixabay.com/photo/2016/04/13/22/35/olive-oil-1327081_1280.jpg',
-    'https://shorturl.at/DsZ12?auto=compress&cs=tinysrgb&w=800',
-    'https://shorturl.at/EjLPU?auto=compress&cs=tinysrgb&w=800'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2666,10 +2666,10 @@ const productData = {
     The oil is produced under hygienic, food-grade conditions using traditional wood-press (kachi ghani) and modern expeller or solvent extraction methods depending on the grade. It is widely used in culinary preparations, personal care, and wellness applications.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/2/289003440/AC/KD/VV/104068020/pure-sesame-oil.jpeg',
-    'https://cdn.pixabay.com/photo/2015/06/08/15/11/oil-801234_1280.jpg',
-    'https://shorturl.at/cvAVZ?auto=compress&cs=tinysrgb&w=800',
-    'https://shorturl.at/eILTW?auto=compress&cs=tinysrgb&w=800'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2737,10 +2737,10 @@ const productData = {
     Our soyabean meal is available in two main forms: De-oiled Soyabean Cake (DOC) and Full-Fat Soyabean Meal, depending on oil content and application. It meets stringent international standards and is exported to feed manufacturers and bulk buyers globally.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2021/9/JK/FA/GR/19452842/soybean-doc.jpeg',
-    'https://cdn.pixabay.com/photo/2020/05/13/11/36/soybean-5164256_1280.jpg',
-    'https://shorturl.at/boCHL?auto=compress&cs=tinysrgb&w=800',
-    'https://shorturl.at/hzDHO?auto=compress&cs=tinysrgb&w=800'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2807,10 +2807,10 @@ const productData = {
     Available in both ICUMSA 600–1200 and ICUMSA 800–1500 grades, our raw sugar meets international trade standards and is exported globally in bulk and bagged formats.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2022/5/MR/DU/UU/38449786/raw-sugar.jpeg',
-    'https://cdn.pixabay.com/photo/2018/03/22/16/25/sugar-3246938_1280.jpg',
-    'https://shorturl.at/kuyY4?auto=compress&cs=tinysrgb&w=800',
-    'https://shorturl.at/ADP06?auto=compress&cs=tinysrgb&w=800'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2878,10 +2878,10 @@ const productData = {
     Our product is available in multiple grain sizes — small, medium, and large crystals — and can be supplied in both consumer and bulk industrial packaging. Custom grain sizing and labeling are also available.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/2/291442918/GV/AA/WR/1622692/white-crystal-sugar.jpeg',
-    'https://cdn.pixabay.com/photo/2015/05/31/12/36/sugar-791052_1280.jpg',
-    'https://shorturl.at/pvBIR?auto=compress&cs=tinysrgb&w=800',
-    'https://shorturl.at/imIJM?auto=compress&cs=tinysrgb&w=800'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2951,10 +2951,10 @@ const productData = {
     Highly versatile, chia seeds are used in smoothies, cereals, baked goods, beverages, and health supplements. When soaked in water, they form a gel-like texture that is excellent for natural thickening, hydration, and weight management diets.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2021/8/OF/TC/FL/1444707/pure-black-chia-seeds.jpeg',
-    'https://cdn.pixabay.com/photo/2019/06/28/20/49/chia-4305381_1280.jpg',
-    'https://shorturl.at/ryJKW?auto=compress&cs=tinysrgb&w=800',
-    'https://shorturl.at/aoMRU?auto=compress&cs=tinysrgb&w=800'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -3024,10 +3024,10 @@ const productData = {
     Sunflower seeds are widely used in the production of sunflower oil, roasted snacks, baking ingredients, bird feed, and health food preparations.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2021/5/IA/XH/CS/28242790/natural-sunflower-seeds.jpeg',
-    'https://cdn.pixabay.com/photo/2017/05/29/14/39/sunflower-seeds-2354805_1280.jpg',
-    'https://shorturl.at/hmzA9?auto=compress&cs=tinysrgb&w=800',
-    'https://shorturl.at/foqP2?auto=compress&cs=tinysrgb&w=800'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -3096,10 +3096,10 @@ const productData = {
     Cashews are consumed raw, roasted, salted, or flavored and are key ingredients in Indian sweets, vegan cheese, bakery products, and international cuisine.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2021/5/JX/KD/CG/28242790/whole-cashew-nuts.jpeg',
-    'https://cdn.pixabay.com/photo/2016/03/05/19/02/cashew-1239424_1280.jpg',
-    'https://shorturl.at/ckCM9?auto=compress&cs=tinysrgb&w=800',
-    'https://shorturl.at/axCD2?auto=compress&cs=tinysrgb&w=800'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -3167,10 +3167,10 @@ const productData = {
     Pistachios are widely consumed as snacks, used in bakery items, ice creams, confectionery, and savory dishes.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/2/IB/AC/GJ/12345678/premium-pistachio-nuts.jpeg',
-    'https://cdn.pixabay.com/photo/2016/10/25/12/28/pistachios-1760537_1280.jpg',
-    'https://shorturl.at/abcXY?auto=compress&cs=tinysrgb&w=800',
-    'https://shorturl.at/xyzAB?auto=compress&cs=tinysrgb&w=800'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -3237,10 +3237,10 @@ const productData = {
     Available in various grades (I, II, III) based on crocin content (color), picrocrocin (taste), and safranal (aroma), our saffron is free from artificial dyes and adulterants.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/9/XY/AB/CD/12345678/premium-kashmiri-saffron.jpeg',
-    'https://cdn.pixabay.com/photo/2017/05/16/22/14/saffron-2313317_1280.jpg',
-    'https://shorturl.at/qsQR7?auto=compress&cs=tinysrgb&w=800',
-    'https://shorturl.at/tBKL3?auto=compress&cs=tinysrgb&w=800'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -3307,10 +3307,10 @@ const productData = {
     Our dried onion offers ease of storage and long shelf stability without compromising on natural flavor, making it an excellent ingredient for food manufacturers and chefs alike.
   `,
   images: [
-    'https://5.imimg.com/data5/SELLER/Default/2023/3/AB/CD/EF/12345678/dried-onion-flakes.jpeg',
-    'https://cdn.pixabay.com/photo/2017/09/22/20/30/onion-2779690_1280.jpg',
-    'https://shorturl.at/xyz12?auto=compress&cs=tinysrgb&w=800',
-    'https://shorturl.at/abzR5?auto=compress&cs=tinysrgb&w=800'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -3376,10 +3376,10 @@ const productData = {
     Available in fresh, frozen, chilled, dried, and processed forms, our seafood is suitable for retail, food service, and industrial applications.
   `,
   images: [
-    'https://cdn.pixabay.com/photo/2018/06/04/15/34/fish-3456249_1280.jpg',
-    'https://cdn.pixabay.com/photo/2017/01/20/00/30/shrimp-1993293_1280.jpg',
-    'https://cdn.pixabay.com/photo/2018/01/06/17/38/seafood-3062863_1280.jpg',
-    'https://cdn.pixabay.com/photo/2019/05/02/15/14/salmon-4171419_1280.jpg'
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800',
+    '?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {

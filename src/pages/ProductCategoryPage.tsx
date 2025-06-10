@@ -161,61 +161,61 @@ const categories: Record<string, Category> = {
   id: 'pulses',
   name: 'Pulses',
   description: 'A rich collection of protein-packed pulses including lentils, chickpeas, beans, and peas—sourced from trusted farms to ensure top-tier quality and nutrition.',
-  image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  image: 'https://ik.imagekit.io/lvn5j5ljp/wp-content/uploads/2023/08/Untitled-design-38.png?auto=compress&cs=tinysrgb&w=1200',
   subcategories: [
     {
       id: 'light-speckled-kidney-bean',
       name: 'Light Speckled Kidney Bean',
       description: 'Distinctive beans known for their speckled appearance and use in hearty dishes.',
-      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://www.b2bagriculture.com/file/2020/01/Light-speckled-kidney-bean-Pinto-bean-Sugar-2.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'green-lentils',
       name: 'Green Lentils',
       description: 'Firm-textured lentils that hold their shape well, perfect for salads and stews.',
-      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://2.wlimg.com/product_images/bc-full/2023/9/8571437/green-lentils-1617966109-5784881.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'white-kidney-beans',
       name: 'White Kidney Beans',
       description: 'Creamy-textured beans ideal for soups, stews, and Mediterranean dishes.',
-      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://5.imimg.com/data5/ANDROID/Default/2025/2/486786826/IK/XK/SC/187802390/product-jpeg-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'dry-peas',
       name: 'Dry Peas',
       description: 'Split or whole peas used in traditional soups and high-fiber recipes.',
-      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://eshaaexim.com/assets/images/product/Dry_Peas.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'chickpeas',
       name: 'Chickpeas',
       description: 'Versatile legumes used in hummus, curries, and snacks with great nutritional value.',
-      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://srexports.co.in/wp-content/uploads/2019/05/kabuli-chickpeas.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'black-eyed-bean',
       name: 'Black Eyed Bean',
       description: 'Easily recognizable beans with a black spot, known for their earthy flavor.',
-      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://2.wlimg.com/product_images/bc-full/2022/8/10363981/black-eyed-beans-1660820078-6496342.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'red-kidney-beans',
       name: 'Red Kidney Beans',
       description: 'Classic rajma beans with bold flavor and firm texture, ideal for Indian and Latin cuisine.',
-      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://5.imimg.com/data5/SELLER/Default/2023/4/299700746/FN/BX/GB/69968307/red-kidney-bean-beans-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'pigeon-peas',
       name: 'Pigeon Peas',
       description: 'A staple in tropical diets, used in dals and rice dishes for their nutty taste.',
-      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://5.imimg.com/data5/SELLER/Default/2024/7/434741022/AY/KN/YH/50984650/pigeon-peas-whole-1000x1000.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'lupins',
       name: 'Lupins',
       description: 'Nutrient-rich legumes often used in Mediterranean cuisines and as flour substitutes.',
-      image: 'https://images.pexels.com/photos/1537169/pexels-photo-1537169.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://walupins.com.au/wp-content/uploads/2020/08/LUPINS-in-hand-1.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'vetches',
