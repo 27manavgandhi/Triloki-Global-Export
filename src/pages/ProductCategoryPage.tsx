@@ -241,37 +241,37 @@ const categories: Record<string, Category> = {
       id: 'black-tea',
       name: 'Black Tea',
       description: 'Robust and fully oxidized tea known for its bold flavor and deep color.',
-      image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://vietnam-tea.com/wp-content/uploads/2023/11/black-tea-export-situation.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'whole-leaf',
       name: 'Whole Leaf',
       description: 'Premium grade tea with intact leaves offering richer taste and aroma.',
-      image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://www.udyantea.com/cdn/shop/files/wholesale-header-mobile.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'broken-leaf',
       name: 'Broken Leaf',
       description: 'Partially broken leaves that infuse quickly while retaining full flavor.',
-      image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://manibhaiexports.com/wp-content/uploads/2021/12/Flowery-Broken-Orange-Pekoe-Fannings-FBOPF.png?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'green-tea',
       name: 'Green Tea',
       description: 'Lightly processed tea celebrated for its delicate flavor and health benefits.',
-      image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://api.globy.com/public/market/67d1570855db210240adfbf5/photos/67d1570855db210240adfbfb/67d1570855db210240adfbfb_lg.webp?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'fannings',
       name: 'Fannings',
       description: 'Small tea particles often used in tea bags for quick infusion and strong brew.',
-      image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://s.alicdn.com/@sc04/kf/Haaa3814e006e49108c7f6fab6c85bbdc8.jpg_720x720q50.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'tea-dust',
       name: 'Tea Dust',
       description: 'Finely ground tea particles providing an intense flavor, commonly used in commercial blends.',
-      image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://2.wlimg.com/product_images/bc-full/2024/4/13203672/tea-powder-1712734057-7377750.jpeg?auto=compress&cs=tinysrgb&w=800'
     }
   ]
   },

@@ -2089,10 +2089,10 @@ const productData = {
     Available in whole leaf, broken leaf, and CTC (crush-tear-curl) formats, our black tea is carefully graded and sorted to suit various customer preferences, from gourmet blends to industrial bulk supply.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://vietnam-tea.com/wp-content/uploads/2023/11/black-tea-export-situation.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.harney.com/cdn/shop/products/Cup_Shots_Kenya_Milima.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2021/11/DK/IT/JN/46193/orthodox-black-tea-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://vietnam-tea.com/wp-content/uploads/2023/11/Kenya-black-tea-export.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2152,10 +2152,10 @@ const productData = {
     The whole leaf format is favored by connoisseurs and specialty tea brands for its visual appeal, infusion clarity, and complex taste profile. Each batch is hand-sorted and graded for uniformity and purity, ensuring premium quality with every brew.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://www.udyantea.com/cdn/shop/files/wholesale-header-mobile.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.udyantea.com/cdn/shop/files/darjeeling-teas.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.gopaldhara.com/wp-content/uploads/2022/07/Moonlight-Creative-1.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://gopaldharaindia.com/wp-content/uploads/2025/06/baimudan-white-tea-dried-leaf.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2215,10 +2215,10 @@ const productData = {
     This format is widely used in domestic and international tea markets for its cost-effectiveness and ability to deliver a flavorful cup quickly, whether served plain or with milk.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://manibhaiexports.com/wp-content/uploads/2021/12/Flowery-Broken-Orange-Pekoe-Fannings-FBOPF.png?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2024/2/382772081/ZU/CP/IJ/189791658/broken-pekoe-tea-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/8/332240334/AF/BU/QI/192253050/broken-pejoe-small-tea-1000x1000.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.fleischerei-monse.de/media/image/product/482/lg/ostfriesische-goldspitzen-broken-mischung-100-gr~2.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2278,10 +2278,10 @@ const productData = {
     Revered both as a beverage and a health tonic, green tea is widely consumed for its potential to aid metabolism, support immunity, and provide a calming yet alert state of mind. We offer a range of green tea variants tailored for both everyday drinking and premium specialty markets.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://api.globy.com/public/market/67d1570855db210240adfbf5/photos/67d1570855db210240adfbfb/67d1570855db210240adfbfb_lg.webp?auto=compress&cs=tinysrgb&w=800',
+    'https://3.imimg.com/data3/QE/BO/GLADMIN-12715/darjeeling-tea-250x250.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/GW/MC/MY-25490333/ashna-1000x1000.png?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2024/5/420943711/XT/KG/NX/107877794/darjeeling-green-tea.webp?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2340,10 +2340,10 @@ const productData = {
     Ideal for mass-market and quick-consumption formats, fannings provide an economical yet flavorful solution for commercial brands and institutional use. Their briskness and strength make them especially suitable for milk tea and vending applications.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://s.alicdn.com/@sc04/kf/Haaa3814e006e49108c7f6fab6c85bbdc8.jpg_720x720q50.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://s.alicdn.com/@sc04/kf/H00e919f3ad2f440d8197906ccf788210R.jpg_720x720q50.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://s.alicdn.com/@sc04/kf/H7c1c6a73cfe24398a523cdbee311d56aq.jpg_720x720q50.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://s.alicdn.com/@sc04/kf/Hc44d6e6742d24677ace07bfa0bc44679I.jpg_720x720q50.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2403,10 +2403,10 @@ const productData = {
     Despite its fine texture, Tea Dust offers exceptional value and performance in applications demanding bold flavor, rapid steeping, and cost-effectiveness.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://2.wlimg.com/product_images/bc-full/2024/4/13203672/tea-powder-1712734057-7377750.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://goodness-farm.com/wp-content/uploads/2021/04/ctc-tea.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2024/6/426894939/AJ/BV/YB/222996655/organic-tea-powder-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2024/8/443703702/EF/VB/GK/13036361/ctc-tea-powder.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
