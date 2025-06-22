@@ -194,7 +194,7 @@ const categories: Record<string, Category> = {
       image: 'https://srexports.co.in/wp-content/uploads/2019/05/kabuli-chickpeas.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
-      id: 'black-eyed-bean',
+      id: 'black-eyed-beans',
       name: 'Black Eyed Bean',
       description: 'Easily recognizable beans with a black spot, known for their earthy flavor.',
       image: 'https://2.wlimg.com/product_images/bc-full/2022/8/10363981/black-eyed-beans-1660820078-6496342.jpeg?auto=compress&cs=tinysrgb&w=800'

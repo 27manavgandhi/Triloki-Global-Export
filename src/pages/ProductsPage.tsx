@@ -198,7 +198,7 @@ const ProductsPage: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <img src="https://placehold.co/120x60/404040/FFFFFF/png?text=APEDA" alt="APEDA" className="h-12 mb-4" />
+                <img src="https://5.imimg.com/data5/SELLER/Default/2024/12/475699502/RM/KS/KK/44636240/apeda-certification.jpg" alt="APEDA" className="h-12 mb-4" />
                 <h3 className="text-lg font-semibold mb-2">APEDA Certified</h3>
                 <p className="text-neutral-600">
                   Registered with Agricultural and Processed Food Products Export Development Authority.
@@ -206,7 +206,7 @@ const ProductsPage: React.FC = () => {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <img src="https://placehold.co/120x60/404040/FFFFFF/png?text=FSSAI" alt="FSSAI" className="h-12 mb-4" />
+                <img src="https://vectorconversion.net/wp-content/uploads/2019/11/fssai-01.jpg" alt="FSSAI" className="h-12 mb-4" />
                 <h3 className="text-lg font-semibold mb-2">FSSAI Approved</h3>
                 <p className="text-neutral-600">
                   Compliant with Food Safety and Standards Authority of India regulations.
@@ -214,7 +214,7 @@ const ProductsPage: React.FC = () => {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <img src="https://placehold.co/120x60/404040/FFFFFF/png?text=Organic" alt="Organic" className="h-12 mb-4" />
+                <img src="https://w7.pngwing.com/pngs/237/227/png-transparent-organic-food-medical-cannabis-organic-certification-organic-farming-cannabis-food-label-logo-thumbnail.png" alt="Organic" className="h-12 mb-4" />
                 <h3 className="text-lg font-semibold mb-2">Organic Certified</h3>
                 <p className="text-neutral-600">
                   International organic certification for selected product ranges.

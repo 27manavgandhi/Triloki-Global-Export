@@ -330,9 +330,9 @@ const productData = {
   `,
   images: [
     'https://shorturl.at/gFnTi?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12HND?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/12HNR?auto=compress&cs=tinysrgb&w=800',
-    'https://short-link.me/ZGsR?auto=compress&cs=tinysrgb&w=800'
+    'https://5.imimg.com/data5/SELLER/Default/2025/4/501808637/QW/SR/LE/33396224/clove2-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2025/5/511600996/BS/AN/BY/37776596/laung-cloves.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2025/5/511601005/ZV/CG/CH/37776596/laung-cloves-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -1641,7 +1641,7 @@ const productData = {
   longDescription: `
     Chickpeas (Cicer arietinum), also known as garbanzo beans, are one of the most consumed legumes globally, valued for their dense nutritional profile, creamy texture, and mild nutty flavor. They are a staple in Middle Eastern, Indian, Mediterranean, and African cuisines.
 
-    We source our chickpeas from the finest agricultural regions in India such as Madhya Pradesh, Rajasthan, and Maharashtra, as well as from global suppliers like Australia and Mexico, depending on the client's size and specification requirements. Our chickpeas are available in both **Desi** (small, darker, and angular) and **Kabuli** (large, round, and pale) varieties.
+    We source our chickpeas from the finest agricultural regions in India such as Madhya Pradesh, Rajasthan, and Maharashtra, as well as from global suppliers like Australia and Mexico, depending on the client's size and specification requirements. Our chickpeas are available in both Desi (small, darker, and angular) and Kabuli (large, round, and pale) varieties.
 
     Rich in plant-based protein, dietary fiber, and essential minerals like iron, magnesium, and zinc, our chickpeas are ideal for bulk processing, retail, and export. All products are machine-cleaned, size-graded, and polished according to international food safety standards.
   `,
@@ -1893,7 +1893,7 @@ const productData = {
   longDescription: `
     Lupins (Lupinus spp.) are high-protein legumes commonly cultivated in Mediterranean regions, Australia, and parts of South America. Known for their impressive nutritional profile—rich in protein, dietary fiber, and low in starch—lupins are increasingly used in health foods, meat substitutes, and gluten-free products.
 
-    Our lupins are sourced from premium farms in Australia and the Mediterranean (particularly Spain and Italy), and are available in both sweet (low-alkaloid) and bitter (high-alkaloid, traditionally soaked) varieties. Sweet lupins, especially *Lupinus albus* and *Lupinus angustifolius*, are the preferred varieties for direct human consumption due to their mild flavor and minimal processing needs.
+    Our lupins are sourced from premium farms in Australia and the Mediterranean (particularly Spain and Italy), and are available in both sweet (low-alkaloid) and bitter (high-alkaloid, traditionally soaked) varieties. Sweet lupins, especially Lupinus albus and Lupinus angustifolius, are the preferred varieties for direct human consumption due to their mild flavor and minimal processing needs.
 
     Processed using stringent food-grade cleaning, dehulling, and sorting systems, our lupins meet the highest standards for nutritional integrity, allergen control, and microbiological safety.
   `,
@@ -1956,7 +1956,7 @@ const productData = {
   longDescription: `
     Vetches (Vicia spp.) are cool-season leguminous plants valued for their versatility in agricultural, livestock, and environmental applications. Traditionally grown as cover crops and forage, certain vetch varieties are now gaining traction in food and feed sectors due to their high protein and nitrogen-fixing benefits.
 
-    Our vetches are primarily sourced from sustainable farms in India, Australia, Canada, and Eastern Europe. Common commercial species include *Vicia sativa* (Common Vetch), *Vicia villosa* (Hairy Vetch), and *Vicia narbonensis* (Narbon Vetch), each suited to specific climates and uses.
+    Our vetches are primarily sourced from sustainable farms in India, Australia, Canada, and Eastern Europe. Common commercial species include Vicia sativa (Common Vetch), Vicia villosa (Hairy Vetch), and Vicia narbonensis (Narbon Vetch), each suited to specific climates and uses.
 
     Vetch seeds are used in green manuring, livestock feed, erosion control, and increasingly in specialty flours and plant-based products. Our offering includes cleaned, graded seeds available for human consumption, animal feed, or agricultural use, depending on the variety and processing method.
   `,
@@ -2082,7 +2082,7 @@ const productData = {
   description: 'Our premium black tea is handpicked from high-altitude estates in Assam and Darjeeling, known for their rich aroma, bold flavor, and antioxidant properties.',
   category: 'Tea',
   longDescription: `
-    Black tea is a fully oxidized tea variety made from the leaves of the *Camellia sinensis* plant. It is the most widely consumed type of tea globally and is renowned for its strong flavor, dark color, and higher caffeine content compared to other teas.
+    Black tea is a fully oxidized tea variety made from the leaves of the Camellia sinensis plant. It is the most widely consumed type of tea globally and is renowned for its strong flavor, dark color, and higher caffeine content compared to other teas.
 
     Our black tea is sourced from prestigious estates in India, including Assam and Darjeeling, where the unique climate and soil conditions create a naturally rich and aromatic profile. Harvested at optimal maturity, the tea leaves are processed using traditional withering, rolling, oxidation, and drying techniques to ensure full-bodied flavor and freshness.
 
@@ -2145,7 +2145,7 @@ const productData = {
   description: 'Premium grade black tea made from unbroken, full-size leaves that offer superior aroma, flavor complexity, and a smooth finish.',
   category: 'Tea',
   longDescription: `
-    Whole Leaf Black Tea refers to unbroken, carefully rolled leaves of the *Camellia sinensis* plant, processed through full oxidation to achieve a deep flavor and rich character. Unlike CTC or broken tea, whole leaf preserves the integrity of the leaf, allowing for a more refined and layered tea experience.
+    Whole Leaf Black Tea refers to unbroken, carefully rolled leaves of the Camellia sinensis plant, processed through full oxidation to achieve a deep flavor and rich character. Unlike CTC or broken tea, whole leaf preserves the integrity of the leaf, allowing for a more refined and layered tea experience.
 
     Our whole leaf black tea is sourced from certified organic and conventional tea estates in Assam, Darjeeling, and Nilgiris. These high-altitude gardens cultivate leaves under optimal conditions, producing tea that is naturally rich in antioxidants like theaflavins and thearubigins.
 
@@ -2155,7 +2155,7 @@ const productData = {
     'https://www.udyantea.com/cdn/shop/files/wholesale-header-mobile.jpg?auto=compress&cs=tinysrgb&w=800',
     'https://www.udyantea.com/cdn/shop/files/darjeeling-teas.jpg?auto=compress&cs=tinysrgb&w=800',
     'https://www.gopaldhara.com/wp-content/uploads/2022/07/Moonlight-Creative-1.jpg?auto=compress&cs=tinysrgb&w=800',
-    'https://gopaldharaindia.com/wp-content/uploads/2025/06/baimudan-white-tea-dried-leaf.jpg?auto=compress&cs=tinysrgb&w=800'
+    'https://loveincstatic.blob.core.windows.net/lovefood/2020/Loose-leaf-tea/rising-popularity-of-tea.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2271,7 +2271,7 @@ const productData = {
   description: 'Our premium green tea is minimally processed to preserve its natural antioxidants, offering a light, refreshing taste and a range of wellness benefits.',
   category: 'Tea',
   longDescription: `
-    Green Tea is made from the unoxidized leaves of the *Camellia sinensis* plant and is known for its delicate flavor, pale color, and high levels of catechins, a type of antioxidant. It undergoes minimal processing, typically involving steaming or pan-firing, to retain its green color and nutritional profile.
+    Green Tea is made from the unoxidized leaves of the Camellia sinensis plant and is known for its delicate flavor, pale color, and high levels of catechins, a type of antioxidant. It undergoes minimal processing, typically involving steaming or pan-firing, to retain its green color and nutritional profile.
 
     Our green tea is sourced from the finest tea-growing regions of India, including Darjeeling, Assam, and the Nilgiri Hills. The leaves are handpicked and carefully processed to ensure maximum freshness and efficacy.
 
@@ -2333,7 +2333,7 @@ const productData = {
   description: 'A fine-grade black tea made from small particles left after the processing of whole and broken leaves, perfect for quick infusion and strong brew.',
   category: 'Tea',
   longDescription: `
-    Fannings Black Tea is a finely sorted grade of tea consisting of smaller broken particles of the *Camellia sinensis* leaf. Though often a byproduct of higher leaf grades, fannings are purposefully used in tea bags for their ability to infuse quickly and produce a strong, bold cup.
+    Fannings Black Tea is a finely sorted grade of tea consisting of smaller broken particles of the Camellia sinensis leaf. Though often a byproduct of higher leaf grades, fannings are purposefully used in tea bags for their ability to infuse quickly and produce a strong, bold cup.
 
     Our fannings are sourced from premium orthodox and CTC tea estates across Assam, Darjeeling, and Nilgiris. The tea particles are carefully sieved, graded, and cleaned to ensure consistent size and flavor quality.
 
@@ -2659,7 +2659,7 @@ const productData = {
   description: 'Our premium sesame oil is extracted from carefully selected sesame seeds, offering a rich aroma, nutty flavor, and exceptional purity ideal for both culinary and therapeutic uses.',
   category: 'Edible Oils',
   longDescription: `
-    Sesame oil, also known as gingelly oil or til oil, is an edible vegetable oil derived from sesame seeds (*Sesamum indicum*). It has a long history of use in traditional medicine, Ayurveda, and Asian cuisines due to its antioxidant and anti-inflammatory properties.
+    Sesame oil, also known as gingelly oil or til oil, is an edible vegetable oil derived from sesame seeds (Sesamum indicum). It has a long history of use in traditional medicine, Ayurveda, and Asian cuisines due to its antioxidant and anti-inflammatory properties.
 
     Our sesame oil is sourced from high-quality white and black sesame seeds grown in the fertile regions of Gujarat, Tamil Nadu, and West Bengal. Available in both cold-pressed (unrefined) and refined variants, our oil retains the natural aroma, flavor, and nutrients that sesame is known for.
 
@@ -2730,7 +2730,7 @@ const productData = {
   description: 'Our high-protein soyabean meal is derived from premium-grade non-GMO soybeans, offering excellent digestibility and nutritional value for animal feed and industrial applications.',
   category: 'Animal Feed & Agro Products',
   longDescription: `
-    Soyabean meal is the solid, protein-rich byproduct obtained after extracting oil from soybeans (*Glycine max*). It is widely used as a high-protein ingredient in animal feed for poultry, cattle, swine, and aquaculture industries.
+    Soyabean meal is the solid, protein-rich byproduct obtained after extracting oil from soybeans (Glycine max). It is widely used as a high-protein ingredient in animal feed for poultry, cattle, swine, and aquaculture industries.
 
     We source soybeans from major growing belts in Madhya Pradesh, Maharashtra, and Rajasthan, and process them in state-of-the-art solvent extraction and mechanical expelling facilities. The resulting meal is rich in essential amino acids, especially lysine and methionine, making it an ideal protein supplement.
 
@@ -2944,7 +2944,7 @@ const productData = {
   description: 'Our premium chia seeds are nutrient-dense superfoods sourced from certified farms, rich in omega-3 fatty acids, fiber, and antioxidants — ideal for health-conscious consumers and food manufacturers.',
   category: 'Superfoods & Oilseeds',
   longDescription: `
-    Chia seeds (*Salvia hispanica*) are tiny black or white seeds from the flowering plant native to Central America. Known for their exceptional nutritional profile, chia seeds are a rich plant-based source of omega-3 fatty acids (ALA), dietary fiber, protein, calcium, and essential minerals.
+    Chia seeds (Salvia hispanica) are tiny black or white seeds from the flowering plant native to Central America. Known for their exceptional nutritional profile, chia seeds are a rich plant-based source of omega-3 fatty acids (ALA), dietary fiber, protein, calcium, and essential minerals.
 
     Our chia seeds are grown in arid and semi-arid regions of Rajasthan and Madhya Pradesh in India under strict organic and conventional farming practices. They are minimally processed to retain purity and are free from additives, ensuring maximum nutritional value.
 
@@ -3017,7 +3017,7 @@ const productData = {
   description: 'Our high-quality sunflower seeds are packed with nutrients, rich in healthy fats, protein, and antioxidants — ideal for snacking, oil extraction, and use in health food products.',
   category: 'Oilseeds & Superfoods',
   longDescription: `
-    Sunflower seeds are harvested from the sunflower plant (*Helianthus annuus*) and are valued globally as a nutrient-rich oilseed and wholesome snack. These seeds are known for their high content of vitamin E, selenium, healthy fats (including polyunsaturated fats), protein, and dietary fiber.
+    Sunflower seeds are harvested from the sunflower plant (Helianthus annuus) and are valued globally as a nutrient-rich oilseed and wholesome snack. These seeds are known for their high content of vitamin E, selenium, healthy fats (including polyunsaturated fats), protein, and dietary fiber.
 
     Sourced from leading agricultural zones such as Karnataka, Maharashtra, and Madhya Pradesh, our sunflower seeds are available in various grades — including bakery-grade, oil-grade, and snack-grade — based on purity, size, and oil content. We offer both dehulled (hulled) and whole (in-shell) sunflower seeds.
 
@@ -3089,7 +3089,7 @@ const productData = {
   description: 'Our premium cashew nuts are carefully processed and graded to meet global standards, offering rich taste, creamy texture, and versatile usage across culinary, confectionery, and snacking applications.',
   category: 'Nuts & Dry Fruits',
   longDescription: `
-    Cashew nuts (*Anacardium occidentale*) are kidney-shaped seeds sourced from the cashew apple, widely known for their rich buttery flavor and nutritional benefits. They are high in healthy monounsaturated fats, plant-based protein, magnesium, copper, and antioxidants.
+    Cashew nuts (Anacardium occidentale) are kidney-shaped seeds sourced from the cashew apple, widely known for their rich buttery flavor and nutritional benefits. They are high in healthy monounsaturated fats, plant-based protein, magnesium, copper, and antioxidants.
 
     Our cashews are primarily sourced from the leading cultivation zones in Goa, Kerala, Andhra Pradesh, and parts of Africa (Tanzania, Ivory Coast) based on client preference. We offer a complete range of cashew grades — including whole white kernels (W180, W210, W240, W320, W450), scorched, splits, and broken pieces — processed under hygienic and food-safe facilities.
 
@@ -3160,7 +3160,7 @@ const productData = {
   description: 'Our premium pistachios are sourced from the finest orchards, offering rich flavor, natural sweetness, and a crunchy texture — perfect for snacking, baking, and culinary uses.',
   category: 'Nuts & Dry Fruits',
   longDescription: `
-    Pistachios (*Pistacia vera*) are small, nutrient-dense nuts known for their distinctive green kernels and mild, slightly sweet flavor. They are rich in healthy fats, protein, fiber, vitamins, and antioxidants.
+    Pistachios (Pistacia vera) are small, nutrient-dense nuts known for their distinctive green kernels and mild, slightly sweet flavor. They are rich in healthy fats, protein, fiber, vitamins, and antioxidants.
 
     We source our pistachios from top producing regions such as Iran, the USA (California), and India, ensuring careful harvesting and processing to maintain freshness and quality. Available in shelled and unshelled forms, our pistachios are sorted and graded for uniform size, color, and moisture content.
 
@@ -3230,7 +3230,7 @@ const productData = {
   description: 'Our premium saffron is hand-harvested from the finest crocus flowers, offering deep aroma, vibrant color, and unmatched purity for culinary, medicinal, and cosmetic uses.',
   category: 'Spices',
   longDescription: `
-    Saffron (*Crocus sativus*) is one of the world’s most precious and valuable spices, derived from the delicate red stigmas of the saffron crocus flower. Known for its distinct aroma, vibrant golden-yellow hue, and unique flavor profile, saffron has been prized for centuries in culinary traditions, herbal medicine, and cosmetics.
+    Saffron (Crocus sativus) is one of the world’s most precious and valuable spices, derived from the delicate red stigmas of the saffron crocus flower. Known for its distinct aroma, vibrant golden-yellow hue, and unique flavor profile, saffron has been prized for centuries in culinary traditions, herbal medicine, and cosmetics.
 
     Our saffron is sourced mainly from the premium growing regions of Kashmir (India), Iran, and Spain, ensuring stringent quality control from hand-picking to drying. The saffron threads are carefully sorted by length, color intensity, and purity to meet international standards such as ISO 3632.
 
