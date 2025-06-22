@@ -129,14 +129,17 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Phone className="h-6 w-6 text-primary-500 mr-3 flex-shrink-0" />
-                <a href="tel:+919876543210" className="text-neutral-300 hover:text-primary-400 transition-colors">
-                  +91 98765 43210
-                </a>
+                <p>
+                Phone: <a href="tel:+918076338737" className="text-neutral-300 hover:underline">+91 80763 38737</a>,&nbsp;<br />
+                        <a href="tel:+919871013096" className="text-neutral-300 hover:underline">+91 98710 13096</a><br />
+                WhatsApp: <a href="https://wa.me/918076338737" className="text-neutral-300 hover:underline">+91 80763 38737</a>,&nbsp; <br />
+                          <a href="https://wa.me/919871013096" className="text-neutral-300 hover:underline">+91 98710 13096</a>
+              </p>
               </li>
               <li className="flex items-center">
                 <Mail className="h-6 w-6 text-primary-500 mr-3 flex-shrink-0" />
-                <a href="mailto:info@trilokiglobal.com" className="text-neutral-300 hover:text-primary-400 transition-colors">
-                  info@trilokiglobal.com
+                <a href="mailto:27manavgandhi@gmail.com" className="text-neutral-300 hover:text-primary-400 transition-colors">
+                  27manavgandhi@gmail.com
                 </a>
               </li>
             </ul>
@@ -154,17 +157,17 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-6">
               <span className="text-neutral-400 text-sm">Certifications:</span>
               <img 
-                src="https://raw.githubusercontent.com/yourusername/triloki-global/main/src/assets/apeda-logo.png" 
+                src="https://5.imimg.com/data5/SELLER/Default/2024/12/475699502/RM/KS/KK/44636240/apeda-certification.jpg" 
                 alt="APEDA" 
                 className="h-8" 
               />
               <img 
-                src="https://raw.githubusercontent.com/yourusername/triloki-global/main/src/assets/fssai-logo.png" 
+                src="https://vectorconversion.net/wp-content/uploads/2019/11/fssai-01.jpg" 
                 alt="FSSAI" 
                 className="h-8" 
               />
               <img 
-                src="https://raw.githubusercontent.com/yourusername/triloki-global/main/src/assets/organic-logo.png" 
+                src="https://w7.pngwing.com/pngs/237/227/png-transparent-organic-food-medical-cannabis-organic-certification-organic-farming-cannabis-food-label-logo-thumbnail.png" 
                 alt="Organic Certified" 
                 className="h-8" 
               />

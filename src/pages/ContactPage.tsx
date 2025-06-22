@@ -10,7 +10,7 @@ const ContactPage: React.FC = () => {
         {/* Hero Section */}
         <div className="relative h-64 mb-16">
           <img 
-            src="https://images.pexels.com/photos/1416530/pexels-photo-1416530.jpeg?auto=compress&cs=tinysrgb&w=1920" 
+            src="https://www.siilc.edu.in/courses/wp-content/uploads/2024/01/Export-Import.jpg?auto=compress&cs=tinysrgb&w=1920" 
             alt="Contact Us" 
             className="w-full h-full object-cover"
           />
@@ -57,8 +57,10 @@ const ContactPage: React.FC = () => {
                 </div>
               </div>
               <p className="text-neutral-700">
-                Phone: <a href="tel:+919876543210" className="text-primary-600 hover:underline">+91 98765 43210</a><br />
-                WhatsApp: <a href="https://wa.me/919876543210" className="text-primary-600 hover:underline">+91 98765 43210</a>
+                Phone: <a href="tel:+918076338737" className="text-primary-600 hover:underline">+91 80763 38737</a>,&nbsp;
+                        <a href="tel:+919871013096" className="text-primary-600 hover:underline">+91 98710 13096</a><br />
+                WhatsApp: <a href="https://wa.me/918076338737" className="text-primary-600 hover:underline">+91 80763 38737</a>,&nbsp;
+                          <a href="https://wa.me/919871013096" className="text-primary-600 hover:underline">+91 98710 13096</a>
               </p>
             </div>
 
@@ -73,8 +75,8 @@ const ContactPage: React.FC = () => {
                 </div>
               </div>
               <p className="text-neutral-700">
-                Sales: <a href="mailto:sales@trilokiglobal.com" className="text-primary-600 hover:underline">sales@trilokiglobal.com</a><br />
-                Support: <a href="mailto:support@trilokiglobal.com" className="text-primary-600 hover:underline">support@trilokiglobal.com</a>
+                Sales: <a href="mailto:27manavgandhi@gmail.com" className="text-primary-600 hover:underline">27manavgandhi@gmail.com</a><br />
+                Support: <a href="mailto:27manavgandhi@gmail.com" className="text-primary-600 hover:underline">27manavgandhi@gmail.com</a>
               </p>
             </div>
           </div>

@@ -11,25 +11,25 @@ interface GalleryImage {
 const galleryImages: GalleryImage[] = [
   {
     id: 1,
-    src: 'https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: 'https://5.imimg.com/data5/SELLER/Default/2024/7/431745160/VH/IT/HH/40841925/nizamabad-double-polish-turmeric-finger.jpeg?auto=compress&cs=tinysrgb&w=800',
     alt: 'Turmeric Processing',
     category: 'Processing'
   },
   {
     id: 2,
-    src: 'https://images.pexels.com/photos/6157049/pexels-photo-6157049.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: 'https://mpeda.gov.in/wp-content/uploads/2018/10/f_2648f6a5eddba44dadeeeda53835856b-1024x641.jpg?auto=compress&cs=tinysrgb&w=800',
     alt: 'Quality Testing Lab',
     category: 'Quality Control'
   },
   {
     id: 3,
-    src: 'https://images.pexels.com/photos/8107967/pexels-photo-8107967.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4OaCEkn-4K8IYVsHeS-prQfVr3Bm_w5D3w&s?auto=compress&cs=tinysrgb&w=800',
     alt: 'Packaging Unit',
     category: 'Packaging'
   },
   {
     id: 4,
-    src: 'https://images.pexels.com/photos/5490778/pexels-photo-5490778.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR17fjN6jqYBR5CpQSiaYmZ_V5699E1E8baSQ&s?auto=compress&cs=tinysrgb&w=800',
     alt: 'Laboratory Testing',
     category: 'Quality Control'
   },
@@ -41,43 +41,43 @@ const galleryImages: GalleryImage[] = [
   },
   {
     id: 6,
-    src: 'https://images.pexels.com/photos/2104151/pexels-photo-2104151.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMe69sO0XPeDsK-5IketDRz-cW_q3Uv4yJmQ&s?auto=compress&cs=tinysrgb&w=800',
     alt: 'Warehouse Storage',
     category: 'Storage'
   },
   {
     id: 7,
-    src: 'https://images.pexels.com/photos/1393382/pexels-photo-1393382.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: 'https://agronfoodprocessing.com/wp-content/uploads/2023/11/Export-rice.jpg?auto=compress&cs=tinysrgb&w=800?auto=compress&cs=tinysrgb&w=800',
     alt: 'Rice Processing',
     category: 'Processing'
   },
   {
     id: 8,
-    src: 'https://images.pexels.com/photos/144248/healthy-breakfast-organic-seeds-144248.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: 'https://nsai.co.in/storage/app/media/uploaded-files/AATMANIRBHAR_SEEDS11-13-20.jpg?auto=compress&cs=tinysrgb&w=800',
     alt: 'Seed Selection',
     category: 'Quality Control'
   },
   {
     id: 9,
-    src: 'https://images.pexels.com/photos/6157089/pexels-photo-6157089.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhLxbmdePNRZQym9mEi53MzG74aBsvWgCmeQ&s?auto=compress&cs=tinysrgb&w=800',
     alt: 'Export Packaging',
     category: 'Packaging'
   },
   {
     id: 10,
-    src: 'https://images.pexels.com/photos/4198714/pexels-photo-4198714.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: 'https://jochamp.com/wp-content/uploads/2024/09/Roasting-for-spice-manufacturing.png?auto=compress&cs=tinysrgb&w=800',
     alt: 'Spice Processing',
     category: 'Processing'
   },
   {
     id: 11,
-    src: 'https://images.pexels.com/photos/5310055/pexels-photo-5310055.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUzpTpeWYhn8f5OOqUFF8JqJFeYyat2mYmHOabhjDZGUYNJxj_yBoO5-_ETFcdWsfQs8I&usqp=CAU?auto=compress&cs=tinysrgb&w=800',
     alt: 'Quality Testing',
     category: 'Quality Control'
   },
   {
     id: 12,
-    src: 'https://images.pexels.com/photos/2253643/pexels-photo-2253643.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: 'https://www.financialexpress.com/wp-content/uploads/2024/02/rice-stock.jpg?auto=compress&cs=tinysrgb&w=800',
     alt: 'Storage Facility',
     category: 'Storage'
   }

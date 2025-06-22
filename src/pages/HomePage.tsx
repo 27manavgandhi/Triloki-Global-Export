@@ -122,7 +122,7 @@ const HomePage: React.FC = () => {
             <div className="product-item card overflow-hidden group">
               <div className="relative overflow-hidden h-64">
                 <img 
-                  src="https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="https://5.imimg.com/data5/SELLER/Default/2024/7/431745160/VH/IT/HH/40841925/nizamabad-double-polish-turmeric-finger.jpeg?auto=compress&cs=tinysrgb&w=800" 
                   alt="Turmeric Finger" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -149,7 +149,7 @@ const HomePage: React.FC = () => {
             <div className="product-item card overflow-hidden group">
               <div className="relative overflow-hidden h-64">
                 <img 
-                  src="https://images.pexels.com/photos/1393382/pexels-photo-1393382.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="https://shorturl.at/eTYvl?auto=compress&cs=tinysrgb&w=800" 
                   alt="Basmati Rice" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -176,13 +176,13 @@ const HomePage: React.FC = () => {
             <div className="product-item card overflow-hidden group">
               <div className="relative overflow-hidden h-64">
                 <img 
-                  src="https://images.pexels.com/photos/144248/healthy-breakfast-organic-seeds-144248.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                  alt="Sesame Seeds" 
+                  src="https://5.imimg.com/data5/ANDROID/Default/2023/2/YT/RC/TF/29832167/product-jpeg-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800" 
+                  alt="Fresh Onion" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end product-overlay">
                   <div className="p-4 w-full">
-                    <Link to="/products/seeds/sesame" className="btn-primary w-full">View Details</Link>
+                    <Link to="/products/others/onion" className="btn-primary w-full">View Details</Link>
                   </div>
                 </div>
               </div>

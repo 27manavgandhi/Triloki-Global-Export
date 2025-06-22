@@ -77,17 +77,17 @@ const AboutPage: React.FC = () => {
                 className="rounded-lg shadow-md w-full h-64 object-cover"
               />
               <img 
-                src="https://images.pexels.com/photos/8107967/pexels-photo-8107967.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="https://okcredit-blog-images-prod.storage.googleapis.com/2021/11/agriculturalwarehouse3.jpg?auto=compress&cs=tinysrgb&w=800" 
                 alt="Processing" 
                 className="rounded-lg shadow-md w-full h-64 object-cover"
               />
               <img 
-                src="https://images.pexels.com/photos/5490778/pexels-photo-5490778.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="https://images.prismic.io/completefarmer/ef1ebd32-19d0-4c8c-a4ff-7118a64709f5_CF-mesh-packaging-for-export.png?auto=compress&cs=tinysrgb&w=800" 
                 alt="Quality Control" 
                 className="rounded-lg shadow-md w-full h-64 object-cover"
               />
               <img 
-                src="https://images.pexels.com/photos/2104151/pexels-photo-2104151.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="https://cpimg.tistatic.com/1850746/b/5/fresh-baby-corn.jpeg?auto=compress&cs=tinysrgb&w=800" 
                 alt="Shipping" 
                 className="rounded-lg shadow-md w-full h-64 object-cover"
               />

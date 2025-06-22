@@ -2468,10 +2468,10 @@ const productData = {
     Our sunflower oil is available in various forms, including refined, cold-pressed, and organic variants, making it suitable for diverse culinary and industrial applications.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://gttllc.ru/wp-content/uploads/2022/06/76i8776k7.webp?auto=compress&cs=tinysrgb&w=800',
+    'https://img2.tradewheel.com/uploads/images/products/7/9/refined-sunflower-oil-in-flexitanks-and-bulk-sunflower-oil-factoryrefined-sunflower-cooking-oil1-0310729001553692045-50-50.jpg.webp?auto=compress&cs=tinysrgb&w=800',
+    'https://in.thedollarbusiness.com/assets/articles/2017/03/49790_India_removes_372.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://douniaexports.com/wp-content/uploads/2024/06/Sunflower-oil.webp?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2526,10 +2526,10 @@ const productData = {
     Available in different grades and fractions—Crude Palm Oil (CPO), Refined Bleached Deodorized Palm Oil (RBDPO), Palm Olein, and Palm Stearin—our palm oil products meet global standards for food safety and industrial use.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://haniinternational.com/wp-content/uploads/2024/03/ffe6zcjcgla8b78k3-1.jpg?auto=compress&cs=tinysrgb&w=800',
+    'http://5.imimg.com/data5/SELLER/Default/2024/1/381798705/PK/SR/MN/211079491/refined-palm-oil-barrel-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'http://5.imimg.com/data5/SELLER/Default/2024/1/381798684/LU/ZJ/YM/211079491/refined-palm-oil-barrel-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'http://5.imimg.com/data5/SELLER/Default/2024/1/381798692/VZ/IY/OM/211079491/refined-palm-oil-barrel-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2595,10 +2595,10 @@ const productData = {
     Our olive oil is suitable for gourmet cooking, salad dressings, skincare formulations, and wellness products. Each batch is tested for purity and meets international quality standards.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://img1.exportersindia.com/product_images/bc-small/2024/10/14000432/olive-oil-1729939488-7658296.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://dyimg77.exportersindia.com/product_images/bc-small/2025/5/14596454/olive-oil-1747723520-8077899.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://img3.exportersindia.com/product_images/bc-small/2025/1/14255939/olive-oil-1738147212-7831817.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://img2.exportersindia.com/product_images/bc-small/2025/2/14377726/olive-oil-1740199081-7883033.jpeg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2666,10 +2666,10 @@ const productData = {
     The oil is produced under hygienic, food-grade conditions using traditional wood-press (kachi ghani) and modern expeller or solvent extraction methods depending on the grade. It is widely used in culinary preparations, personal care, and wellness applications.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://dyimg77.exportersindia.com/product_images/bc-small/2025/5/14596454/sesame-oil-1747733637-8078611.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://img3.exportersindia.com/product_images/bc-small/2025/1/14255939/sesame-oil-1738147945-7831868.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://img2.exportersindia.com/product_images/bc-small/2025/2/14377726/sesame-seed-oil-1740198592-7883005.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://img1.exportersindia.com/product_images/bc-small/2024/12/14066003/black-sesame-oil-1733476831-7723187.jpeg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2737,10 +2737,10 @@ const productData = {
     Our soyabean meal is available in two main forms: De-oiled Soyabean Cake (DOC) and Full-Fat Soyabean Meal, depending on oil content and application. It meets stringent international standards and is exported to feed manufacturers and bulk buyers globally.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://agrofood.hariomtrading.com/assets/img/prod-soybean-meal.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.squarespace-cdn.com/content/v1/5ad439d985ede1c0dd449661/3b0fd783-84e4-46e1-b7e6-72b43331cdeb/SBM.png?auto=compress&cs=tinysrgb&w=800',
+    'https://ecsf.com.au/wp-content/uploads/2016/07/soybean-meal.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://tiimg.tistatic.com/fp/1/006/407/soya-bean-meal-for-cattle-feed-572.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2807,10 +2807,10 @@ const productData = {
     Available in both ICUMSA 600–1200 and ICUMSA 800–1500 grades, our raw sugar meets international trade standards and is exported globally in bulk and bagged formats.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://s.alicdn.com/@sc04/kf/H8bbd08cc32124bf7a5a207d810989680o.jpg_720x720q50.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://s.alicdn.com/@sc04/kf/Ae16e387922b04c41b538a2f99dd1bbe23.jpg_720x720q50.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://s.alicdn.com/@sc04/kf/H68578e99366d4edfa1a9b1bc23ff756cd.jpg_720x720q50.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://s.alicdn.com/@sc04/kf/Heb51ad754fda49e2a37fa022e90423a8N.jpg_720x720q50.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2878,10 +2878,10 @@ const productData = {
     Our product is available in multiple grain sizes — small, medium, and large crystals — and can be supplied in both consumer and bulk industrial packaging. Custom grain sizing and labeling are also available.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://cpimg.tistatic.com/08594617/b/4/Crystal-Sugar.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2022/3/AK/KT/UH/11338434/s30-indian-sugar-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/7/329559458/LF/HH/CS/44370216/sugar-s30.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://tiimg.tistatic.com/fp/1/008/875/premium-quality-bulk-white-crystal-sugar-maximum-45-icumsa-50kg-bag--724.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -2951,10 +2951,10 @@ const productData = {
     Highly versatile, chia seeds are used in smoothies, cereals, baked goods, beverages, and health supplements. When soaked in water, they form a gel-like texture that is excellent for natural thickening, hydration, and weight management diets.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://seasonsinternational.in/wp-content/uploads/2024/06/Chia-pic-1-850x850.webp?auto=compress&cs=tinysrgb&w=800',
+    'https://justingredients.co.uk/cdn/shop/products/13chi_1.jpg?v=1589884950&width=600?auto=compress&cs=tinysrgb&w=800',
+    'https://organicmandya.com/cdn/shop/files/chiaseeds_1.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://justingredients.co.uk/cdn/shop/products/1625chia_1.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -3024,10 +3024,10 @@ const productData = {
     Sunflower seeds are widely used in the production of sunflower oil, roasted snacks, baking ingredients, bird feed, and health food preparations.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://aradbranding.com/en/uploads/topics/mceu_44124756711671286792581.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/DR/KY/MY-35706232/sunflower-seeds-grey-strips-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2023/6/316871510/UE/AY/QD/11104951/indian-stripes-sunflower-seeds-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/IOS/Default/2023/12/366644492/VK/GK/QB/38768188/product-jpeg-500x500.png?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -3096,10 +3096,10 @@ const productData = {
     Cashews are consumed raw, roasted, salted, or flavored and are key ingredients in Indian sweets, vegan cheese, bakery products, and international cuisine.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://eng.ruralvoice.in/uploads/images/2023/11/image_750x_656099477d9eb.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.geewinexim.com/wp-content/uploads/2024/10/cashew2.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.geewinexim.com/wp-content/uploads/2024/10/cashew4.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.geewinexim.com/wp-content/uploads/2024/10/cashew3.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -3167,10 +3167,10 @@ const productData = {
     Pistachios are widely consumed as snacks, used in bakery items, ice creams, confectionery, and savory dishes.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://keinia.com/wp-content/uploads/2025/05/premium-bulk-shelled-pistachios.webp?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/SELLER/Default/2021/1/DW/CW/ZH/119906406/pistachio-nut-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://keinia.com/wp-content/uploads/2022/04/Pistachio-kernels.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://keinia.com/wp-content/uploads/2025/03/Wholesale-Pistachio-Online.webp?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -3237,10 +3237,10 @@ const productData = {
     Available in various grades (I, II, III) based on crocin content (color), picrocrocin (taste), and safranal (aroma), our saffron is free from artificial dyes and adulterants.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://grandornuts.com/wp-content/uploads/2018/06/Saffron-the-red-gold-1.png?auto=compress&cs=tinysrgb&w=800',
+    'https://grandornuts.com/wp-content/uploads/2018/06/IMG_7127-min-920x700.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://grandornuts.com/wp-content/uploads/2018/06/Saffron-the-red-gold.png?auto=compress&cs=tinysrgb&w=800',
+    'https://aradbranding.com/en/uploads/topics/mceu_48009703811715852850343.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -3307,10 +3307,10 @@ const productData = {
     Our dried onion offers ease of storage and long shelf stability without compromising on natural flavor, making it an excellent ingredient for food manufacturers and chefs alike.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://www.jupiterintnl.com/assets/2.wlimg.com/product_images/bc-full/2022/9/9560732/dehydrated-onion-1663326353-6542895.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://samriddhvyapar.com/wp-content/uploads/2024/08/Dehydrated-Onion-Dehydrated-White-Onion-Flakes-Kibble-Slices.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://b2bmap.com/product-image/202312/dehydrated-onion-4156515-01703937037.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://b2bmap.com/product-image/202312/dehydrated-onion-4156515-11703937038.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -3364,6 +3364,349 @@ const productData = {
     'Spice blends and mixes'
   ]
     },
+    'onion': {
+  name: 'Fresh Onion',
+  description: 'Our high-quality fresh onions are carefully harvested and sorted to ensure optimal flavor, firmness, and shelf life — suitable for wholesale, export, and food processing industries.',
+  category: 'Vegetables (Fresh)',
+  longDescription: `
+    Onions are a staple ingredient in global cuisine, valued for their strong flavor, versatility, and health benefits. Our fresh onions are sourced from major onion-producing regions of India like Nashik, Pune, and Gujarat, ensuring round-the-year availability and export consistency.
+
+    We offer multiple varieties of red, white, and yellow onions, all grown using sustainable agricultural practices and harvested at peak maturity for maximum freshness. The onions are sorted, graded, and packed under strict quality control processes to minimize spoilage and extend shelf life.
+
+    With robust packaging and cold chain logistics, our onions retain their firmness, color, and pungency during transport — making them ideal for export, wholesale distribution, and retail supply chains.
+  `,
+  images: [
+    'https://5.imimg.com/data5/ANDROID/Default/2023/2/YT/RC/TF/29832167/product-jpeg-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/ANDROID/Default/2021/11/BK/JW/OI/44005414/product-jpeg-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://b2bmap.com/product-image/1616132880img1-whatsapp-image-2021-03-19-at-11.16.47-am.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://5.imimg.com/data5/JG/IY/MY-5158094/export-onion-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Red Onion',
+      description: 'Bold and pungent flavor, deep purplish-red skin, widely used in Indian, Middle Eastern, and Mediterranean cuisines.',
+      origin: 'Nashik, Maharashtra, India'
+    },
+    {
+      name: 'White Onion',
+      description: 'Milder taste, crisp white layers, commonly used in salads, sauces, and continental dishes.',
+      origin: 'Bhavnagar, Gujarat, India'
+    },
+    {
+      name: 'Yellow Onion',
+      description: 'Sweet and savory balance, golden skin, ideal for caramelization and soups.',
+      origin: 'Pune, Maharashtra, India'
+    },
+    {
+      name: 'Small Onion (Shallot variety)',
+      description: 'Small-sized with concentrated flavor, perfect for pickling and South Indian cuisine.',
+      origin: 'Tamil Nadu, India'
+    }
+  ],
+  specifications: [
+    { name: 'Size Range', value: '25mm – 70mm+' },
+    { name: 'Color', value: 'Red, white, or golden-yellow depending on variety' },
+    { name: 'Pungency (Pyruvic Acid)', value: '≥ 10 µmol/g' },
+    { name: 'Shelf Life', value: '4–8 weeks under ideal conditions' },
+    { name: 'Skin Condition', value: 'Dry and tight outer skin' },
+    { name: 'Damage/Bruise Tolerance', value: '≤ 2%' }
+  ],
+  packaging: [
+    { type: 'Mesh/Net Bags', sizes: ['5kg', '10kg', '25kg', '50kg'] },
+    { type: 'Jute Bags', sizes: ['10kg', '20kg', '50kg'] },
+    { type: 'Carton Boxes (for premium export)', sizes: ['5kg', '10kg'] },
+    { type: 'Custom Export Packaging', sizes: ['As per buyer specification'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'APEDA',
+    'Phytosanitary Certification (for export)',
+    'ISO 9001',
+    'Global GAP (on demand)'
+  ],
+  applications: [
+    'Retail and wholesale supply',
+    'Catering and food service',
+    'Food processing units',
+    'Pickle and condiment manufacturing',
+    'Flavor base for curries and sauces',
+    'Export to Middle East, Europe, and Southeast Asia'
+  ]
+    },
+    'tomato': {
+  name: 'Fresh Tomato',
+  description: 'Our premium-grade fresh tomatoes are plucked at peak ripeness, offering vibrant color, juicy texture, and bold flavor — ideal for culinary use, processing, and export.',
+  category: 'Vegetables (Fresh)',
+  longDescription: `
+    Tomatoes are one of the world’s most consumed vegetables (technically a fruit, but we’ll let it slide). Grown under optimal climatic conditions, our fresh tomatoes are cultivated in top-producing Indian regions like Karnataka, Maharashtra, Andhra Pradesh, and Madhya Pradesh.
+
+    We provide different varieties such as desi round, roma/plum, cherry, and hybrid tomatoes, each suited for different culinary or industrial applications — from slicing and cooking to juice and paste production. All tomatoes are hand-picked, quality sorted, and packed in ventilated crates or cartons to preserve freshness and reduce spoilage.
+
+    With rich red color, uniform firmness, and high lycopene content, our tomatoes meet both domestic and international quality standards, making them perfect for retail, HORECA, and processed food industries.
+  `,
+  images: [
+    'https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://img500.exportersindia.com/product_images/bc-500/2024/11/14040015/export-quality-fresh-red-tomato-1731045734-7674091.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://organicagroindia.com/wp-content/uploads/2021/07/TOMATO.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://media.assettype.com/deccanherald%2F2024-08-15%2Ftoebkf9e%2Ffile7vr1wrewgyvtzmgy1vc.jpg?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Desi Round Tomato',
+      description: 'Traditional variety with a balanced sweet-tangy taste, widely used in Indian cooking.',
+      origin: 'Kolar, Karnataka, India'
+    },
+    {
+      name: 'Roma / Plum Tomato',
+      description: 'Thick-fleshed and low in moisture, ideal for sauces, purees, and processing.',
+      origin: 'Nashik, Maharashtra, India'
+    },
+    {
+      name: 'Cherry Tomato',
+      description: 'Small, sweet, and perfect for salads, garnishing, and gourmet dishes.',
+      origin: 'Nilgiris, Tamil Nadu, India'
+    },
+    {
+      name: 'Hybrid Tomato (Arka, Pusa, etc.)',
+      description: 'High-yield, disease-resistant hybrids with extended shelf life.',
+      origin: 'Madhya Pradesh & Andhra Pradesh, India'
+    }
+  ],
+  specifications: [
+    { name: 'Size Range', value: '30mm – 70mm (varies by variety)' },
+    { name: 'Color', value: 'Bright red to deep crimson' },
+    { name: 'Firmness', value: 'Medium to firm (depending on harvest stage)' },
+    { name: 'Lycopene Content', value: '≥ 3.5 mg/100g (fresh weight)' },
+    { name: 'Shelf Life', value: '7–14 days under proper cold storage' },
+    { name: 'Acidity (pH)', value: '4.0 – 4.6' }
+  ],
+  packaging: [
+    { type: 'Ventilated Plastic Crates', sizes: ['10kg', '15kg', '20kg'] },
+    { type: 'Corrugated Carton Boxes', sizes: ['5kg', '10kg'] },
+    { type: 'Loose Jute Bags (local market)', sizes: ['10kg', '25kg'] },
+    { type: 'Custom Pack', sizes: ['As per buyer specification'] }
+  ],
+  certifications: [
+    'FSSAI',
+    'APEDA',
+    'Phytosanitary Certificate (for export)',
+    'ISO 22000',
+    'Global GAP (for traceable farms)',
+    'Cold Chain Compliant Certification (optional)'
+  ],
+  applications: [
+    'Cooking and household consumption',
+    'Food service and HORECA supply',
+    'Tomato paste and puree production',
+    'Ketchup and sauce industries',
+    'Juice and beverage manufacturing',
+    'Retail & export distribution'
+  ]
+    },
+    'potato': {
+  name: 'Fresh Potato',
+  description: 'Top-grade potatoes harvested from nutrient-rich soil — firm, starchy, and export-ready for global culinary and industrial use.',
+  category: 'Vegetables (Fresh)',
+  longDescription: `
+    Potatoes are a global staple — versatile, starchy, and rich in nutrients. Our potatoes are cultivated in fertile regions such as Agra (Uttar Pradesh), Indore (Madhya Pradesh), and Punjab. We supply table and processing-grade varieties with consistent size, skin quality, and storage life.
+
+    Varieties like Kufri Jyoti and Kufri Bahar are preferred for retail and consumption, while processing-grade potatoes like Lady Rosetta and Atlantic are ideal for chips, fries, and flakes. We ensure sorting, grading, and post-harvest handling under hygienic conditions with proper ventilation and moisture control.
+  `,
+  images: ['https://tiimg.tistatic.com/fp/1/007/649/100-fresh-and-organic-potatoes-used-in-making-chips-rich-source-of-fiber-potassium-vitamin-c--113.jpg?auto=compress&cs=tinysrgb&w=800',
+           'https://api.globy.com/public/market/682747399ebbdfa34cc18050/photos/683405ef24b333010c83eccd/683405ef24b333010c83eccd_lg.webp?auto=compress&cs=tinysrgb&w=800',
+           'https://image.made-in-china.com/202f0j00thWkYvsUOEcb/Bulk-Potato-Fresh-Potato-Supplier.webp?auto=compress&cs=tinysrgb&w=800',
+           'https://static.wixstatic.com/media/1570d4_241a17ce11fb45c68b6d6f667bd8caa2~mv2.jpeg/v1/crop/x_0,y_72,w_617,h_656/fill/w_617,h_656,al_c,q_85,enc_avif,quality_auto/RUSSET%20POTATO%20WHOLESALE.jpeg?auto=compress&cs=tinysrgb&w=800'],
+  varieties: [
+    { name: 'Kufri Jyoti', description: 'All-purpose potato with good cooking quality.', origin: 'Agra, Uttar Pradesh' },
+    { name: 'Lady Rosetta', description: 'Round, red-skinned variety ideal for chips and fries.', origin: 'Indore, MP' },
+    { name: 'Atlantic', description: 'High dry matter, perfect for processing.', origin: 'Punjab, India' }
+  ],
+  specifications: [
+    { name: 'Size Range', value: '45mm – 90mm' },
+    { name: 'Dry Matter', value: '≥ 20%' },
+    { name: 'Skin Type', value: 'Smooth, intact, free from greening' },
+    { name: 'Shelf Life', value: '2–3 months under cold storage' }
+  ],
+  packaging: [
+    { type: 'Mesh Bags', sizes: ['10kg', '25kg', '50kg'] },
+    { type: 'Gunny Bags', sizes: ['50kg'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'Phytosanitary', 'ISO 22000'],
+  applications: [
+    'Table consumption', 'Frozen fries production', 'Chips/snacks industry', 'Dehydrated flakes', 'Retail and export'
+  ]
+    },
+    'carrot': {
+  name: 'Fresh Carrot',
+  description: 'Naturally sweet and crunchy carrots, ideal for retail, food service, and juice industries.',
+  category: 'Vegetables (Fresh)',
+  longDescription: `
+    Carrots are rich in beta-carotene and fiber, and widely consumed fresh, juiced, or processed. We grow top-quality carrots in the fertile soils of Ooty, Haryana, and Maharashtra, sorted for size and color uniformity.
+
+    Our offerings include red (desi) carrots favored in Indian cooking and orange (Nantes) carrots suited for salads and juices. Carrots are washed, graded, and packed using minimal handling to preserve crispness and freshness.
+  `,
+  images: ['https://p.globalsources.com/IMAGES/PDT/B5984481458/Fresh-Carrot.jpg?auto=compress&cs=tinysrgb&w=800',
+           'https://s.alicdn.com/@sc04/kf/Ua257beaf99094bc383706b5d50c400a0a.jpg_720x720q50.jpg?auto=compress&cs=tinysrgb&w=800',
+           'https://s.alicdn.com/@sc04/kf/U9e5277d258f6416fac72ac29d9909cafL.jpg_720x720q50.jpg?auto=compress&cs=tinysrgb&w=800',
+           'https://s.alicdn.com/@sc04/kf/U692f7ebd3fe343608502f14ac5fe04a68.jpg_720x720q50.jpg?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    { name: 'Desi Red Carrot', description: 'Juicy, sweet, and ideal for halwa and pickles.', origin: 'Delhi NCR, India' },
+    { name: 'Orange Nantes Carrot', description: 'Tender and bright orange, perfect for salads and juices.', origin: 'Ooty, Tamil Nadu' }
+  ],
+  specifications: [
+    { name: 'Length', value: '15–30 cm' },
+    { name: 'Color', value: 'Red / Orange' },
+    { name: 'Sugar Content', value: '6–10 Brix' },
+    { name: 'Shelf Life', value: '10–14 days refrigerated' }
+  ],
+  packaging: [
+    { type: 'PP Bags', sizes: ['5kg', '10kg'] },
+    { type: 'Corrugated Boxes', sizes: ['5kg', '10kg'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'ISO 9001'],
+  applications: [
+    'Vegetable retail', 'Juicing', 'Snacks and pickles', 'Food processing'
+  ]
+    },
+    'pineapple': {
+  name: 'Fresh Pineapple',
+  description: 'Juicy, tropical pineapples grown in India’s high-rainfall belts — sweet, tangy, and full of flavor.',
+  category: 'Fruits (Fresh)',
+  longDescription: `
+    Pineapples are a tropical fruit loved worldwide for their sweet-acidic taste and rich aroma. Our pineapples come from Tripura, Kerala, and Assam — grown organically in high humidity climates.
+
+    We offer the Queen and Kew varieties, sorted by size and ripeness. Post-harvest handling includes de-crowning, grading, and packing in ventilated cartons or crates with strict quality checks for export readiness.
+  `,
+  images: ['https://5.imimg.com/data5/SELLER/Default/2025/1/481533088/VF/YZ/ZJ/118232169/pineapples-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+           'https://5.imimg.com/data5/SELLER/Default/2025/1/481533173/MC/VD/JM/118232169/pineapples-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800',
+           'https://5.imimg.com/data5/SELLER/Default/2025/3/492716379/DS/FD/EY/118232169/fresh-organic-export-quality-queen-pineapples-packaging-size-7-10-kg-1000x1000.jpeg?auto=compress&cs=tinysrgb&w=800',
+           'https://5.imimg.com/data5/SELLER/Default/2025/1/481533410/AH/IN/AR/118232169/pineapples-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    { name: 'Kew Variety', description: 'Large, cylindrical with juicy flesh — excellent for juicing.', origin: 'Assam, India' },
+    { name: 'Queen Variety', description: 'Small to medium size, intensely sweet.', origin: 'Tripura, India' }
+  ],
+  specifications: [
+    { name: 'Weight', value: '800g – 2.5kg' },
+    { name: 'TSS (Sugar)', value: '12–16 Brix' },
+    { name: 'Core', value: 'Tender and edible' },
+    { name: 'Shelf Life', value: '7–10 days (ambient); 15+ days (cold stored)' }
+  ],
+  packaging: [
+    { type: 'Corrugated Cartons', sizes: ['5kg', '8kg'] },
+    { type: 'Plastic Crates', sizes: ['10kg'] }
+  ],
+  certifications: ['FSSAI', 'APEDA', 'Phytosanitary', 'Global GAP'],
+  applications: [
+    'Fresh consumption', 'Juicing & beverages', 'Canning & drying', 'Fruit salads', 'Export retail'
+  ]
+    },
+    'banana': {
+  name: 'Fresh Banana',
+  description: 'Naturally ripened, export-grade bananas — packed with potassium, energy, and great taste.',
+  category: 'Fruits (Fresh)',
+  longDescription: `
+    Bananas are one of the most exported fruits from India. We supply Cavendish bananas (Grade A), grown in the tropical belt of Maharashtra and Andhra Pradesh, known for consistent shape, long shelf life, and natural ripening without artificial methods.
+
+    Our bananas are harvested mature green, pre-cooled, washed, and packed in ventilated boxes with ethylene-controlled ripening. Strict quality checks ensure compliance with GCC and EU standards.
+  `,
+  images: ['https://5.imimg.com/data5/IOS/Default/2023/5/309082402/GA/EF/AZ/45327237/product-jpeg-1000x1000.png?auto=compress&cs=tinysrgb&w=800',
+           'https://eng.ruralvoice.in/uploads/images/2023/12/image_750x_658d3d2ccc59f.jpg?auto=compress&cs=tinysrgb&w=800',
+           'https://purplefoods.com.au/wp-content/uploads/2019/11/bulk-bananas-supplier.jpg?auto=compress&cs=tinysrgb&w=800',
+           'https://images.forbesindia.com/media/images/2022/Sep/img_193773_banana.jpg?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    { name: 'Cavendish Banana', description: 'Most popular export variety — firm, sweet, and elongated.', origin: 'Jalgaon, Maharashtra' },
+    { name: 'Red Banana (Nendran)', description: 'Thick-skinned, reddish-purple, and rich in antioxidants.', origin: 'Kerala, India' }
+  ],
+  specifications: [
+    { name: 'Length', value: '18cm – 22cm (Cavendish)' },
+    { name: 'Caliber', value: '38mm – 45mm' },
+    { name: 'Sugar Content', value: '≥ 18 Brix at ripening' },
+    { name: 'Shelf Life', value: '21–25 days with cold chain' }
+  ],
+  packaging: [
+    { type: '5-Ply Corrugated Boxes', sizes: ['13kg net'] },
+    { type: 'Custom Branded Boxes', sizes: ['As per buyer specs'] }
+  ],
+  certifications: ['APEDA', 'FSSAI', 'Global GAP', 'Phytosanitary'],
+  applications: [
+    'Retail & supermarkets', 'Fruit juice & smoothie industries', 'Exports to GCC, Europe, CIS', 'Hotel & food service'
+  ]
+    },
+    'mango': {
+  name: 'Fresh Mango',
+  description: 'King of fruits — our naturally ripened, fiberless mangoes are handpicked for aroma, sweetness, and export-grade quality.',
+  category: 'Fruits (Fresh)',
+  longDescription: `
+    Mangoes are the crown jewel of Indian horticulture — tropical, juicy, and aromatic. India is the world’s largest mango producer, and we offer premium varieties like Alphonso, Kesar, Banganapalli, Langra, and Dasheri sourced from their native regions.
+
+    Our mangoes are cultivated with Good Agricultural Practices (GAP) and post-harvested using hot water treatment and vapor heat treatment (VHT) to meet export standards. Fruits are naturally ripened (no calcium carbide) and carefully packed to preserve aroma, texture, and shelf life.
+
+    Our supply chain covers domestic markets and exports to the Middle East, Europe, Asia-Pacific, and North America. From retail to juice, pulp, and dessert industries — our mangoes hit the sweet spot.
+  `,
+  images: [
+    'https://www.logisticsinsider.in/wp-content/uploads/2022/08/benefits-if-buying-mangoes-in-bulk.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://tiimg.tistatic.com/fp/1/006/004/fresh-mango-562.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://cpimg.tistatic.com/05763373/b/4/Mango-fragrance-Oil.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://cpimg.tistatic.com/10477202/b/4/Fresh-Mango..jpg?auto=compress&cs=tinysrgb&w=800'
+  ],
+  varieties: [
+    {
+      name: 'Alphonso (Hapus)',
+      description: 'Golden-yellow, fiberless, intensely aromatic — the premium export mango.',
+      origin: 'Ratnagiri & Devgad, Maharashtra'
+    },
+    {
+      name: 'Kesar',
+      description: 'Saffron-colored pulp, sweet and juicy, ideal for pulp and desserts.',
+      origin: 'Junagadh, Gujarat'
+    },
+    {
+      name: 'Banganapalli (Benishan)',
+      description: 'Bright yellow, large-sized, sweet & firm — highly popular in Gulf countries.',
+      origin: 'Andhra Pradesh'
+    },
+    {
+      name: 'Langra',
+      description: 'Green skin, soft pulp, rich in aroma — famous in Northern India.',
+      origin: 'Varanasi, Uttar Pradesh'
+    },
+    {
+      name: 'Dasheri',
+      description: 'Mid-sized, fiberless, and sweet — a North Indian favorite.',
+      origin: 'Malihabad, Uttar Pradesh'
+    }
+  ],
+  specifications: [
+    { name: 'Size', value: '200g – 450g (depending on variety)' },
+    { name: 'Brix (TSS)', value: '16 – 22° Brix' },
+    { name: 'Color', value: 'Varies by variety (yellow, green, golden-orange)' },
+    { name: 'Shelf Life', value: '10–21 days (cold chain)' },
+    { name: 'Ripening Method', value: 'Ethylene chamber / natural (carbide-free)' }
+  ],
+  packaging: [
+    { type: '5-Ply Corrugated Boxes', sizes: ['2kg', '3kg', '5kg (net)'] },
+    { type: 'Branded Retail Boxes', sizes: ['As per market requirements'] },
+    { type: 'Bulk Cartons', sizes: [ '10kg','12kg' ] }
+  ],
+  certifications: [
+    'APEDA',
+    'FSSAI',
+    'Phytosanitary Certificate',
+    'Global GAP',
+    'Hot Water Treatment Certification',
+    'VHT Certification (for Japan, Korea, etc.)'
+  ],
+  applications: [
+    'Fresh consumption',
+    'Mango pulp and juice industries',
+    'Confectionery and ice cream',
+    'Desserts and sauces',
+    'Retail exports (Middle East, EU, UK, USA, Asia)'
+  ]
+    },
     'sea-foods': {
   name: 'Sea Foods',
   description: 'Our premium seafood collection includes a wide variety of fresh, frozen, and processed fish, shellfish, and other marine products, sourced sustainably from the world’s top fishing regions.',
@@ -3376,10 +3719,10 @@ const productData = {
     Available in fresh, frozen, chilled, dried, and processed forms, our seafood is suitable for retail, food service, and industrial applications.
   `,
   images: [
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800',
-    '?auto=compress&cs=tinysrgb&w=800'
+    'https://content.jdmagicbox.com/comp/def_content/seafood-retailers/seafood-retailers-1-seafood-retailers-1-4bdd7.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://th-i.thgim.com/public/incoming/dqkqre/article68304729.ece/alternates/FREE_1200/1.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://www.krustagroup.com/wp-content/uploads/2023/09/exportacion-de-mariscos.jpg?auto=compress&cs=tinysrgb&w=800',
+    'https://p.globalsources.com/IMAGES/PDT/B5103354884/paciifc-mackerel.jpg?auto=compress&cs=tinysrgb&w=800'
   ],
   varieties: [
     {
@@ -3459,7 +3802,7 @@ const productData = {
     'Export markets worldwide'
   ]
 },
-  }  
+  }
 
 };
 

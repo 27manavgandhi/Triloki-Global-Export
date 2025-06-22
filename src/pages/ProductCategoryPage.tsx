@@ -279,91 +279,135 @@ const categories: Record<string, Category> = {
   id: 'others',
   name: 'Others',
   description: 'A diverse category of essential oils, seeds, nuts, sweeteners, and specialty items, handpicked for quality and versatility across culinary and nutritional applications.',
-  image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  image: 'https://5.imimg.com/data5/ZD/LX/EN/SELLER-110605694/fruits-vegetables.jpg?auto=compress&cs=tinysrgb&w=1200',
   subcategories: [
     {
       id: 'sunflower-oil',
       name: 'Sunflower Oil',
       description: 'Light and healthy cooking oil extracted from sunflower seeds, known for its high smoke point.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://gttllc.ru/wp-content/uploads/2022/06/76i8776k7.webp?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'palm-oil',
       name: 'Palm Oil',
       description: 'Versatile and widely used oil with a reddish tint, suitable for both cooking and industrial use.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://haniinternational.com/wp-content/uploads/2024/03/ffe6zcjcgla8b78k3-1.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'olive-oil',
       name: 'Olive Oil',
       description: 'Heart-healthy oil prized for its flavor and antioxidant content, commonly used in Mediterranean diets.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://img1.exportersindia.com/product_images/bc-small/2024/10/14000432/olive-oil-1729939488-7658296.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'sesame-oil',
       name: 'Sesame Oil',
       description: 'Aromatic oil with a nutty flavor, popular in Asian cuisines and rich in healthy fats.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://dyimg77.exportersindia.com/product_images/bc-small/2025/5/14596454/sesame-oil-1747733637-8078611.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'soyabean-meal',
       name: 'Soyabean Meal',
       description: 'High-protein feed ingredient used in livestock and poultry nutrition.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://agrofood.hariomtrading.com/assets/img/prod-soybean-meal.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'raw-sugar',
       name: 'Raw Sugar',
       description: 'Partially refined sugar with a golden hue and subtle molasses flavor.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://s.alicdn.com/@sc04/kf/H8bbd08cc32124bf7a5a207d810989680o.jpg_720x720q50.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
-      id: 'crystal-white',
-      name: 'Crystal White',
+      id: 'crystal-white-sugar',
+      name: 'Crystal White Sugar',
       description: 'Highly refined white sugar crystals, perfect for baking and beverages.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://cpimg.tistatic.com/08594617/b/4/Crystal-Sugar.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'chia-seeds',
       name: 'Chia Seeds',
       description: 'Tiny superfood seeds packed with omega-3, fiber, and essential nutrients.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://seasonsinternational.in/wp-content/uploads/2024/06/Chia-pic-1-850x850.webp?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'sunflower-seeds',
       name: 'Sunflower Seeds',
       description: 'Crunchy, nutritious seeds great for snacking or adding to salads and baking.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://aradbranding.com/en/uploads/topics/mceu_44124756711671286792581.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'cashew-nuts',
       name: 'Cashew Nuts',
       description: 'Creamy, crescent-shaped nuts used in cooking, snacks, and desserts.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://eng.ruralvoice.in/uploads/images/2023/11/image_750x_656099477d9eb.jpg?auto=compress&cs=tinysrgb&w=800'
     },
     {
-      id: 'pistachio',
-      name: 'Pistachio',
+      id: 'pistachio-nuts',
+      name: 'Pistachio Nuts',
       description: 'Flavorful green nuts loved for their rich taste and healthy fats.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://keinia.com/wp-content/uploads/2025/05/premium-bulk-shelled-pistachios.webp?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'saffron',
       name: 'Saffron',
       description: 'A premium spice known for its vivid color and fragrance, used in fine dishes worldwide.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://grandornuts.com/wp-content/uploads/2018/06/Saffron-the-red-gold-1.png?auto=compress&cs=tinysrgb&w=800'
     },
     {
       id: 'dried-onion',
       name: 'Dried Onion',
       description: 'Dehydrated onion flakes perfect for seasoning, soups, and instant recipes.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://www.jupiterintnl.com/assets/2.wlimg.com/product_images/bc-full/2022/9/9560732/dehydrated-onion-1663326353-6542895.jpg?auto=compress&cs=tinysrgb&w=800'
     },
+    
+    {
+    id: 'onion',
+    name: 'Fresh Onion',
+    description: 'Firm, pungent onions ideal for culinary and processing use.',
+    image: 'https://5.imimg.com/data5/ANDROID/Default/2023/2/YT/RC/TF/29832167/product-jpeg-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+    id: 'tomato',
+    name: 'Fresh Tomato',
+    description: 'Juicy, red tomatoes perfect for cooking, salads, and sauces.',
+    image: 'https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+    id: 'potato',
+    name: 'Fresh Potato',
+    description: 'Starchy, versatile potatoes suitable for both table and industrial use.',
+    image: 'https://tiimg.tistatic.com/fp/1/007/649/100-fresh-and-organic-potatoes-used-in-making-chips-rich-source-of-fiber-potassium-vitamin-c--113.jpg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+    id: 'carrot',
+    name: 'Fresh Carrot',
+    description: 'Crunchy, sweet carrots perfect for juicing, cooking, and raw use.',
+    image: 'https://p.globalsources.com/IMAGES/PDT/B5984481458/Fresh-Carrot.jpg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+    id: 'pineapple',
+    name: 'Fresh Pineapple',
+    description: 'Tropical, tangy-sweet pineapples ideal for fresh consumption and juicing.',
+    image: 'https://5.imimg.com/data5/SELLER/Default/2025/1/481533088/VF/YZ/ZJ/118232169/pineapples-1000x1000.jpg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+    id: 'banana',
+    name: 'Fresh Banana',
+    description: 'Naturally ripened bananas full of energy and potassium, export-grade.',
+    image: 'https://5.imimg.com/data5/IOS/Default/2023/5/309082402/GA/EF/AZ/45327237/product-jpeg-1000x1000.png?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+    id: 'mango',
+    name: 'Fresh Mango',
+    description: 'Aromatic, juicy mangoes from India’s finest orchards — the king of fruits.',
+    image: 'https://www.logisticsinsider.in/wp-content/uploads/2022/08/benefits-if-buying-mangoes-in-bulk.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+
     {
       id: 'sea-foods',
       name: 'Sea Foods',
       description: 'Shelf-stable seafood options packed with flavor and nutrition.',
-      image: 'https://images.pexels.com/photos/5945900/pexels-photo-5945900.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://content.jdmagicbox.com/comp/def_content/seafood-retailers/seafood-retailers-1-seafood-retailers-1-4bdd7.jpg?auto=compress&cs=tinysrgb&w=800',
     
     }
   ]
@@ -535,22 +579,22 @@ const ProductCategoryPage: React.FC = () => {
               
               <div className="grid grid-cols-2 gap-4">
                 <img 
-                  src="https://images.pexels.com/photos/8107967/pexels-photo-8107967.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="https://cs-assets.bayer.com/is/image/bayer/grains?auto=compress&cs=tinysrgb&w=800" 
                   alt="Quality control" 
                   className="rounded-lg shadow-md w-full h-64 object-cover"
                 />
                 <img 
-                  src="https://images.pexels.com/photos/5490778/pexels-photo-5490778.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="https://biovoicenews.com/wp-content/uploads/2016/09/Food-Testing-Laboratory-1024x683.jpg?auto=compress&cs=tinysrgb&w=800" 
                   alt="Laboratory testing" 
                   className="rounded-lg shadow-md w-full h-64 object-cover"
                 />
                 <img 
-                  src="https://images.pexels.com/photos/2252584/pexels-photo-2252584.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="https://5.imimg.com/data5/ZD/LX/EN/SELLER-110605694/fruits-vegetables.jpg?auto=compress&cs=tinysrgb&w=800" 
                   alt="Farming practices" 
                   className="rounded-lg shadow-md w-full h-64 object-cover"
                 />
                 <img 
-                  src="https://images.pexels.com/photos/2104151/pexels-photo-2104151.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="https://images.prismic.io/completefarmer/ef1ebd32-19d0-4c8c-a4ff-7118a64709f5_CF-mesh-packaging-for-export.png?auto=compress&cs=tinysrgb&w=800" 
                   alt="Packaging" 
                   className="rounded-lg shadow-md w-full h-64 object-cover"
                 />

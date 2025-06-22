@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 
 const WhatsAppButton: React.FC = () => {
   const [isTooltipVisible, setIsTooltipVisible] = useState(false);
-  
+ 
   const showTooltip = () => setIsTooltipVisible(true);
   const hideTooltip = () => setIsTooltipVisible(false);
-  
+ 
   return (
     <div className="fixed left-6 bottom-6 z-40">
       <a
-        href="https://wa.me/919876543210?text=Hello%20Triloki%20Global!%20I'm%20interested%20in%20your%20products.%20Can%20you%20provide%20more%20information?"
+        href="https://wa.me/918076338737?text=Hello%20Triloki%20Global!%20I'm%20interested%20in%20your%20products.%20Can%20you%20provide%20more%20information?"
         target="_blank"
         rel="noopener noreferrer"
         className="block relative"
@@ -18,17 +18,28 @@ const WhatsAppButton: React.FC = () => {
         onFocus={showTooltip}
         onBlur={hideTooltip}
       >
-        <div className="w-16 h-16 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg transition-transform hover:scale-110">
-          <svg width="28" height="28" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M90 43.841C90 68.066 70.167 87.681 45.674 87.681C37.857 87.681 30.518 85.638 24.141 82.096L0 90L8.162 66.903C4.125 60.364 1.898 52.414 1.898 43.842C1.898 19.615 21.732 0 45.673 0C70.166 0 90 19.615 90 43.841ZM45.674 6.983C25.564 6.983 9.12 23.216 9.12 43.841C9.12 52.202 12.035 59.829 16.917 65.615L12.164 79.138L26.272 74.485C31.823 78.679 38.454 81.104 45.673 81.104C65.782 81.104 82.227 64.871 82.227 44.245C82.227 23.619 65.782 6.983 45.674 6.983ZM68.539 53.844C67.965 52.884 66.518 52.312 64.486 51.168C62.453 50.025 57.384 47.556 55.553 46.787C53.723 46.019 52.278 45.634 50.83 47.249C49.383 48.864 47.361 51.312 46.109 52.751C44.857 54.189 43.605 54.383 41.573 53.24C39.541 52.096 36.109 50.801 32.123 47.267C29.001 44.521 26.868 41.068 25.616 39.454C24.365 37.839 25.49 36.725 26.566 35.709C27.53 34.804 28.715 33.362 29.774 32.117C30.834 30.872 31.219 30.001 31.988 28.5C32.757 26.999 32.372 25.755 31.794 24.61C31.219 23.467 29.18 18.444 27.42 14.679C25.744 11.072 24.02 11.859 22.70 11.845C21.432 11.829 19.984 11.811 18.537 11.811C17.089 11.811 14.666 12.387 12.836 14.002C11.006 15.616 8.33 18.086 8.33 23.109C8.33 28.131 11.881 32.964 12.555 34.465C13.227 35.967 26.867 58.074 49.173 67.362C53.755 69.293 57.314 70.428 60.071 71.254C64.502 72.606 68.539 72.365 71.658 71.771C75.149 71.103 79.419 68.956 81.177 64.773C82.936 60.591 82.936 57.023 82.361 55.989C81.786 54.956 80.339 54.38 78.306 53.235L68.539 53.844Z" fill="white"/>
+        <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-lg transition-transform hover:scale-110 hover:shadow-xl">
+          <svg 
+            width="32" 
+            height="32" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            xmlns="http://www.w3.org/2000/svg"
+            className="text-white"
+          >
+            <path 
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.405 3.488" 
+              fill="currentColor"
+            />
           </svg>
-          {isTooltipVisible && (
-            <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-neutral-800 text-white text-sm rounded-lg whitespace-nowrap shadow-lg">
-              Chat with us on WhatsApp
-              <div className="absolute top-full left-1/2 transform -translate-x-1/2 border-8 border-transparent border-t-neutral-800"></div>
-            </div>
-          )}
         </div>
+        
+        {isTooltipVisible && (
+          <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 px-3 py-2 bg-gray-900 text-white text-sm rounded-lg whitespace-nowrap shadow-lg opacity-95">
+            Chat with us on WhatsApp
+            <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900"></div>
+          </div>
+        )}
       </a>
     </div>
   );
