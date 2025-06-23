@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 interface ProductInquiryFormProps {
   productName: string;
   onSubmitSuccess?: () => void;
 }
 
-const ProductInquiryForm: React.FC<ProductInquiryFormProps> = ({ 
+// Replace with your own Google Apps Script Web App URL
+const GOOGLE_SHEET_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbyLnC_xnVPrTn7xldxYP_VtaMhmEHOjGXwdjS8-I_9ckV_c-3Mla7syVl1UekK5CcVdQg/exec";
+
+const ProductInquiryForm: React.FC<ProductInquiryFormProps> = ({
   productName,
-  onSubmitSuccess 
+  onSubmitSuccess
 }) => {
   const [formData, setFormData] = useState({
     name: '',
@@ -18,29 +22,32 @@ const ProductInquiryForm: React.FC<ProductInquiryFormProps> = ({
     quantity: '',
     message: `I'm interested in ${productName}. Please provide more information.`
   });
-  
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState('');
-  
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
-  
-  const handleSubmit = (e: React.FormEvent) => {
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setError('');
-    
-    // Simulate form submission
-    setTimeout(() => {
-      // In a real app, this would be an API call
-      setIsSubmitting(false);
+
+    try {
+      await axios.post(GOOGLE_SHEET_WEBHOOK_URL, {
+        ...formData,
+        productName
+      });
+
       setIsSuccess(true);
-      if (onSubmitSuccess) onSubmitSuccess();
-      
-      // Reset form after 5 seconds
+      setIsSubmitting(false);
+      onSubmitSuccess?.();
+
+      // Clear the form after 5 seconds
       setTimeout(() => {
         setIsSuccess(false);
         setFormData({
@@ -53,17 +60,22 @@ const ProductInquiryForm: React.FC<ProductInquiryFormProps> = ({
           message: `I'm interested in ${productName}. Please provide more information.`
         });
       }, 5000);
-    }, 1500);
+    } catch (err) {
+      setIsSubmitting(false);
+      setError('Something went wrong while submitting the form. Please try again later.');
+    }
   };
-  
+
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
       <h3 className="text-xl font-semibold mb-4">Request a Quote</h3>
-      
+
       {isSuccess ? (
         <div className="bg-green-50 border border-green-200 text-green-700 px-4 py-3 rounded-md">
           <p className="font-medium">Thank you for your inquiry!</p>
-          <p className="text-sm mt-1">Our team will get back to you within 24 hours with pricing and availability information for {productName}.</p>
+          <p className="text-sm mt-1">
+            Our team will get back to you within 24 hours with pricing and availability for <strong>{productName}</strong>.
+          </p>
         </div>
       ) : (
         <form onSubmit={handleSubmit}>
@@ -81,7 +93,7 @@ const ProductInquiryForm: React.FC<ProductInquiryFormProps> = ({
                 placeholder="Your Name"
               />
             </div>
-            
+
             <div>
               <label htmlFor="email" className="form-label">Email Address *</label>
               <input
@@ -95,7 +107,7 @@ const ProductInquiryForm: React.FC<ProductInquiryFormProps> = ({
                 placeholder="you@company.com"
               />
             </div>
-            
+
             <div>
               <label htmlFor="company" className="form-label">Company Name *</label>
               <input
@@ -109,7 +121,7 @@ const ProductInquiryForm: React.FC<ProductInquiryFormProps> = ({
                 placeholder="Your Company"
               />
             </div>
-            
+
             <div>
               <label htmlFor="country" className="form-label">Country *</label>
               <select
@@ -121,20 +133,17 @@ const ProductInquiryForm: React.FC<ProductInquiryFormProps> = ({
                 className="form-input"
               >
                 <option value="">Select Country</option>
+                <option value="India">India</option>
                 <option value="United States">United States</option>
-                <option value="Canada">Canada</option>
                 <option value="United Kingdom">United Kingdom</option>
+                <option value="Canada">Canada</option>
                 <option value="Germany">Germany</option>
-                <option value="France">France</option>
-                <option value="Australia">Australia</option>
-                <option value="Japan">Japan</option>
-                <option value="China">China</option>
                 <option value="UAE">UAE</option>
                 <option value="Saudi Arabia">Saudi Arabia</option>
                 <option value="Other">Other</option>
               </select>
             </div>
-            
+
             <div>
               <label htmlFor="phoneNumber" className="form-label">Phone Number *</label>
               <input
@@ -145,10 +154,10 @@ const ProductInquiryForm: React.FC<ProductInquiryFormProps> = ({
                 onChange={handleChange}
                 required
                 className="form-input"
-                placeholder="+1 (234) 567-8901"
+                placeholder="+91 9876543210"
               />
             </div>
-            
+
             <div>
               <label htmlFor="quantity" className="form-label">Quantity Required</label>
               <input
@@ -162,7 +171,7 @@ const ProductInquiryForm: React.FC<ProductInquiryFormProps> = ({
               />
             </div>
           </div>
-          
+
           <div className="mb-4">
             <label htmlFor="message" className="form-label">Message *</label>
             <textarea
@@ -176,43 +185,33 @@ const ProductInquiryForm: React.FC<ProductInquiryFormProps> = ({
               placeholder="Please include any specific requirements or questions..."
             ></textarea>
           </div>
-          
+
           <div className="flex items-center mb-4">
-            <input 
-              type="checkbox" 
-              id="consent" 
-              required 
+            <input
+              type="checkbox"
+              id="consent"
+              required
               className="h-4 w-4 text-primary-600 rounded border-neutral-300 focus:ring-primary-500"
             />
             <label htmlFor="consent" className="ml-2 text-sm text-neutral-700">
               I agree to receive product information and commercial communications from Triloki Global.
             </label>
           </div>
-          
+
           {error && (
             <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-md mb-4">
               {error}
             </div>
           )}
-          
+
           <button
             type="submit"
             disabled={isSubmitting}
             className={`btn-primary w-full ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''}`}
           >
-            {isSubmitting ? (
-              <span className="flex items-center justify-center">
-                <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                </svg>
-                Processing...
-              </span>
-            ) : (
-              'Request Quotation'
-            )}
+            {isSubmitting ? 'Processing...' : 'Request Quotation'}
           </button>
-          
+
           <p className="text-xs text-neutral-500 mt-2 text-center">
             We'll get back to you within 24 hours with pricing and availability.
           </p>
